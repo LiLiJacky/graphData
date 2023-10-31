@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T07:46:37.933Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="YjkmIkRNtXCzQFy5PYzS" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T08:38:39.341Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="fV3yndYhMVBeWE8oLCLE" version="22.0.8" type="github">
   <diagram name="第 1 页" id="WTBXMF-47c1gRvCRbFfg">
-    <mxGraphModel dx="858" dy="405" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -367,6 +367,18 @@
         </mxCell>
         <mxCell id="1SP3JIq4j5_FNhu0Wgor-2" value="outlier detection algorithms" style="whiteSpace=wrap;html=1;fontSize=8;strokeColor=#0cca45;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="880.88" y="392" width="75.12" height="29.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1SP3JIq4j5_FNhu0Wgor-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1SP3JIq4j5_FNhu0Wgor-4" target="1SP3JIq4j5_FNhu0Wgor-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1SP3JIq4j5_FNhu0Wgor-4" value="值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317" y="228" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1SP3JIq4j5_FNhu0Wgor-5" value="分布" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="517" y="228" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1SP3JIq4j5_FNhu0Wgor-7" value="How？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="454" y="240" width="54" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
