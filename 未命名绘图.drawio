@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T10:23:30.828Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="4XtA8J8KPFLkcJmqG1Bp" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-31T10:23:55.107Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="RE_ip4O2Ui7_QvjbU8pX" version="22.0.8" type="github" pages="2">
   <diagram name="第 1 页" id="WTBXMF-47c1gRvCRbFfg">
     <mxGraphModel dx="1395" dy="686" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -783,11 +783,14 @@
         <mxCell id="3klTCbkGbogTWXUHnzGd-151" value="Backdoor Creterion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="956" y="2040" width="124" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3klTCbkGbogTWXUHnzGd-152" value="Calculate IT outlier score" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+        <mxCell id="3klTCbkGbogTWXUHnzGd-152" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
           <mxGeometry x="1240" y="2280" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3klTCbkGbogTWXUHnzGd-153" value="IT outlier score:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;S&lt;sub&gt;NT&lt;/sub&gt;&lt;br&gt;S&lt;sub&gt;ND&lt;/sub&gt;&lt;br&gt;S&lt;sub&gt;NP&lt;/sub&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1555" y="2225" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3klTCbkGbogTWXUHnzGd-154" value="Calculate IT outlier score" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="2250" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
