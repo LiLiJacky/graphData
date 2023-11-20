@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T12:07:31.030Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="HSttlemrxJZZNYU6dSQC" version="22.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-20T12:08:21.158Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="GPi2kjdP12VCe2Y9C-Zc" version="22.1.3" type="github" pages="3">
   <diagram name="Process of building LSHiForest" id="F_Nvq3A-X3Xp9JJ24VL6">
     <mxGraphModel dx="2634" dy="789" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -519,6 +519,17 @@
         </mxCell>
         <mxCell id="l4dLIgmswN9WjgOU9h0a-94" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;T&lt;sub&gt;1&lt;/sub&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="174" y="-162" width="37" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="l4dLIgmswN9WjgOU9h0a-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="l4dLIgmswN9WjgOU9h0a-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="152" y="221" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4dLIgmswN9WjgOU9h0a-96" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Searcn from new tree to avoid calculate the whole forest&lt;/font&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="232" y="191" width="144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l4dLIgmswN9WjgOU9h0a-97" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;T&lt;sub&gt;2&lt;/sub&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="176" y="183" width="37" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
