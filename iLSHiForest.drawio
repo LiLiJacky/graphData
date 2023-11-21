@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T09:58:23.137Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AgO0k_sJaWDiKwLGY41e" version="22.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-21T09:58:53.583Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qQbcpuAsoRM5XftU2C_R" version="22.1.3" type="github" pages="3">
   <diagram name="Process of building LSHiForest" id="F_Nvq3A-X3Xp9JJ24VL6">
     <mxGraphModel dx="2634" dy="789" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -246,7 +246,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="abB8nCKBA7MJmJ_Bk3RY" name="Abnormal score calculate">
-    <mxGraphModel dx="2007" dy="4247" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2142" dy="4635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -551,19 +551,19 @@
         <mxCell id="l4dLIgmswN9WjgOU9h0a-110" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;T&lt;sub&gt;3&lt;/sub&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-413" y="510" width="37" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="l4dLIgmswN9WjgOU9h0a-111" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Conclusion&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1073" y="944" width="120" height="60" as="geometry" />
+        <mxCell id="l4dLIgmswN9WjgOU9h0a-118" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Conclusion&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="77" y="-861" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l4dLIgmswN9WjgOU9h0a-114" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img.alicdn.com/imgextra/i1/O1CN01c0JPdj1d5mGBHXETK_!!6000000003685-0-tps-1920-1080.jpg;" vertex="1" parent="1">
-          <mxGeometry x="-1065" y="1025" width="887.11" height="499" as="geometry" />
+        <mxCell id="l4dLIgmswN9WjgOU9h0a-119" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img.alicdn.com/imgextra/i1/O1CN01c0JPdj1d5mGBHXETK_!!6000000003685-0-tps-1920-1080.jpg;" vertex="1" parent="1">
+          <mxGeometry x="85" y="-780" width="887.11" height="499" as="geometry" />
         </mxCell>
-        <mxCell id="l4dLIgmswN9WjgOU9h0a-116" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;According to the AS to confirm&lt;br&gt;&amp;nbsp;which and how much &lt;br&gt;tree will be outgoing&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-7" y="1133.5" width="289" height="282" as="geometry" />
+        <mxCell id="l4dLIgmswN9WjgOU9h0a-120" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;According to the AS to confirm&lt;br&gt;&amp;nbsp;which and how much &lt;br&gt;tree will be outgoing&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1143" y="-671.5" width="289" height="282" as="geometry" />
         </mxCell>
-        <mxCell id="l4dLIgmswN9WjgOU9h0a-117" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="l4dLIgmswN9WjgOU9h0a-121" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-143" y="1267" as="sourcePoint" />
-            <mxPoint x="-22" y="1267" as="targetPoint" />
+            <mxPoint x="1007" y="-538" as="sourcePoint" />
+            <mxPoint x="1128" y="-538" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
