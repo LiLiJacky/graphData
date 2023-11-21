@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T10:16:27.869Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xJP5p_CYrLFRhksjLnOy" version="22.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-21T10:18:21.304Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="iSdOJJOoifDX9sLVpPGa" version="22.1.3" type="github" pages="3">
   <diagram name="Process of building LSHiForest" id="F_Nvq3A-X3Xp9JJ24VL6">
     <mxGraphModel dx="2634" dy="789" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -583,6 +583,12 @@
         </mxCell>
         <mxCell id="l4dLIgmswN9WjgOU9h0a-130" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;New data: I&#39;am taking new blood for you&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2068" y="-1133" width="168" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="l4dLIgmswN9WjgOU9h0a-131" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=70.58823529411765;endSize=11.623529411764707;width=28.235294117647058;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1964" y="-482" as="sourcePoint" />
+            <mxPoint x="1964" y="-348" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
