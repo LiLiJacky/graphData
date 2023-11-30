@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T04:41:11.297Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="wshS7HE0GqNOxSIXsWVr" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T04:45:50.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="r2zuLghJ_SU69vgcy_WG" version="22.1.5" type="github">
   <diagram name="第 1 页" id="pdfkfI6EVlpCFb5KzcIX">
     <mxGraphModel dx="1026" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -34,6 +34,11 @@
         <mxCell id="qOGgyKGss8bNmvZIDJeq-7" value="点异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="50" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="qOGgyKGss8bNmvZIDJeq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qOGgyKGss8bNmvZIDJeq-8" target="qOGgyKGss8bNmvZIDJeq-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="641" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qOGgyKGss8bNmvZIDJeq-8" value="条件异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="150" width="80" height="40" as="geometry" />
         </mxCell>
@@ -54,6 +59,23 @@
         </mxCell>
         <mxCell id="qOGgyKGss8bNmvZIDJeq-16" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;当抽象成个体实例后，可以根据自身特征之间的因果关系分析异常原因的根因是哪个特征受外部影响的结果&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qOGgyKGss8bNmvZIDJeq-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qOGgyKGss8bNmvZIDJeq-22" target="qOGgyKGss8bNmvZIDJeq-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qOGgyKGss8bNmvZIDJeq-22" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;上下文异常，与领域知识强相关，在某些特定场景下实例是异常的，比如低温低压的天气条件下，LNG Container的整体温度应该偏低&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="135" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qOGgyKGss8bNmvZIDJeq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qOGgyKGss8bNmvZIDJeq-23" target="qOGgyKGss8bNmvZIDJeq-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qOGgyKGss8bNmvZIDJeq-26" value="提供一定可解释性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qOGgyKGss8bNmvZIDJeq-25">
+          <mxGeometry x="-0.3647" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qOGgyKGss8bNmvZIDJeq-23" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;通过CEP将事件逐渐由 raw data抽象为复杂事件，定义某些事件以特定频率、时空关系、顺序发生情况下的异常&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="135" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
