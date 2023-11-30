@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T04:45:50.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="r2zuLghJ_SU69vgcy_WG" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T04:47:56.236Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="F7_Es3gFsKnwa1-YTJ82" version="22.1.5" type="github">
   <diagram name="第 1 页" id="pdfkfI6EVlpCFb5KzcIX">
     <mxGraphModel dx="1026" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -42,6 +42,9 @@
         <mxCell id="qOGgyKGss8bNmvZIDJeq-8" value="条件异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="150" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="qOGgyKGss8bNmvZIDJeq-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qOGgyKGss8bNmvZIDJeq-9" target="qOGgyKGss8bNmvZIDJeq-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qOGgyKGss8bNmvZIDJeq-9" value="群体异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="250" width="80" height="40" as="geometry" />
         </mxCell>
@@ -76,6 +79,15 @@
         </mxCell>
         <mxCell id="qOGgyKGss8bNmvZIDJeq-23" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;通过CEP将事件逐渐由 raw data抽象为复杂事件，定义某些事件以特定频率、时空关系、顺序发生情况下的异常&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="135" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qOGgyKGss8bNmvZIDJeq-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qOGgyKGss8bNmvZIDJeq-27" target="qOGgyKGss8bNmvZIDJeq-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qOGgyKGss8bNmvZIDJeq-27" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;群体集合中个体出现异常的状况，比如多个传感器都是温度上升、压力上升，则极有可能发生了翻滚，特点是特征在不断变化&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="235" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qOGgyKGss8bNmvZIDJeq-29" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;MSTream&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="235" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
