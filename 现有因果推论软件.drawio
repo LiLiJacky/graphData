@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T11:07:43.175Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.7" etag="I_gnwiR5TPlk9AS4Vz1n" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T11:15:00.101Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qdspd8iXCZed5N9dBuzc" version="22.1.7" type="github">
   <diagram name="第 1 页" id="noB-A_sSmhuiChYV_2Bj">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-1" value="entropy balancing weights" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-2" value="Ebalance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-3" value="ebal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-4" value="quadratic programing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-5" value="microsynth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-6" value="Stata" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-7" value="R" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-8" value="Python" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-9" value="empirical calibration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-10" value="Microsoft" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="470" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-11" value="Uber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="530" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-12" value="Google" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="590" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-14" value="EconML" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="470" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-15" value="Dowhy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="470" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-16" value="CausalML" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="530" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TtDDrjV-SnM6JWNpx1l-17" value="CausalImpact" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="590" width="200" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
