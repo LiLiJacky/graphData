@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T11:53:00.024Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="fkiTjmkh3eLdkv2MZSB1" version="22.1.11" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-12-18T11:55:40.032Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rYOhC5JM_GGxTBZE1F8n" version="22.1.11" type="github" pages="4">
   <diagram name="第 1 页" id="EniPAOAcVkncV1m2Oqd4">
     <mxGraphModel dx="1207" dy="1566" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -681,7 +681,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hjKQ0MTWUe1qXDBs6fA9" name="离群值检测分类方法">
-    <mxGraphModel dx="970" dy="362" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1377" dy="620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -945,7 +945,7 @@
             <mxPoint x="1232" y="379" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1o19b8SLWY21aidoDTKF-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="1o19b8SLWY21aidoDTKF-91">
+        <mxCell id="1o19b8SLWY21aidoDTKF-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="1o19b8SLWY21aidoDTKF-91" source="1o19b8SLWY21aidoDTKF-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1232" y="379" as="sourcePoint" />
           </mxGeometry>
@@ -964,7 +964,7 @@
         <mxCell id="1o19b8SLWY21aidoDTKF-90" value="Detection technique" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="853" y="438" width="66" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1o19b8SLWY21aidoDTKF-91" value="Learning strategy" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1o19b8SLWY21aidoDTKF-91" value="Detection strategy" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="949" y="438" width="76" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1o19b8SLWY21aidoDTKF-92" value="Drift handling technique" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -986,19 +986,11 @@
             <mxPoint x="965" y="504" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1o19b8SLWY21aidoDTKF-97" value="Supervised" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1o19b8SLWY21aidoDTKF-97" value="Instance based" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="988" y="514" width="72" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1o19b8SLWY21aidoDTKF-98" value="Unsupervised" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1o19b8SLWY21aidoDTKF-98" value="Model based" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="988" y="587" width="72" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1o19b8SLWY21aidoDTKF-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="1o19b8SLWY21aidoDTKF-91" target="1o19b8SLWY21aidoDTKF-100">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="968" y="572" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1o19b8SLWY21aidoDTKF-100" value="Semi-supervised" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="988" y="661" width="72" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1o19b8SLWY21aidoDTKF-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="1o19b8SLWY21aidoDTKF-92" target="1o19b8SLWY21aidoDTKF-103">
           <mxGeometry relative="1" as="geometry">
@@ -1045,6 +1037,22 @@
         </mxCell>
         <mxCell id="1o19b8SLWY21aidoDTKF-110" value="Statistical based" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="811" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1o19b8SLWY21aidoDTKF-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" target="1o19b8SLWY21aidoDTKF-112" source="1o19b8SLWY21aidoDTKF-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="571" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o19b8SLWY21aidoDTKF-112" value="Information theory base" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="884" width="67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1o19b8SLWY21aidoDTKF-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="1o19b8SLWY21aidoDTKF-114" source="1o19b8SLWY21aidoDTKF-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="569" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o19b8SLWY21aidoDTKF-114" value="Mass based" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="955" width="67" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
