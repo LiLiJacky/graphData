@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T06:31:11.141Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZmcaaS0NO4PLPim2xP8l" version="22.1.16" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-05T06:45:36.169Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8PJunQjn63wOflXgvTe2" version="22.1.16" type="github" pages="3">
   <diagram name="第 1 页" id="pdfkfI6EVlpCFb5KzcIX">
     <mxGraphModel dx="1266" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -181,7 +181,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ipAn2p0HHIv1GHDn3jhO" name="第 3 页">
-    <mxGraphModel dx="1377" dy="1020" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="2265" dy="1584" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -286,6 +286,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-78" value="Path3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ap-xV94NPVeMtxXMTrFZ-46">
+          <mxGeometry x="0.5677" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-27" value="Contextual Probability Storage Model" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="473" y="238" width="80" height="80" as="geometry" />
         </mxCell>
@@ -319,6 +324,11 @@
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-48" target="ap-xV94NPVeMtxXMTrFZ-44">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-134" value="Path4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ap-xV94NPVeMtxXMTrFZ-50">
+          <mxGeometry x="0.2835" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-48" value="GPT" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="871" y="398" width="80" height="80" as="geometry" />
@@ -359,8 +369,8 @@
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-61" value="H" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="439" y="65.5" width="27" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="ap-xV94NPVeMtxXMTrFZ-64" value="Root Cause Contextual Analysis:&lt;br&gt;检查到A-&amp;gt;D-&amp;gt;C的路径偏移，分析根因可能是：&lt;br&gt;1. A 活动状态出现问题导致偏移&lt;br&gt;2. H活动受到影响，后续影响 A 活动的执行，导致偏移" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="284" y="514" width="311" height="60" as="geometry" />
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-64" value="Root Cause Contextual Analysis:&lt;br&gt;检查到A-&amp;gt;B-&amp;gt;C的路径偏移，分析根因可能是：&lt;br&gt;1. B 活动受到干预出现问题导致偏移&lt;br&gt;2. H 活动受到干预影响，导致偏移" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169.5" y="507" width="311" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-67" target="ap-xV94NPVeMtxXMTrFZ-69">
           <mxGeometry relative="1" as="geometry" />
@@ -369,34 +379,111 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-67" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="555" y="597.5" width="27" height="27" as="geometry" />
+          <mxGeometry x="262" y="657.5" width="27" height="27" as="geometry" />
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-69" target="ap-xV94NPVeMtxXMTrFZ-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-69" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="612" y="597.5" width="27" height="27" as="geometry" />
+          <mxGeometry x="319" y="657.5" width="27" height="27" as="geometry" />
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-70" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="672" y="597.5" width="27" height="27" as="geometry" />
+          <mxGeometry x="379" y="657.5" width="27" height="27" as="geometry" />
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-72" target="ap-xV94NPVeMtxXMTrFZ-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-72" value="D" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="612" y="532" width="27" height="27" as="geometry" />
+          <mxGeometry x="319" y="592" width="27" height="27" as="geometry" />
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-74" target="ap-xV94NPVeMtxXMTrFZ-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-74" value="F" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="476" y="574" width="27" height="27" as="geometry" />
+          <mxGeometry x="183" y="634" width="27" height="27" as="geometry" />
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-76" target="ap-xV94NPVeMtxXMTrFZ-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ap-xV94NPVeMtxXMTrFZ-76" value="H" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="476" y="624.5" width="27" height="27" as="geometry" />
+          <mxGeometry x="183" y="684.5" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-77" value="Evidence Collector:&lt;br&gt;检查到A-&amp;gt;D-&amp;gt;C的路径偏移，分析根因是：&lt;br&gt;1. B 活动状态出现问题导致偏移,通过 GPT 查询 B 可能受到哪些干预影响产生偏移；&lt;br&gt;2. H 活动受到影响，导致偏移，通过 GPT 查询 H 可能受到哪些干预影响产生偏移；&lt;br&gt;Path3:&lt;br&gt;根据根因及可能发生的导致异常的干预，查询 Contextual Probability Storage Model 具体是什么干预导致的异常" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="498" y="517" width="485" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#B80B0B;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-106" target="ap-xV94NPVeMtxXMTrFZ-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-131" value="X" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ap-xV94NPVeMtxXMTrFZ-130">
+          <mxGeometry x="-0.2788" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-106" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="621" y="694.5" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-109" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="738" y="694.5" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-110" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-111" target="ap-xV94NPVeMtxXMTrFZ-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-111" value="D" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="678" y="629" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-105" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-106" target="ap-xV94NPVeMtxXMTrFZ-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-113" value="Situation1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="531" y="656" width="71" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-116" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="816.5" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-119" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="807" y="816.5" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-120" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-121" target="ap-xV94NPVeMtxXMTrFZ-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-121" value="D" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="747" y="751" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-115" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-116" target="ap-xV94NPVeMtxXMTrFZ-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-125" target="ap-xV94NPVeMtxXMTrFZ-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-125" value="H" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="611" y="843.5" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-129" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="678" y="694.5" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-132" value="Situation2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="529" y="804" width="71" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-133" value="Path4:&lt;br&gt;根据根因及收集到的证据，GPT输出对应的应急响应措施" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="231" width="174" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-135" target="ap-xV94NPVeMtxXMTrFZ-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-135" value="Situation1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="318" width="71" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-138" value="Plan A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="318" width="53" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ap-xV94NPVeMtxXMTrFZ-141" target="ap-xV94NPVeMtxXMTrFZ-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-141" value="Situation2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="348" width="71" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ap-xV94NPVeMtxXMTrFZ-142" value="Plan B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="348" width="53" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
