@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T11:21:17.095Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LzfQTltjUF7q7pVuKqWr" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T11:25:55.802Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xFhHQQJO-ZWUpku3U_Lx" version="22.1.20" type="github">
   <diagram name="第 1 页" id="AWUjClWmz-XhPsFE_Eon">
-    <mxGraphModel dx="1207" dy="693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="892" dy="512" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,14 +143,84 @@
         <mxCell id="LfMUR8XexmlNwJJn7UKP-55" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;According to Allen&#39;s axiomatization of time periods (Allen et al. 1986), there are thirteen atomic relations of time periods.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="921" y="682.5" width="322" height="106" as="geometry" />
         </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LfMUR8XexmlNwJJn7UKP-57" target="LfMUR8XexmlNwJJn7UKP-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LfMUR8XexmlNwJJn7UKP-57" value="Relations" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1296" y="603" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LfMUR8XexmlNwJJn7UKP-58" target="LfMUR8XexmlNwJJn7UKP-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-73" value="E2R" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LfMUR8XexmlNwJJn7UKP-61">
+          <mxGeometry x="0.3212" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-74" value="R2E" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LfMUR8XexmlNwJJn7UKP-61">
+          <mxGeometry x="-0.1152" y="6" relative="1" as="geometry">
+            <mxPoint x="-4" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LfMUR8XexmlNwJJn7UKP-58" target="LfMUR8XexmlNwJJn7UKP-59">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LfMUR8XexmlNwJJn7UKP-58" value="Event Streams" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1471" y="603" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-69" value="E2I" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LfMUR8XexmlNwJJn7UKP-59" target="LfMUR8XexmlNwJJn7UKP-58">
+          <mxGeometry x="0.0179" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-77" value="I2E" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LfMUR8XexmlNwJJn7UKP-69">
+          <mxGeometry x="0.1032" y="-1" relative="1" as="geometry">
+            <mxPoint x="3" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LfMUR8XexmlNwJJn7UKP-59" value="Interval Events" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1646" y="608" width="120" height="80" as="geometry" />
+          <mxGeometry x="1646" y="604" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="LfMUR8XexmlNwJJn7UKP-57" target="LfMUR8XexmlNwJJn7UKP-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1314" y="583" />
+              <mxPoint x="1398" y="583" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1489" y="614.5" as="sourcePoint" />
+            <mxPoint x="1573" y="614.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1489" y="582.5" />
+              <mxPoint x="1573" y="582.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-71" value="E2E" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LfMUR8XexmlNwJJn7UKP-65">
+          <mxGeometry x="-0.0955" y="5" relative="1" as="geometry">
+            <mxPoint x="7" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1661" y="615" as="sourcePoint" />
+            <mxPoint x="1745" y="615" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1661" y="583" />
+              <mxPoint x="1745" y="583" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-72" value="I2I" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LfMUR8XexmlNwJJn7UKP-67">
+          <mxGeometry x="0.0306" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LfMUR8XexmlNwJJn7UKP-70" value="R2R" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1339" y="563" width="42" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
