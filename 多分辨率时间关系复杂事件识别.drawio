@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T06:25:44.221Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qsvfZk4VTCT9tTDA0yhm" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T06:48:36.768Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="IPei-QN6BHsoCUt3WlEn" version="22.1.20" type="github">
   <diagram name="第 1 页" id="AWUjClWmz-XhPsFE_Eon">
-    <mxGraphModel dx="1026" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cagrvy63c5mJA_J2j-k8-6" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="952" width="458.5" height="334" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="314" y="1029" width="231" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="LfMUR8XexmlNwJJn7UKP-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LfMUR8XexmlNwJJn7UKP-4" target="LfMUR8XexmlNwJJn7UKP-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -221,6 +227,139 @@
         </mxCell>
         <mxCell id="LfMUR8XexmlNwJJn7UKP-70" value="R2R" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1339" y="563" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-1" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Data-driven Intercal Analytics allows generating data-driven event intervals from instantaneous events (E2I) by combining event patterns with an extensive collection of aggregation functions. It selects intervals with maximum durations to reduce the complexity of the processing (I2I). In addition, it enables efficient reasoning on intervals using Allen&#39;s Algebra (I2E)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1303" y="684" width="468" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cagrvy63c5mJA_J2j-k8-4" target="cagrvy63c5mJA_J2j-k8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-4" value="Raw data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-23" y="1089" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cagrvy63c5mJA_J2j-k8-6" target="cagrvy63c5mJA_J2j-k8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-7" value="CE" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="818" y="1089" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cagrvy63c5mJA_J2j-k8-9" target="cagrvy63c5mJA_J2j-k8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-9" value="Pattern" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309.25" y="846" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-12" value="CEP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="156.5" y="963" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="cagrvy63c5mJA_J2j-k8-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="1042" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-16" value="&lt;h1&gt;&lt;/h1&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;D2IA Pattern&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&amp;lt;IntEvent1,IntEvent2,Frame1.Frame2,Relations,TSFunction&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="863" width="363" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-17" value="1:1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cagrvy63c5mJA_J2j-k8-18" target="cagrvy63c5mJA_J2j-k8-21">
+          <mxGeometry x="-0.2593" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-18" value="Instantaneous event" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="1053" width="90" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cagrvy63c5mJA_J2j-k8-21" target="cagrvy63c5mJA_J2j-k8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-20" value="New event with temporal relationship" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cagrvy63c5mJA_J2j-k8-19">
+          <mxGeometry x="0.09" y="-2" relative="1" as="geometry">
+            <mxPoint x="5" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-21" value="Intervals event" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="444" y="1053" width="78" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cagrvy63c5mJA_J2j-k8-22" target="cagrvy63c5mJA_J2j-k8-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-37" value="Aggregate TS&lt;sub&gt;n-1&lt;/sub&gt;/TS&lt;sub&gt;n&lt;/sub&gt;&#39;s window data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cagrvy63c5mJA_J2j-k8-36">
+          <mxGeometry x="-0.4415" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="314" y="1163" width="231" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="344" y="1188" width="195" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-24" value="Instantaneous event" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cagrvy63c5mJA_J2j-k8-28">
+          <mxGeometry width="90" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="cagrvy63c5mJA_J2j-k8-28" source="cagrvy63c5mJA_J2j-k8-27" target="cagrvy63c5mJA_J2j-k8-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-26" value="New event with temporal relationship" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cagrvy63c5mJA_J2j-k8-25">
+          <mxGeometry x="0.09" y="-2" relative="1" as="geometry">
+            <mxPoint x="5" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-27" value="Intervals event" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cagrvy63c5mJA_J2j-k8-28">
+          <mxGeometry x="117" width="78" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-23" value="1:1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cagrvy63c5mJA_J2j-k8-28" source="cagrvy63c5mJA_J2j-k8-24" target="cagrvy63c5mJA_J2j-k8-27">
+          <mxGeometry x="-0.2593" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="308" y="970" width="231" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-31" value="CEP on time scale n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="319" y="1161" width="119" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cagrvy63c5mJA_J2j-k8-32" target="cagrvy63c5mJA_J2j-k8-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="248" y="1118" />
+              <mxPoint x="248" y="984" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-34" value="TS&lt;sub&gt;n&lt;/sub&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cagrvy63c5mJA_J2j-k8-32" target="cagrvy63c5mJA_J2j-k8-22">
+          <mxGeometry x="0.648" y="2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="248" y="1118" />
+              <mxPoint x="248" y="1213" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cagrvy63c5mJA_J2j-k8-32" target="cagrvy63c5mJA_J2j-k8-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="248" y="1118" />
+              <mxPoint x="248" y="1079" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-32" value="Time fliter" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="1082" width="71" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-38" value="CEP on time scale n-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="314" y="1023" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-39" value="CEP on time scale 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="303" y="963" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-41" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423.12" y="1026" as="sourcePoint" />
+            <mxPoint x="423.12" y="997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cagrvy63c5mJA_J2j-k8-43" value="Pattern decompose" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="995" width="71" height="71" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
