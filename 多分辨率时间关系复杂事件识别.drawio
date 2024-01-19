@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T06:40:15.268Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BQQytZgyB-dF73Ch3wJt" version="22.1.21" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-19T07:58:13.699Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="q3EsVi_9tI3lsAQJyZpD" version="22.1.21" type="github" pages="2">
   <diagram name="总体系统说明" id="AWUjClWmz-XhPsFE_Eon">
     <mxGraphModel dx="1426" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -429,7 +429,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oJCNBONWkTZ2yqny2AP0" name="第 2 页">
-    <mxGraphModel dx="1777" dy="1765" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="2778" dy="2112" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -739,7 +739,7 @@
             <mxPoint x="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-123" value="&amp;lt;Event0, Event1,&amp;nbsp; Duration0, Duration1,&amp;nbsp; AllenRelation, TSFunction&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-123" value="&amp;lt;Event&lt;sub&gt;0&lt;/sub&gt;, Event&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp; Duration&lt;sub&gt;0&lt;/sub&gt;, Duration&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp; AllenRelation, TSFunction&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-138" y="-410" width="285" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-124" value="T&amp;amp;P" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;direction=east;horizontal=0;rotation=90;" vertex="1" parent="1">
@@ -917,10 +917,13 @@
           <mxGeometry x="-178" y="-908" width="285" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-173" value="&amp;lt;Event0, &amp;lt;Event1, Event2, AllenRelation0, Duration1, Duration2&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-614" y="-1003" width="285" height="30" as="geometry" />
+          <mxGeometry x="-854" y="-980" width="285" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-174" value="&amp;lt;Event, TS&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-178" y="-998" width="285" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-176" value="Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1045" y="-980" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
