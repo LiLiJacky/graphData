@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T03:36:37.829Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="7i2Mg3cdFC9Bh4NBwga2" version="22.1.21" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-19T03:36:53.090Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="JJ60RV2Xg9IMiWfyAAbX" version="22.1.21" type="github" pages="2">
   <diagram name="总体系统说明" id="AWUjClWmz-XhPsFE_Eon">
     <mxGraphModel dx="1426" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -639,7 +639,7 @@
             <mxPoint x="325.18" y="-69" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-81" value="I2E" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cMAxbt5Mhbb_6xQ2LV1q-80">
+        <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-81" value="I2I" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cMAxbt5Mhbb_6xQ2LV1q-80">
           <mxGeometry x="-0.22" y="-5" relative="1" as="geometry">
             <mxPoint x="14" as="offset" />
           </mxGeometry>
