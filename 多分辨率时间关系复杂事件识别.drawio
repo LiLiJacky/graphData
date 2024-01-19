@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T06:34:57.460Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="vfKZWv0joWVJe5kUQEX-" version="22.1.21" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-19T06:38:19.648Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1ql9_JdvV7r7TXkg3Swu" version="22.1.21" type="github" pages="2">
   <diagram name="总体系统说明" id="AWUjClWmz-XhPsFE_Eon">
     <mxGraphModel dx="1426" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -429,7 +429,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oJCNBONWkTZ2yqny2AP0" name="第 2 页">
-    <mxGraphModel dx="1108" dy="1609" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1377" dy="1765" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -637,7 +637,7 @@
         <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-84" value="TEMPETURE INCREASE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="244.5" y="-108.5" width="166.5" height="9" as="geometry" />
         </mxCell>
-        <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-85" value="&amp;lt;Sensorid,&amp;nbsp; Duration, AllenRelation, MinValue, MaxValue, TSFunction&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-85" value="&amp;lt;Sensorid,&amp;nbsp; Duration, MinValue, MaxValue, TSFunction&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-130" y="35" width="258" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-87" value="&amp;lt;Sensorid0, Sensorid1,&amp;nbsp; Duration0, Duration1,&amp;nbsp; AllenRelation, MinValue, MaxValue, TSFunction&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -909,6 +909,15 @@
         </mxCell>
         <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-170" value="Output" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="99" y="-998" width="64" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-171" value="&amp;lt;Sensorid,&amp;nbsp; Duration, MinValue, MaxValue, TSFunction&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-159" y="-792" width="258" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-172" value="&amp;lt;Event&lt;sub&gt;0&lt;/sub&gt;, Event&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp; Duration&lt;sub&gt;0&lt;/sub&gt;, Duration&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp; AllenRelation, TSFunction&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-178" y="-908" width="285" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cMAxbt5Mhbb_6xQ2LV1q-173" value="&amp;lt;Event0, &amp;lt;Event1, Event3&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-172.5" y="-1013" width="285" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
