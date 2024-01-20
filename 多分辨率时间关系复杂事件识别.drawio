@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-20T13:11:28.045Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tSlTzpTOPcFBOr4GlZXS" version="22.1.21" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-20T13:11:38.926Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TaZwaUj1gu5ELiPguY8n" version="22.1.21" type="github" pages="3">
   <diagram name="总体系统说明" id="AWUjClWmz-XhPsFE_Eon">
     <mxGraphModel dx="1666" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -1368,7 +1368,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mRvNN54snBUjbwO2NbOT" name="第 3 页">
-    <mxGraphModel dx="1277" dy="1503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1126" dy="1407" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1829,12 +1829,6 @@
         </mxCell>
         <mxCell id="CPR3muuSlA-pbo3fMhb--144" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#050505;" parent="1" vertex="1">
           <mxGeometry x="157.1363900174115" y="-154.2528727272727" width="6.964596633778294" height="6.964596633778294" as="geometry" />
-        </mxCell>
-        <mxCell id="CPR3muuSlA-pbo3fMhb--145" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" target="CPR3muuSlA-pbo3fMhb--146" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="273.0199620476435" y="-158.26548521955328" as="sourcePoint" />
-            <mxPoint x="273.1538015089959" y="-669.2974545454545" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="CPR3muuSlA-pbo3fMhb--146" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#050505;" parent="1" vertex="1">
           <mxGeometry x="307.98142774230996" y="-154.68816363636347" width="6.964596633778294" height="6.964596633778294" as="geometry" />
