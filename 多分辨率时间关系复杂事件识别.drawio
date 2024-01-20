@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-20T13:18:31.028Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="vNsHIPkiSgObHk3h72-8" version="22.1.21" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-20T13:18:58.816Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SyHFT1aHMNCcAJDIyDAW" version="22.1.21" type="github" pages="3">
   <diagram name="总体系统说明" id="AWUjClWmz-XhPsFE_Eon">
     <mxGraphModel dx="1666" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -1368,7 +1368,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mRvNN54snBUjbwO2NbOT" name="第 3 页">
-    <mxGraphModel dx="1370" dy="1562" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1277" dy="1503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2262,6 +2262,15 @@
         </mxCell>
         <mxCell id="N3Qwx35pANhygQ2EmFPw-34" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.4_point_star_2;dx=0.8;" vertex="1" parent="1">
           <mxGeometry x="218.62" y="-741.9999999999999" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Qwx35pANhygQ2EmFPw-38" value="Discard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="133.9825014509576" y="-766.9982909090909" width="52.2344747533372" height="26.117454545454546" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Qwx35pANhygQ2EmFPw-39" value="Discard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="449.5825014509576" y="-770.1182909090909" width="52.2344747533372" height="26.117454545454546" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Qwx35pANhygQ2EmFPw-40" value="Matched" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="208.38250145095762" y="-763.9982909090909" width="52.2344747533372" height="26.117454545454546" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
