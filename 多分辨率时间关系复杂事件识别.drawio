@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-20T12:53:29.124Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="b7RITywLcw1avQ_g_NGO" version="22.1.21" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-20T12:54:12.596Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EqjKOQkv7VKZ655KtepL" version="22.1.21" type="github" pages="3">
   <diagram name="总体系统说明" id="AWUjClWmz-XhPsFE_Eon">
     <mxGraphModel dx="1666" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -1368,7 +1368,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mRvNN54snBUjbwO2NbOT" name="第 3 页">
-    <mxGraphModel dx="1826" dy="1851" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="2083" dy="2014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1798,13 +1798,13 @@
           <mxGeometry x="-70.91874637260594" y="-753.0706909090909" width="55.71677307022635" height="26.117454545454546" as="geometry" />
         </mxCell>
         <mxCell id="CPR3muuSlA-pbo3fMhb--128" value="&amp;lt;Sensorid,&amp;nbsp; Duration, MinValue, MaxValue, TSFunction&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-295.5269878119559" y="-813.7308363636364" width="224.60824143934997" height="26.117454545454546" as="geometry" />
+          <mxGeometry x="-292.4569878119559" y="-636.3408363636364" width="224.60824143934997" height="26.117454545454546" as="geometry" />
         </mxCell>
         <mxCell id="CPR3muuSlA-pbo3fMhb--129" value="&amp;lt;Event&lt;sub&gt;0&lt;/sub&gt;, Event&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp; Duration&lt;sub&gt;0&lt;/sub&gt;, Duration&lt;sub&gt;1&lt;/sub&gt;,&amp;nbsp; AllenRelation, TSFunction&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-312.0679048171794" y="-854.7183272727273" width="248.11375507835174" height="26.117454545454546" as="geometry" />
+          <mxGeometry x="-308.9979048171794" y="-677.3283272727273" width="248.11375507835174" height="26.117454545454546" as="geometry" />
         </mxCell>
         <mxCell id="CPR3muuSlA-pbo3fMhb--130" value="&amp;lt;Event, TS&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-312.0679048171794" y="-933.0706909090909" width="248.11375507835174" height="26.117454545454546" as="geometry" />
+          <mxGeometry x="-319.0279048171794" y="-753.0706909090909" width="248.11375507835174" height="26.117454545454546" as="geometry" />
         </mxCell>
         <mxCell id="CPR3muuSlA-pbo3fMhb--134" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
