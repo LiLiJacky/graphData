@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T03:25:58.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KzedO84RtIy57iWfLCwq" version="22.1.21" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-21T03:29:42.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="zYxcbKJrecGLI4eIH8ir" version="22.1.21" type="github" pages="3">
   <diagram name="总体系统说明" id="AWUjClWmz-XhPsFE_Eon">
     <mxGraphModel dx="2474" dy="1124" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -1705,7 +1705,7 @@
         <mxCell id="CPR3muuSlA-pbo3fMhb--108" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;direction=south;size=0.355826776644004;" parent="1" vertex="1">
           <mxGeometry x="-12.91" y="-442" width="563.91" height="58.13" as="geometry" />
         </mxCell>
-        <mxCell id="CPR3muuSlA-pbo3fMhb--110" value="DATA AGGREGATION BETWEEN TWO TIME SCALE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="CPR3muuSlA-pbo3fMhb--110" value="DATA&amp;nbsp; AGGREGATION BETWEEN TWO TIME SCALE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="72.1328438769587" y="-415.9089818181818" width="355.194428322693" height="26.117454545454546" as="geometry" />
         </mxCell>
         <mxCell id="CPR3muuSlA-pbo3fMhb--112" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
