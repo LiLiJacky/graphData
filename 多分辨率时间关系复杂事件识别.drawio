@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T04:08:32.452Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3sVLSJXyZ1NPkrYq-r4j" version="22.1.21" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-21T04:09:35.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QJuF8Rigj7Pn01VDCETh" version="22.1.21" type="github" pages="3">
   <diagram name="总体系统说明" id="AWUjClWmz-XhPsFE_Eon">
     <mxGraphModel dx="2474" dy="1124" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -1368,11 +1368,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mRvNN54snBUjbwO2NbOT" name="第 3 页">
-    <mxGraphModel dx="1788" dy="1335" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="2230" dy="1575" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VX_LJV08XRInY21JHdDH-20" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="N3Qwx35pANhygQ2EmFPw-24" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;direction=south;size=0.355826776644004;" parent="1" vertex="1">
+          <mxGeometry x="2.33" y="-695.46" width="563.91" height="58.13" as="geometry" />
+        </mxCell>
+        <mxCell id="VX_LJV08XRInY21JHdDH-20" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
           <mxGeometry x="364" y="-577" width="120" height="65" as="geometry" />
         </mxCell>
         <mxCell id="CPR3muuSlA-pbo3fMhb--109" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -1775,7 +1778,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CPR3muuSlA-pbo3fMhb--125" value="CE" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="CPR3muuSlA-pbo3fMhb--125" value="ROLLOVER" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="441.53" y="-675" width="27" height="27" as="geometry" />
         </mxCell>
         <mxCell id="CPR3muuSlA-pbo3fMhb--128" value="&amp;lt;Sensorid,&amp;nbsp; Duration, MinValue, MaxValue, TSFunction&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -2224,9 +2227,6 @@
             <mxPoint x="7.552965757399871" y="-685.5437818181817" as="sourcePoint" />
             <mxPoint x="625.12" y="-686" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="N3Qwx35pANhygQ2EmFPw-24" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;direction=south;size=0.355826776644004;" parent="1" vertex="1">
-          <mxGeometry x="2.33" y="-695.46" width="563.91" height="58.13" as="geometry" />
         </mxCell>
         <mxCell id="N3Qwx35pANhygQ2EmFPw-25" value="RAISE ONLY" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="65.43" y="-709.39" width="85" height="16.54" as="geometry" />
