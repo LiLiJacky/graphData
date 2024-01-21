@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T04:00:39.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mjDaIvgdOVu5gftl5A1K" version="22.1.21" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-21T04:07:41.953Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Udzhp9Fwoj034rymd0-k" version="22.1.21" type="github" pages="3">
   <diagram name="总体系统说明" id="AWUjClWmz-XhPsFE_Eon">
     <mxGraphModel dx="2474" dy="1124" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -1372,6 +1372,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VX_LJV08XRInY21JHdDH-20" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="-577" width="120" height="65" as="geometry" />
+        </mxCell>
         <mxCell id="CPR3muuSlA-pbo3fMhb--109" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="242.61" y="-474.78" width="30.39" height="46.78" as="geometry" />
         </mxCell>
@@ -1727,7 +1730,7 @@
           <mxGeometry x="-83.10679048171801" y="-593.7308363636364" width="79.22228670922809" height="26.117454545454546" as="geometry" />
         </mxCell>
         <mxCell id="CPR3muuSlA-pbo3fMhb--120" value="RAISE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="287.00464306442245" y="-588.9426363636363" width="74.86941381311665" height="16.541054545454546" as="geometry" />
+          <mxGeometry x="287" y="-588.94" width="83" height="16.54" as="geometry" />
         </mxCell>
         <mxCell id="CPR3muuSlA-pbo3fMhb--121" value="Discard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="42.37250145095763" y="-622.4582909090909" width="52.2344747533372" height="26.117454545454546" as="geometry" />
@@ -2305,6 +2308,35 @@
         </mxCell>
         <mxCell id="VX_LJV08XRInY21JHdDH-12" value="Fine-grained Time: &lt;br&gt;Pressure DOWN &amp;amp; RAISE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=1;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="484" y="-257.53000000000003" width="193" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VX_LJV08XRInY21JHdDH-13" value="PDS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424.0975043528729" y="-516.2022909090908" width="30" height="33.95269090909091" as="geometry" />
+        </mxCell>
+        <mxCell id="VX_LJV08XRInY21JHdDH-14" value="PDS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454.0975043528729" y="-516.2022909090908" width="30" height="33.95269090909091" as="geometry" />
+        </mxCell>
+        <mxCell id="VX_LJV08XRInY21JHdDH-15" value="PDS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484.0975043528729" y="-516.2022909090908" width="30" height="33.95269090909091" as="geometry" />
+        </mxCell>
+        <mxCell id="VX_LJV08XRInY21JHdDH-16" value="PDS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514.0975043528729" y="-516.2022909090908" width="30" height="33.95269090909091" as="geometry" />
+        </mxCell>
+        <mxCell id="VX_LJV08XRInY21JHdDH-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="368" y="-529" as="sourcePoint" />
+            <mxPoint x="481" y="-568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VX_LJV08XRInY21JHdDH-21" value="Pressure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VX_LJV08XRInY21JHdDH-18">
+          <mxGeometry x="0.2094" relative="1" as="geometry">
+            <mxPoint x="-13" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VX_LJV08XRInY21JHdDH-22" value="Pressure Raise" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="-600.46" width="119" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="VX_LJV08XRInY21JHdDH-23" value="Coarse-grained&amp;nbsp;Time: &lt;br&gt;Pressure&amp;nbsp; RAISE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="451" y="-605.28" width="126.53" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
