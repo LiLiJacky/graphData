@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T08:03:04.885Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="HzTiVrA6SI6zVVRwkbWv" version="22.1.17" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-23T08:03:28.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="D5vBsB_949h8xqlXhRsD" version="22.1.17" type="github" pages="2">
   <diagram name="第 1 页" id="dALFRjgGMer_rasdDfTR">
     <mxGraphModel dx="1480" dy="685" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -204,7 +204,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CNiilv3KzkFWLwHiTG94-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="-294" width="147" height="544" as="geometry" />
+          <mxGeometry x="385" y="-230" width="147" height="373" as="geometry" />
         </mxCell>
         <mxCell id="CNiilv3KzkFWLwHiTG94-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CNiilv3KzkFWLwHiTG94-2">
           <mxGeometry relative="1" as="geometry">
@@ -249,6 +249,9 @@
         </mxCell>
         <mxCell id="CNiilv3KzkFWLwHiTG94-13" value="h" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="396" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CNiilv3KzkFWLwHiTG94-20" value="Kafka Topic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="-222" width="79" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
