@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T08:03:28.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="D5vBsB_949h8xqlXhRsD" version="22.1.17" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-23T08:04:00.109Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LvSEguSVunSLCFYGkcDN" version="22.1.17" type="github" pages="2">
   <diagram name="第 1 页" id="dALFRjgGMer_rasdDfTR">
     <mxGraphModel dx="1480" dy="685" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -238,20 +238,35 @@
         <mxCell id="CNiilv3KzkFWLwHiTG94-9" value="Without Allen relationship" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="114" y="54" width="165" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="CNiilv3KzkFWLwHiTG94-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CNiilv3KzkFWLwHiTG94-10" target="CNiilv3KzkFWLwHiTG94-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CNiilv3KzkFWLwHiTG94-10" value="ms" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="396" y="-190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CNiilv3KzkFWLwHiTG94-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CNiilv3KzkFWLwHiTG94-11" target="CNiilv3KzkFWLwHiTG94-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CNiilv3KzkFWLwHiTG94-11" value="s" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="396" y="-100" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CNiilv3KzkFWLwHiTG94-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CNiilv3KzkFWLwHiTG94-12" target="CNiilv3KzkFWLwHiTG94-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CNiilv3KzkFWLwHiTG94-12" value="min" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="396" y="-15" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CNiilv3KzkFWLwHiTG94-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CNiilv3KzkFWLwHiTG94-13" target="CNiilv3KzkFWLwHiTG94-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CNiilv3KzkFWLwHiTG94-13" value="h" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="396" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CNiilv3KzkFWLwHiTG94-20" value="Kafka Topic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="385" y="-222" width="79" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNiilv3KzkFWLwHiTG94-21" value="后续处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="641" y="-53.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
