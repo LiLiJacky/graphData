@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T10:34:47.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="475azhJOxcPab5cz0LWv" version="22.1.21" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-04T10:40:44.406Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qDzFAVZR9lXZhjAT-gWv" version="22.1.21" type="github" pages="2">
   <diagram name="第 1 页" id="NCMc-xwsh7RpgYORVM1B">
     <mxGraphModel dx="1426" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Zdt00i8v9jMjwY9H3zJG" name="第 2 页">
-    <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="586" dy="372" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,6 +143,60 @@
         </mxCell>
         <mxCell id="2r469yxHPrib4h71dxUt-18" value="相对于粗尺度时间事件，细尺度时间事件发生频率高，所以选择粗尺度事件作为触发条件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="537" y="144" width="252" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-19" value="即检测到B时，再判断B前一个小时内是否发生过A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="539" y="182" width="246" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-20" value="查询次数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="259" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-21" value="F" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="637" y="291" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-22" value="F" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="291" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-23" value="T" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739" y="291" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-24" value="2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="291" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-33" value="F" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="637" y="323" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-34" value="T" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="323" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-35" value="T" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739" y="323" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-36" value="10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="323" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-37" value="T" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="637" y="355" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-38" value="F" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="355" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-39" value="T" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739" y="355" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-40" value="10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="355" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-41" value="T" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="637" y="387" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-42" value="T" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="387" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-43" value="T" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739" y="387" width="51" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2r469yxHPrib4h71dxUt-44" value="10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="387" width="51" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
