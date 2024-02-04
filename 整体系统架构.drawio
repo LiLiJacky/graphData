@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T14:10:28.109Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TvUCf3_yjJfThncA_1jI" version="22.1.21" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-04T14:11:57.695Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rlaXSC7k9KAABa5DfHqM" version="22.1.21" type="github" pages="2">
   <diagram name="第 1 页" id="NCMc-xwsh7RpgYORVM1B">
     <mxGraphModel dx="1426" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -372,7 +372,7 @@
         <mxCell id="2r469yxHPrib4h71dxUt-89" value="第一层，查询粗尺度时间内是否有可能满足模式条件的事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-388.75" y="229" width="347" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2r469yxHPrib4h71dxUt-90" value="第二层，查看粗尺度时间内是否有可能满足模式条件的事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="2r469yxHPrib4h71dxUt-90" value="第二层，查看粗尺度时间内带时间BF内未聚合的细尺度BF，查看具体发生在哪个时间窗口（BF聚合窗口大小）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-461" y="428" width="347" height="30" as="geometry" />
         </mxCell>
       </root>
