@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-17T03:49:34.368Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LpwSNIUPoFF22Kl3zef3" version="22.1.21" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-02-17T03:50:10.296Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NmLtyGIyOOIE7LbmFDuj" version="22.1.21" type="github" pages="6">
   <diagram name="总体系统说明" id="AWUjClWmz-XhPsFE_Eon">
     <mxGraphModel dx="1978" dy="1002" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -3481,6 +3481,14 @@
         <mxCell id="GrfGyTS9nTF-xSjewkSr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GrfGyTS9nTF-xSjewkSr-30" target="GrfGyTS9nTF-xSjewkSr-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GrfGyTS9nTF-xSjewkSr-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GrfGyTS9nTF-xSjewkSr-30" target="GrfGyTS9nTF-xSjewkSr-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="784" y="100" />
+              <mxPoint x="608" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GrfGyTS9nTF-xSjewkSr-30" value="Search&lt;sub&gt;1&lt;/sub&gt;: Tumpling Window" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="708" y="220" width="151" height="30" as="geometry" />
         </mxCell>
@@ -3577,6 +3585,9 @@
         </mxCell>
         <mxCell id="GrfGyTS9nTF-xSjewkSr-53" value="s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="116" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GrfGyTS9nTF-xSjewkSr-55" value="Search&lt;sub&gt;3&lt;/sub&gt;: Larger granularity BF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="79" width="181" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
