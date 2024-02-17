@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-17T03:42:04.011Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="f7RGdO8mT3PZK-1NrU5M" version="22.1.21" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-02-17T03:42:18.171Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="x9LG6W6eF6bOtULd6fcM" version="22.1.21" type="github" pages="6">
   <diagram name="总体系统说明" id="AWUjClWmz-XhPsFE_Eon">
     <mxGraphModel dx="1978" dy="1002" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -3411,7 +3411,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QMnxLQYg4TE1V9ozhWZN" name="第 6 页">
-    <mxGraphModel dx="555" dy="352" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="708" dy="449" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3550,7 +3550,7 @@
             <mxPoint x="730" y="198.78" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GrfGyTS9nTF-xSjewkSr-40" value="Search2: Local granularity BF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="GrfGyTS9nTF-xSjewkSr-40" value="Search&lt;sub&gt;2&lt;/sub&gt;: Local granularity BF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="635" y="142" width="166" height="30" as="geometry" />
         </mxCell>
       </root>
