@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T04:24:51.092Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Ix8SYcp2W-0_Db8iY_3H" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T04:25:06.781Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ezbFyzDflICry-b9yPC6" version="22.1.21" type="github">
   <diagram name="第 1 页" id="ICB7nvsSRyh_RITRN5Gz">
     <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -45,6 +45,9 @@
         </mxCell>
         <mxCell id="auUhlvlmNyIOAaCUnZLi-15" value="&lt;div&gt;各层之间的密度差接近于零;&lt;/div&gt;&lt;div&gt;底层相对较热、饱和压力较高,&lt;span style=&quot;background-color: initial;&quot;&gt;顶层相对较冷;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;沸腾速率显著而迅速增加,比正常 boil-off&amp;nbsp; rate 大于 10 - 20倍，甚至更多；&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="584" y="361" width="259" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="auUhlvlmNyIOAaCUnZLi-16" value="&lt;div&gt;各层之间的密度差接近于零;&lt;/div&gt;&lt;div&gt;底层相对较热、饱和压力较高,&lt;span style=&quot;background-color: initial;&quot;&gt;顶层相对较冷;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;沸腾速率显著而迅速增加,比正常 boil-off&amp;nbsp; rate 大于 10 - 20倍，甚至更多；&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="584" y="421" width="259" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
