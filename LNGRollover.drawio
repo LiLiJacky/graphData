@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T04:15:55.059Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="9077CojKpq0bxPto9LeP" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T04:22:34.109Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="IeplPGuSq67hMwKnlUx6" version="22.1.21" type="github">
   <diagram name="第 1 页" id="ICB7nvsSRyh_RITRN5Gz">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="auUhlvlmNyIOAaCUnZLi-1" value="Rollover Event Progress through its Four Stages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="181" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="auUhlvlmNyIOAaCUnZLi-2" value="Stage 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="241" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="auUhlvlmNyIOAaCUnZLi-3" value="Stage 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="301" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="auUhlvlmNyIOAaCUnZLi-4" value="Stage 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="361" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="auUhlvlmNyIOAaCUnZLi-5" value="Stage 4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="421" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="auUhlvlmNyIOAaCUnZLi-6" value="Duration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="181" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="auUhlvlmNyIOAaCUnZLi-7" value="Half day - Several days" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="241" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="auUhlvlmNyIOAaCUnZLi-8" value="Serveral Hours - One Day" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="301" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="auUhlvlmNyIOAaCUnZLi-10" value="15min - 30min, few 40min" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="361" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="auUhlvlmNyIOAaCUnZLi-11" value="At least 1h" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="421" width="160" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
