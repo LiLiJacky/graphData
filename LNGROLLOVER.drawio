@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T04:26:44.860Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gpXxNWNttYKCA03K3Xfw" version="22.1.21" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-05T04:28:16.805Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YOPZ-j-NvziiQtKUoPnb" version="22.1.21" type="github" pages="2">
   <diagram name="第 1 页" id="PN9rrpQe-BgAwPrjrD3u">
     <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -105,11 +105,14 @@
         <mxCell id="NLAdDd1kZ3Q3CP9ADRvz-17" value="c1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="345" y="141" width="31" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NLAdDd1kZ3Q3CP9ADRvz-21" value="匹配模式&lt;br&gt;a b+ c" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NLAdDd1kZ3Q3CP9ADRvz-21" value="匹配模式&lt;br&gt;(a b+)+ c" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="96" y="107" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NLAdDd1kZ3Q3CP9ADRvz-22" value="匹配策略&lt;br&gt;skip-till-any-match" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="246" y="105" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NLAdDd1kZ3Q3CP9ADRvz-23" value="采集频率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="178" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
