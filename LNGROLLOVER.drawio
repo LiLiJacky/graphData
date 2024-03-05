@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T03:53:45.442Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="DHxGQYv0AdfdCLm9ixcD" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T03:54:02.116Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cGWA-73ujKdCedM9-B_S" version="22.1.21" type="github">
   <diagram name="第 1 页" id="PN9rrpQe-BgAwPrjrD3u">
     <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -45,9 +45,9 @@
         <mxCell id="u1P5wwpMpnLD1IzObOwC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="u1P5wwpMpnLD1IzObOwC-11" target="u1P5wwpMpnLD1IzObOwC-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u1P5wwpMpnLD1IzObOwC-14" value="蒸发率回归正常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u1P5wwpMpnLD1IzObOwC-13">
+        <mxCell id="u1P5wwpMpnLD1IzObOwC-14" value="蒸发率回归正常&lt;br&gt;&amp;amp;压力恢复安全水平" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u1P5wwpMpnLD1IzObOwC-13">
           <mxGeometry x="-0.0319" y="-2" relative="1" as="geometry">
-            <mxPoint y="-9" as="offset" />
+            <mxPoint x="-1" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u1P5wwpMpnLD1IzObOwC-11" value="主动排出LNG" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
