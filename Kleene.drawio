@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T06:03:45.795Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.1" etag="N8dxzrld0PtKVdB-n_ST" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T06:24:45.435Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="S4c3fSPltxr1Ig9gj5FI" version="24.0.1" type="github">
   <diagram name="第 1 页" id="S8iihCh_ciWJxSQNuJ8L">
-    <mxGraphModel>
+    <mxGraphModel dx="316" dy="200" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WtqzIC5AjDAy_Pgu8Pxl-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390.5" y="293" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="WtqzIC5AjDAy_Pgu8Pxl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WtqzIC5AjDAy_Pgu8Pxl-1" target="WtqzIC5AjDAy_Pgu8Pxl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WtqzIC5AjDAy_Pgu8Pxl-1" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="398" y="239" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="WtqzIC5AjDAy_Pgu8Pxl-2" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="398" y="300.5" width="33" height="33" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
