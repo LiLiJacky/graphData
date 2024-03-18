@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T05:32:38.849Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="domMXVPEIRI2FfdL3xnE" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T05:34:57.389Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="4mQ5wk4RSILKgb3Lr8lN" version="24.0.6" type="github">
   <diagram name="第 1 页" id="RmDm3fmFeUkyor1gOjHk">
     <mxGraphModel dx="760" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -40,19 +40,19 @@
         <mxCell id="SMzR3NN7AUrO5DCWCIX2-1" value="MCD&#39; shop : 5948" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="381" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SMzR3NN7AUrO5DCWCIX2-2" value="&lt;div&gt;上海&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SMzR3NN7AUrO5DCWCIX2-2" value="&lt;div&gt;东部&lt;/div&gt;&lt;div&gt;上海&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="167" y="262" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SMzR3NN7AUrO5DCWCIX2-4" value="中部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SMzR3NN7AUrO5DCWCIX2-4" value="西北部&lt;div&gt;新疆、西藏&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="453" y="262" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SMzR3NN7AUrO5DCWCIX2-5" value="东部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SMzR3NN7AUrO5DCWCIX2-5" value="中部&lt;div&gt;江苏、江西。。。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="262" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SMzR3NN7AUrO5DCWCIX2-6" value="西部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SMzR3NN7AUrO5DCWCIX2-6" value="西南部&lt;div&gt;云南、四川。。。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="596" y="262" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SMzR3NN7AUrO5DCWCIX2-7" value="南部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SMzR3NN7AUrO5DCWCIX2-7" value="南部&lt;div&gt;海南、广西、广州&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="739" y="262" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SMzR3NN7AUrO5DCWCIX2-12" value="门店总数/地理面积 + county_tier" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
