@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T05:39:20.727Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="o7FFy0bBI8Me5LyrvwvU" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T05:40:00.753Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="eUq9QO7_RBoISpldwHkI" version="24.0.7" type="github">
   <diagram name="现有问题" id="ln1VuoLW2IpL9ToIxIuf">
     <mxGraphModel dx="1434" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -95,6 +95,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="492" y="402" as="sourcePoint" />
             <mxPoint x="590" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6QVBEpiF2g4ADmfY6hBt-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="98" y="257" as="sourcePoint" />
+            <mxPoint x="798" y="257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6QVBEpiF2g4ADmfY6hBt-28" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="262" as="sourcePoint" />
+            <mxPoint x="737" y="262" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
