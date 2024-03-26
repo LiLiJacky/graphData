@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T06:11:19.894Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="RXEWEq6lbudZi-v5za4Y" version="24.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-26T06:12:10.429Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="uH3WL5tlkahEXD6WVPfR" version="24.0.7" type="github" pages="2">
   <diagram name="现有问题" id="ln1VuoLW2IpL9ToIxIuf">
     <mxGraphModel dx="1434" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -335,6 +335,12 @@
         </mxCell>
         <mxCell id="UmA5ZqCV6AUgnPsLizes-45" value="TD&lt;sub&gt;m&lt;/sub&gt; &amp;lt;&amp;lt; TD&lt;sub&gt;u&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="388" y="125" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmA5ZqCV6AUgnPsLizes-46" value="W&lt;sub&gt;P&lt;/sub&gt;： 10min" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="281" y="87" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmA5ZqCV6AUgnPsLizes-47" value="W&lt;sub&gt;T&lt;/sub&gt;： 10min" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="206" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
