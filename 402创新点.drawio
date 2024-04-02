@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T08:09:43.001Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.1.0" etag="V-VXxeAarnlp9YEJVXN7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T08:13:47.298Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="VoQsA5btuxpNpIGSIoZ8" version="24.1.0" type="github">
   <diagram name="第 1 页" id="JjuFrVu_XqK_Vd3_ScDI">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Vvv_MOoeQeu0tt_7ml7h-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="342" y="270" as="sourcePoint" />
+            <mxPoint x="675" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vvv_MOoeQeu0tt_7ml7h-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="342" y="269" as="sourcePoint" />
+            <mxPoint x="342" y="578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vvv_MOoeQeu0tt_7ml7h-3" value="基于谓词的判断" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392" y="221" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvv_MOoeQeu0tt_7ml7h-4" value="工作内容" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="517" y="161" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvv_MOoeQeu0tt_7ml7h-5" value="区间事件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vvv_MOoeQeu0tt_7ml7h-4">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvv_MOoeQeu0tt_7ml7h-6" value="Allen 关系" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vvv_MOoeQeu0tt_7ml7h-4">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
