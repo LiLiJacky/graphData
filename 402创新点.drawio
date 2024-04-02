@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T08:13:47.298Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="VoQsA5btuxpNpIGSIoZ8" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T08:19:37.434Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="jhu01ahejqWbdDIvZqEL" version="24.1.0" type="github">
   <diagram name="第 1 页" id="JjuFrVu_XqK_Vd3_ScDI">
-    <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="380" dy="241" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,6 +27,18 @@
         </mxCell>
         <mxCell id="Vvv_MOoeQeu0tt_7ml7h-6" value="Allen 关系" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vvv_MOoeQeu0tt_7ml7h-4">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvv_MOoeQeu0tt_7ml7h-8" value="语意多尺度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="300" y="303" width="18" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvv_MOoeQeu0tt_7ml7h-16" value="op&lt;sub&gt;j&lt;/sub&gt;&lt;sup&gt;k&lt;/sup&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=9;" vertex="1" parent="1">
+          <mxGeometry x="509" y="298" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvv_MOoeQeu0tt_7ml7h-20" value="e&lt;sub&gt;i&lt;/sub&gt;&lt;sup&gt;k&lt;/sup&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="456" y="294" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvv_MOoeQeu0tt_7ml7h-24" value="e&lt;sub&gt;i+1&lt;/sub&gt;&lt;sup&gt;k&lt;/sup&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="571" y="292" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
