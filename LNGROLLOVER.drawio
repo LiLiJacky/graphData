@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T14:36:07.182Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="nvg_Ojrn898LrtCIltN8" version="24.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-18T14:37:13.797Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="_vSZ1BlDebXvKJ_f3Rbj" version="24.2.1" type="github" pages="3">
   <diagram name="第 1 页" id="PN9rrpQe-BgAwPrjrD3u">
     <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -229,6 +229,9 @@
         <mxCell id="yULgyy1Mu1e5J9HLic46-1" value="正常状态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="74" y="216" width="56" height="56" as="geometry" />
         </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yULgyy1Mu1e5J9HLic46-2" target="yULgyy1Mu1e5J9HLic46-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yULgyy1Mu1e5J9HLic46-2" value="Stage 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="227" y="216" width="56" height="56" as="geometry" />
         </mxCell>
@@ -244,6 +247,12 @@
           <mxGeometry x="0.0435" y="-1" relative="1" as="geometry">
             <mxPoint x="-2" y="-9" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-6" value="Stage 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="363" y="216" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-8" value="B: 密度差减少" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="277" y="226" width="93" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
