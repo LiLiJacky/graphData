@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T14:37:49.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="_k9plAK9fmiFvgboHwFP" version="24.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-18T14:43:17.115Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="FKca5GJ2miluQS_u0sea" version="24.2.1" type="github" pages="3">
   <diagram name="第 1 页" id="PN9rrpQe-BgAwPrjrD3u">
     <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -221,9 +221,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yULgyy1Mu1e5J9HLic46-3" value="A: 密度差大于阈值" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yULgyy1Mu1e5J9HLic46-1" target="yULgyy1Mu1e5J9HLic46-2">
-          <mxGeometry x="0.0103" y="9" relative="1" as="geometry">
-            <mxPoint x="-4" y="1" as="offset" />
+        <mxCell id="yULgyy1Mu1e5J9HLic46-3" value="A: 上两层&lt;div&gt;密度差大于阈值&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yULgyy1Mu1e5J9HLic46-1" target="yULgyy1Mu1e5J9HLic46-2">
+          <mxGeometry x="-0.0928" y="14" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yULgyy1Mu1e5J9HLic46-1" value="正常状态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -243,16 +243,60 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yULgyy1Mu1e5J9HLic46-5" value="A: 密度差大于阈值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yULgyy1Mu1e5J9HLic46-4">
+        <mxCell id="yULgyy1Mu1e5J9HLic46-5" value="A: 上两层&lt;div&gt;密度差大于阈值&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yULgyy1Mu1e5J9HLic46-4">
           <mxGeometry x="0.0435" y="-1" relative="1" as="geometry">
-            <mxPoint x="-2" y="-9" as="offset" />
+            <mxPoint x="-4" y="-18" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yULgyy1Mu1e5J9HLic46-6" target="yULgyy1Mu1e5J9HLic46-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yULgyy1Mu1e5J9HLic46-6" value="Stage 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="389" y="216" width="56" height="56" as="geometry" />
         </mxCell>
         <mxCell id="yULgyy1Mu1e5J9HLic46-8" value="B: 蒸发率快速变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="276" y="222" width="117" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yULgyy1Mu1e5J9HLic46-6" target="yULgyy1Mu1e5J9HLic46-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397" y="194" />
+              <mxPoint x="437" y="194" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-10" value="B:蒸发率快速变化 ｜&lt;div&gt;C: 上两层密度差小于阈值&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yULgyy1Mu1e5J9HLic46-9">
+          <mxGeometry x="-0.02" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yULgyy1Mu1e5J9HLic46-11" target="yULgyy1Mu1e5J9HLic46-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-11" value="Stage 3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="534" y="216" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-13" value="D: 低两层密度差&lt;div&gt;小于阈值&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="433" y="207" width="105" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yULgyy1Mu1e5J9HLic46-11" target="yULgyy1Mu1e5J9HLic46-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="542" y="193" />
+              <mxPoint x="582" y="193" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-15" value="E: 蒸发率大于阈值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yULgyy1Mu1e5J9HLic46-14">
+          <mxGeometry x="-0.2549" y="4" relative="1" as="geometry">
+            <mxPoint x="13" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-16" value="Stage 3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="216" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="yULgyy1Mu1e5J9HLic46-18" value="F: 蒸发率小于&lt;div&gt;阈值&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="583" y="210" width="92" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
