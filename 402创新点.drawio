@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T02:38:33.546Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="snznS3BPzciXLGx0x6AC" version="24.2.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-13T02:48:09.735Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="TOACM172CmACBq4YsTie" version="24.2.1" type="github" pages="3">
   <diagram name="第 1 页" id="JjuFrVu_XqK_Vd3_ScDI">
     <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -130,7 +130,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="HbRccuioHIRANp_QG8vi" name="第 2 页">
+  <diagram id="HbRccuioHIRANp_QG8vi" name="区间事件代替点事件">
     <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -176,6 +176,44 @@
         </mxCell>
         <mxCell id="_F1bSzk9O3XEe-yfDt0c-14" value="A&amp;gt;=3 B&amp;gt;=3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="18" width="114" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_F1bSzk9O3XEe-yfDt0c-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;区间事件及其Allen关系&lt;/h1&gt;&lt;p&gt;将事件转变为区间事件和Allen关系约束，避免使用穷举法描述该类事件.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="156" y="239" width="344" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_F1bSzk9O3XEe-yfDt0c-16" value="A overlap B, A: times &amp;gt;= 3, B: times &amp;gt;= 3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="567" y="229" width="243" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_F1bSzk9O3XEe-yfDt0c-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="583" y="280.5" width="120" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="_F1bSzk9O3XEe-yfDt0c-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="665.5" y="304.5" width="120" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="_F1bSzk9O3XEe-yfDt0c-20" value="A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="627" y="261" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_F1bSzk9O3XEe-yfDt0c-21" value="B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="287" width="26" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BpadlHNxQt2TB1zjO25e" name="运行时优化">
+    <mxGraphModel dx="1426" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6AUMa2pzRHlbhyTe51-7-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;计算代价和频度之间均衡&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="5" width="284" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Tdc0wFD_COagPjeBHscm-1" value="A , A: times &amp;gt;= 3, value &amp;gt; 10, R&lt;sup&gt;2&lt;/sup&gt;&amp;gt;0.95" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="254" y="7" width="243" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tdc0wFD_COagPjeBHscm-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="58.5" width="120" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="Tdc0wFD_COagPjeBHscm-4" value="A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="314" y="39" width="26" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
