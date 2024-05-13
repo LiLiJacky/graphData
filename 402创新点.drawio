@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T02:59:03.204Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="NGKtvEDr72R6C16xk368" version="24.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-13T03:06:34.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="V4zKoOvlT_94TCw5bJKn" version="24.2.1" type="github" pages="3">
   <diagram name="第 1 页" id="JjuFrVu_XqK_Vd3_ScDI">
     <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -229,6 +229,33 @@
         </mxCell>
         <mxCell id="5OUbw9I6TGwu-DjdRwWF-4" value="优化模式识别" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="329" y="192" width="78" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="iYQbOKLmgYkVyR6FOGL2-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;优化满足Allen关系区间事件搜索&lt;/h1&gt;&lt;p&gt;将事件转变为区间事件和Allen关系约束，避免使用穷举法描述该类事件.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-132" y="310.5" width="392" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="iYQbOKLmgYkVyR6FOGL2-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="341" width="120" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="iYQbOKLmgYkVyR6FOGL2-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="371.5" width="120" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="iYQbOKLmgYkVyR6FOGL2-5" value="A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="387" y="315" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iYQbOKLmgYkVyR6FOGL2-6" value="B&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="351.5" y="353" width="32" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="iYQbOKLmgYkVyR6FOGL2-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267" y="406" width="120" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="iYQbOKLmgYkVyR6FOGL2-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="437" width="120" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="iYQbOKLmgYkVyR6FOGL2-9" value="B&lt;sub&gt;2&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="308" y="383.5" width="32" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="iYQbOKLmgYkVyR6FOGL2-10" value="B&lt;sub&gt;3&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="418" width="32" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
