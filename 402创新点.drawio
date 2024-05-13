@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T02:48:09.735Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="TOACM172CmACBq4YsTie" version="24.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-13T02:57:22.043Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ASgmm15whX4ZiLhtTnCr" version="24.2.1" type="github" pages="3">
   <diagram name="第 1 页" id="JjuFrVu_XqK_Vd3_ScDI">
     <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -203,8 +203,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6AUMa2pzRHlbhyTe51-7-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;计算代价和频度之间均衡&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="5" width="284" height="120" as="geometry" />
+        <mxCell id="6AUMa2pzRHlbhyTe51-7-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;计算代价和频度之间均衡&lt;/h1&gt;&lt;p&gt;对于一个子事件来说，可能受多个不同的限制条件约束，不同的限制条件的计算代价也是不同的。在事件匹配过程中，事件的频繁发生会生成过多的中间结果。&lt;/p&gt;&lt;p&gt;本文第一次提出频度代价和计算代价模型，从事件匹配角度评估识别子事件代价，子事件频度对最终事件模式识别的价值影响。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="5" width="314" height="171" as="geometry" />
         </mxCell>
         <mxCell id="Tdc0wFD_COagPjeBHscm-1" value="A , A: times &amp;gt;= 3, value &amp;gt; 10, R&lt;sup&gt;2&lt;/sup&gt;&amp;gt;0.95" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="254" y="7" width="243" height="30" as="geometry" />
