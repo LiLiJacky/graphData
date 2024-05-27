@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T14:59:16.805Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="-JihO3rAfEFbjth87u-Y" version="24.4.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-27T15:01:28.201Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="DFGCbsG_NQGmozaQnZrI" version="24.4.8" type="github" pages="3">
   <diagram name="第 1 页" id="DGnfJvfoHmJD62f1YSFq">
     <mxGraphModel dx="2452" dy="1302" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hC9Bq7xoC4xj32XiD1tn" name="第 3 页">
-    <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,6 +169,9 @@
         </mxCell>
         <mxCell id="2MlvWHcVVSx4wjcfHvhn-7" value="SELECT * FROM ILLABT (&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PARTITION BY TANKID ORDER BY tsamp&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PATTERN A+ (AB)+&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DEFINE A AS last(A.tstamp) - first(A.tstamp) BETWEEN INTERVAL &#39;1&#39; DAY AND INTERVAL &#39;2&#39; DAY&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AND man_kendall_test(A.temp) &amp;lt;= -1.0&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;B AS last(B.tstamp) - first(B.tstamp) BETWEEN INTERVAL 15 MIN AND INTERVAL 30 MIN&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AND first(A.temp) &amp;gt;= 1.0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AND last(A.temp) = 0&amp;nbsp;&lt;/div&gt;&lt;div&gt;)&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="101" y="288" width="356" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="2MlvWHcVVSx4wjcfHvhn-9" value="缺点：&lt;div&gt;&amp;nbsp;只能描述单个流中互斥的事件，没办法描述并发事件；&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;没办法描述 finishes、meet 这种在某个事件点状态有重叠的事件。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-78" y="128" width="180" height="156" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
