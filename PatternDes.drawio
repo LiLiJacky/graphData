@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T12:38:49.572Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="nYeMvOVJeEHkp3hFiIO2" version="24.4.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-27T12:39:47.612Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="oY8xunaObhmdnEOF0szG" version="24.4.8" type="github" pages="3">
   <diagram name="第 1 页" id="DGnfJvfoHmJD62f1YSFq">
     <mxGraphModel dx="2452" dy="1302" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -157,6 +157,9 @@
         </mxCell>
         <mxCell id="2MlvWHcVVSx4wjcfHvhn-3" value="SELECT * FROM ILLABT (&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PARTITION BY TANKID ORDER BY tsamp&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PATTERN (A+ B+)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DEFINE A AS last(A.tstamp) - first(A.tstamp) BETWEEN INTERVAL &#39;0.5&#39; DAY AND INTERVAL &#39;2&#39; DAY&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AND man_kendall_test(A.temp) BETWEEN -3.0 and 1&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;B AS last(B.tstamp) - first(B.tstamp) BETWEEN INTERVAL &#39;0.5&#39; DAY AND INTERVAL &#39;1&#39; DAY&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AND man_kendall_test(A.temp) &amp;lt;= -3.0&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;)&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="101" y="91" width="356" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="2MlvWHcVVSx4wjcfHvhn-4" value="MATCH_RECOGINIZE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="97" y="36" width="173" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
