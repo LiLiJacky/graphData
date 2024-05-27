@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T15:01:28.201Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="DFGCbsG_NQGmozaQnZrI" version="24.4.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-27T15:01:34.426Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JiHUR4R7aH_0h2HGjhGh" version="24.4.8" type="github" pages="3">
   <diagram name="第 1 页" id="DGnfJvfoHmJD62f1YSFq">
     <mxGraphModel dx="2452" dy="1302" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -171,7 +171,7 @@
           <mxGeometry x="101" y="288" width="356" height="148" as="geometry" />
         </mxCell>
         <mxCell id="2MlvWHcVVSx4wjcfHvhn-9" value="缺点：&lt;div&gt;&amp;nbsp;只能描述单个流中互斥的事件，没办法描述并发事件；&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;没办法描述 finishes、meet 这种在某个事件点状态有重叠的事件。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-78" y="128" width="180" height="156" as="geometry" />
+          <mxGeometry x="-143" y="128" width="180" height="156" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
