@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T11:13:20.408Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="HNeYZdNKt1o6MLVdi22y" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T11:13:51.283Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="yZD4a7Gibl3pmbFqr7Nn" version="24.4.8" type="github">
   <diagram name="第 1 页" id="DGnfJvfoHmJD62f1YSFq">
-    <mxGraphModel dx="1607" dy="766" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1978" dy="1002" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,10 @@
           <mxGeometry x="1881" y="420" width="335" height="86" as="geometry" />
         </mxCell>
         <mxCell id="eP5wv--7RmJ1oQfR4Wkm-38" value="性质1: 不同利用小尺度事件反推大尺度事件，因为对于小尺度事件来说，看不见大尺度事件的全貌。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1832" y="520" width="329" height="60" as="geometry" />
+          <mxGeometry x="1857" y="540" width="329" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eP5wv--7RmJ1oQfR4Wkm-39" value="取决于Cost，选择计划" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2182" y="321" width="202" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
