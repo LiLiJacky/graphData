@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T10:47:47.855Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3ztFZGXF-5ZUM7quBYe6" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T10:48:26.203Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="1DbnP-OFnPoqPOm14YsS" version="24.4.8" type="github">
   <diagram name="第 1 页" id="DGnfJvfoHmJD62f1YSFq">
-    <mxGraphModel dx="1084" dy="434" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1377" dy="620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,6 +42,9 @@
         </mxCell>
         <mxCell id="eP5wv--7RmJ1oQfR4Wkm-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;E&lt;sub&gt;22&lt;/sub&gt;&lt;/h1&gt;&lt;p&gt;last(E&lt;sub&gt;22&lt;/sub&gt;.tstamp) - first(E&lt;sub&gt;22&lt;/sub&gt;.tstamp) &amp;lt;= INTEVAL &#39;5&#39; DAY&lt;/p&gt;&lt;p&gt;linear_regresion_r2(E&lt;sub&gt;22&lt;/sub&gt;.tstamp, E&lt;sub&gt;22&lt;/sub&gt;.temp) &amp;gt;= 0.95&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="677" y="562" width="359" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="eP5wv--7RmJ1oQfR4Wkm-14" value="E&lt;sub&gt;21&lt;/sub&gt; equals E&lt;sub&gt;22&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1028" y="556" width="112" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
