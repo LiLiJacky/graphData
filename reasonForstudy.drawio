@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T09:33:03.823Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="d_zhLKgeyCJbm_h9GgrG" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T09:36:34.448Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Bnhxua1eXkZqaVMEyzpZ" version="24.6.4" type="github">
   <diagram name="第 1 页" id="2EnNEZ7U64cAqI-8AvmX">
-    <mxGraphModel dx="855" dy="1343" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1026" dy="1451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,6 +159,12 @@
         </mxCell>
         <mxCell id="sG4xh_qIjKNsgw0rfBNS-79" value="C中可能事件量" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1952" y="-467" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-80" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;利用区间事件优化：&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2182" y="-668" width="440" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-81" value="首先确定最粗事件粒度的可能时间跨度，再在单位时间内评估所有可能的最组粒度事件窗口。&lt;div&gt;在自动机层面，多个不确定长度事件已经处于序列发生，所以可以依此计算处于此状态的事件数量。事件数量时间跨度取决于子模式时间跨度约束。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2187" y="-555" width="425" height="88" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
