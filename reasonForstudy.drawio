@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T10:45:13.859Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="nLbFQQPiD2WSn9VqCBXE" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T11:07:58.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="LrnCIVRYx06Xd6fG5gef" version="24.6.4" type="github">
   <diagram name="第 1 页" id="2EnNEZ7U64cAqI-8AvmX">
-    <mxGraphModel dx="977" dy="1420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1865" dy="1984" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,8 +240,23 @@
         <mxCell id="sG4xh_qIjKNsgw0rfBNS-116" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;利用时序关系优化识别：&lt;/h1&gt;&lt;div&gt;因为 DIFF 和 DOWN 是equals的关系，所以将其合并。&lt;/div&gt;&lt;div&gt;并发识别DIFF和UP，再在判断其是否满足during关系。&lt;/div&gt;&lt;div&gt;将累乘的算法复杂度，变成累加，额外还有选择性开销。&lt;/div&gt;&lt;div&gt;根据区间事件的识别规则，数据都是有序的（先按begintime，再按endtime），所以利用双指针算法，最坏情况下是两个数据集数量相加。&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3315" y="-668" width="440" height="149" as="geometry" />
         </mxCell>
-        <mxCell id="sG4xh_qIjKNsgw0rfBNS-117" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;$$\begin{align}&amp;amp;DIFF + DOWN:\sum_{v = 1}^{5} (1854 - v + 1) + \sum_{v = 1}^{5} (1854 - v + 1) + \mathcal{C}(s) = 20,225 + \mathcal{C}(s) \\ &amp;amp;\mathcal{C}_{worst}(s) = DIFF + DOWN;\\ &amp;amp;\mathcal{C}_{best}(s) = 1\end{align}$$&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-117" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;$$\begin{align}&amp;amp;DIFF + DOWN:\sum_{v = 1}^{5} (1854 - v + 1) + \sum_{v = 1}^{5} (1854 - v + 1) + \mathcal{C}(s) = 20,225 + \mathcal{C}(s) \\ &amp;amp;\mathcal{C}_{worst}(s) = N_{DIFF} + N_{DOWN};\\ &amp;amp;\mathcal{C}_{best}(s) = 1 \\&amp;amp;COLD\_WAVE = 20,225 + 20,225 = 40,450\end{align}$$&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3498" y="-559" width="473" height="227" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-118" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;优化效果（计算次数层面）：&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3315" y="-349" width="440" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-119" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$（1 - \frac{40,450}{1,397,185}）\approx 97.10\%&amp;nbsp;$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3393" y="-298" width="321" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-120" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;考虑每个子算法的算法复杂度：&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4185" y="-680" width="440" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-121" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$\begin{align}&amp;amp;COLD\_WAVE_{INTERVAL}:\sum_{w=25}^{30} (1854 - w) w^2 \sum_{v=1}^{5} (w-v+1)v = 3,124,902,765 \\&amp;amp;DIFF:\sum_{v = 1}^{5} (1854 - v + 1)&amp;nbsp; = 9,260\\&amp;amp;DOWN:\sum_{v = 1}^{5} (1854 - v + 1) v = 27,770\\&amp;amp;UP:\sum_{v = 25}^{30} (1854 - v + 1) v^2 = 8,323,300\end{align}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4355" y="-601" width="446" height="227" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-122" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;利用低代价事件作为锚点修剪高代价算法解空间：&lt;br&gt;滑动窗口(60,30) 完整解空间&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;当DIFF来了之后，在其前后求解&amp;nbsp;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5055" y="-685" width="440" height="138" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
