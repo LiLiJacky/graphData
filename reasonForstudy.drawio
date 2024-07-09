@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T09:41:44.361Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="g1nUTr77eeD5sQrj8aRu" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T09:43:34.285Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="I8losXoukVpPQxSdsBsl" version="24.6.4" type="github">
   <diagram name="第 1 页" id="2EnNEZ7U64cAqI-8AvmX">
     <mxGraphModel dx="1026" dy="1451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -163,7 +163,7 @@
         <mxCell id="sG4xh_qIjKNsgw0rfBNS-80" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;利用区间事件优化：&lt;/h1&gt;&lt;div&gt;从粗粒度到细粒度事件，利用层级包含关系，在每个层级利用窗口限制划分成多个子窗口，依次识别。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2182" y="-668" width="440" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="sG4xh_qIjKNsgw0rfBNS-82" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$\sum_{w=25}^{30} (1854 - w) （\sum_{v=0}^{5} (w-v+1)）= 1,397,185$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-82" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$\sum_{w=25}^{30} (1854 - w) （\sum_{v=1}^{5} (w-v+1)）= 1,397,185$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2260" y="-555" width="321" height="64" as="geometry" />
         </mxCell>
         <mxCell id="sG4xh_qIjKNsgw0rfBNS-83" value="UP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
