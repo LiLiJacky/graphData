@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T10:02:47.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="eskSnAxFHa0-wHYB6LAF" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T10:29:20.093Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Nn_GK4pP7kjXauQ5d8YU" version="24.6.4" type="github">
   <diagram name="第 1 页" id="2EnNEZ7U64cAqI-8AvmX">
-    <mxGraphModel dx="1140" dy="1523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="977" dy="1420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -183,6 +183,62 @@
         </mxCell>
         <mxCell id="sG4xh_qIjKNsgw0rfBNS-89" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;留存问题：这里的区间计算是对所有可能的解空间进行求解&lt;/h1&gt;&lt;div&gt;&lt;div&gt;1. 考虑子事件之间的时态逻辑关系；&lt;/div&gt;&lt;div&gt;1. 考虑子事件计算代价不一致；&lt;/div&gt;&lt;div&gt;2. 考虑子事件发生频率不一致；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2182" y="-344" width="440" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-90" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;区间事件的简化表达：&lt;/h1&gt;&lt;div&gt;1. 满足filter的事件区间；&lt;/div&gt;&lt;div&gt;2. 累计事件知道满足某个计算条件或达到时间约束阈值。&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2713" y="-668" width="440" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-113" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2771" y="-555" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sG4xh_qIjKNsgw0rfBNS-113" source="sG4xh_qIjKNsgw0rfBNS-105" target="sG4xh_qIjKNsgw0rfBNS-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-104" value="a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sG4xh_qIjKNsgw0rfBNS-103">
+          <mxGeometry x="0.1953" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-105" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="sG4xh_qIjKNsgw0rfBNS-113">
+          <mxGeometry y="15" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-106" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="sG4xh_qIjKNsgw0rfBNS-113">
+          <mxGeometry x="70" y="15" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sG4xh_qIjKNsgw0rfBNS-113" target="sG4xh_qIjKNsgw0rfBNS-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.70588235294122" y="35" as="targetPoint" />
+            <mxPoint x="110" y="35" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-108" value="a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sG4xh_qIjKNsgw0rfBNS-107">
+          <mxGeometry x="-0.4306" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-109" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="sG4xh_qIjKNsgw0rfBNS-113">
+          <mxGeometry x="140" y="15" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-110" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="sG4xh_qIjKNsgw0rfBNS-113">
+          <mxGeometry x="145" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="sG4xh_qIjKNsgw0rfBNS-113" source="sG4xh_qIjKNsgw0rfBNS-106" target="sG4xh_qIjKNsgw0rfBNS-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="76" />
+              <mxPoint x="104" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-112" value="a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sG4xh_qIjKNsgw0rfBNS-111">
+          <mxGeometry x="0.0196" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-115" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$\begin{align}&amp;amp;DIFF:\sum_{v = 1}^{5} (1854 - v + 1) = 9,260;\ \mathcal{O}(DIFF) = 1 \\&amp;amp;DOWN:\sum_{v = 1}^{5} (1854 - v + 1) = 9,260;\ \mathcal{O}(DOWN) = n \\ &amp;amp;UP:\sum_{v = 25}^{30} (1854 - v + 1) = 10,965;\ \mathcal{O}(UP) = n^2 \end{align}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2755" y="-478" width="446" height="227" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-116" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;利用时序关系优化识别：&lt;/h1&gt;&lt;div&gt;因为 DIFF 和 DOWN 是equals的关系，所以将其合并。&lt;/div&gt;&lt;div&gt;并发识别DIFF和UP，再在判断其是否满足during关系。&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3315" y="-668" width="440" height="93" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
