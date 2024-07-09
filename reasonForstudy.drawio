@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T09:43:34.285Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="I8losXoukVpPQxSdsBsl" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T10:02:47.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="eskSnAxFHa0-wHYB6LAF" version="24.6.4" type="github">
   <diagram name="第 1 页" id="2EnNEZ7U64cAqI-8AvmX">
-    <mxGraphModel dx="1026" dy="1451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1140" dy="1523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,6 +171,18 @@
         </mxCell>
         <mxCell id="sG4xh_qIjKNsgw0rfBNS-84" value="DOWN&amp;amp;DIFF" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2410" y="-575" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-86" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;优化效果（计算次数层面）：&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2182" y="-471" width="440" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-87" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$（1 - \frac{1,397,185}{29,902,157}）\approx 95.33\%&amp;nbsp;$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="-420" width="321" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-88" value="v" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2192" y="-461" width="440" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-89" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;留存问题：这里的区间计算是对所有可能的解空间进行求解&lt;/h1&gt;&lt;div&gt;&lt;div&gt;1. 考虑子事件之间的时态逻辑关系；&lt;/div&gt;&lt;div&gt;1. 考虑子事件计算代价不一致；&lt;/div&gt;&lt;div&gt;2. 考虑子事件发生频率不一致；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2182" y="-344" width="440" height="136" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
