@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T11:07:58.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="LrnCIVRYx06Xd6fG5gef" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T11:09:34.408Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="WT8WwurjwoLlhFECUCMF" version="24.6.4" type="github">
   <diagram name="第 1 页" id="2EnNEZ7U64cAqI-8AvmX">
     <mxGraphModel dx="1865" dy="1984" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -257,6 +257,9 @@
         </mxCell>
         <mxCell id="sG4xh_qIjKNsgw0rfBNS-122" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;利用低代价事件作为锚点修剪高代价算法解空间：&lt;br&gt;滑动窗口(60,30) 完整解空间&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;当DIFF来了之后，在其前后求解&amp;nbsp;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5055" y="-685" width="440" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-123" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;当有多个相同复杂度算法时：&lt;/h1&gt;&lt;div&gt;识别低代价事件代价 * 低代价事件发生频率 * 解空间修剪 * 高代价事件代价 = 总代价&lt;/div&gt;&lt;div&gt;当延迟超过阈值，动态选择代价最小&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5573" y="-676" width="440" height="242" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
