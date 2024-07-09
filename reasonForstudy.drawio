@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T10:29:20.093Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Nn_GK4pP7kjXauQ5d8YU" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T10:42:42.957Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="RcWg7_uKs-9b5Jn8uNbU" version="24.6.4" type="github">
   <diagram name="第 1 页" id="2EnNEZ7U64cAqI-8AvmX">
     <mxGraphModel dx="977" dy="1420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -237,8 +237,11 @@
         <mxCell id="sG4xh_qIjKNsgw0rfBNS-115" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$\begin{align}&amp;amp;DIFF:\sum_{v = 1}^{5} (1854 - v + 1) = 9,260;\ \mathcal{O}(DIFF) = 1 \\&amp;amp;DOWN:\sum_{v = 1}^{5} (1854 - v + 1) = 9,260;\ \mathcal{O}(DOWN) = n \\ &amp;amp;UP:\sum_{v = 25}^{30} (1854 - v + 1) = 10,965;\ \mathcal{O}(UP) = n^2 \end{align}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2755" y="-478" width="446" height="227" as="geometry" />
         </mxCell>
-        <mxCell id="sG4xh_qIjKNsgw0rfBNS-116" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;利用时序关系优化识别：&lt;/h1&gt;&lt;div&gt;因为 DIFF 和 DOWN 是equals的关系，所以将其合并。&lt;/div&gt;&lt;div&gt;并发识别DIFF和UP，再在判断其是否满足during关系。&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-116" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;利用时序关系优化识别：&lt;/h1&gt;&lt;div&gt;因为 DIFF 和 DOWN 是equals的关系，所以将其合并。&lt;/div&gt;&lt;div&gt;并发识别DIFF和UP，再在判断其是否满足during关系。&lt;/div&gt;&lt;div&gt;将累乘的算法复杂度，变成累加，额外还有选择性开销。&lt;/div&gt;&lt;div&gt;根据区间事件的识别规则，数据都是有序的（先按begintime，再按endtime）。&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3315" y="-668" width="440" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="sG4xh_qIjKNsgw0rfBNS-117" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$\begin{align}&amp;amp;DIFF:\sum_{v = 1}^{5} (1854 - v + 1) = 9,260;\ \mathcal{O}(DIFF) = 1 \\&amp;amp;DOWN:\sum_{v = 1}^{5} (1854 - v + 1) = 9,260;\ \mathcal{O}(DOWN) = n \\ &amp;amp;UP:\sum_{v = 25}^{30} (1854 - v + 1) = 10,965;\ \mathcal{O}(UP) = n^2 \end{align}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3365" y="-545" width="446" height="227" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
