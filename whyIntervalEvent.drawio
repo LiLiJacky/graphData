@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T13:41:49.719Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="n_sZR9fTbil2b9rA5gAA" version="24.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-18T02:41:07.549Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="fgQBYpt0MBdGI04Fqm9_" version="24.6.5" type="github" pages="6">
   <diagram name="during" id="qOw1ZXR3t3MQnUwOJxk2">
     <mxGraphModel dx="446" dy="283" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -386,7 +386,7 @@
         <mxCell id="5mottcl_s4XV-tk6dirA-14" value="\begin{align}&amp;amp;(t_1,t_2,t_3,-)\ (t_2,t_3,-) \\&amp;amp;(t_3,-)\end{align}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="566" y="337" width="173" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5mottcl_s4XV-tk6dirA-15" value="$$\begin{align}&amp;amp;(t_1,t_2,t_3,t_4,-)\ (t_2,t_3,t_4,-) \\&amp;amp;(t_3,t_4,-)\ (t4,-)\end{align}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5mottcl_s4XV-tk6dirA-15" value="$$\begin{align}&amp;amp;(t_1,t_2,t_3,t_4,-)\ (t_2,t_3,t_4,-) \\&amp;amp;(t_3,t_4,-)\ (t_4,-)\end{align}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="566" y="377" width="173" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5mottcl_s4XV-tk6dirA-16" value="$${\small \begin{align}&amp;amp;(t_1,t_2,t_3,t_4,t_5,-)(t_2,t_3,t_4,t_5,-)\\&amp;amp;(t_3,t_4,t_5,-)\ (t_4,t_5,-)\ (t_5,-)\end{align}} $$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
