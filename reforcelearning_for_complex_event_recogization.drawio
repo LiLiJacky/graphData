@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-07-26T10:42:55.713Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.3" etag="u_CXDO_7nIbvF5fXP-XL" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-26T10:47:21.936Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="kuSeMrE7gqTI7dSFuP_7" version="24.7.3" type="github">
   <diagram name="第 1 页" id="O8hsLUw52cin_FRzYxNW">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wioiAYtGRYJXvaGIT6RL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wioiAYtGRYJXvaGIT6RL-1" target="wioiAYtGRYJXvaGIT6RL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wioiAYtGRYJXvaGIT6RL-1" value="CER&amp;amp;RL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207" y="228" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wioiAYtGRYJXvaGIT6RL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wioiAYtGRYJXvaGIT6RL-2" target="wioiAYtGRYJXvaGIT6RL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wioiAYtGRYJXvaGIT6RL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wioiAYtGRYJXvaGIT6RL-2" target="wioiAYtGRYJXvaGIT6RL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wioiAYtGRYJXvaGIT6RL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wioiAYtGRYJXvaGIT6RL-2" target="wioiAYtGRYJXvaGIT6RL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wioiAYtGRYJXvaGIT6RL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wioiAYtGRYJXvaGIT6RL-2" target="wioiAYtGRYJXvaGIT6RL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wioiAYtGRYJXvaGIT6RL-2" value="History is a mirror to the future: Best-effort approximate complex event matching with insufficient resource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="109" width="192" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wioiAYtGRYJXvaGIT6RL-4" value="问题对象：多Kleene闭包组成事件的模糊匹配（允许跳过事件）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="21" width="192" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wioiAYtGRYJXvaGIT6RL-6" value="利用A*搜索最有可能完成匹配的runs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="109" width="192" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wioiAYtGRYJXvaGIT6RL-9" value="Q learning 来替代 history sketch，奖励最有可能完成匹配run的选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="197" width="192" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
