@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-26T10:47:21.936Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="kuSeMrE7gqTI7dSFuP_7" version="24.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-26T10:50:25.452Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="NhYlmT13Tnw2B4cubH33" version="24.7.3" type="github">
   <diagram name="第 1 页" id="O8hsLUw52cin_FRzYxNW">
     <mxGraphModel dx="1026" dy="651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -33,6 +33,9 @@
         </mxCell>
         <mxCell id="wioiAYtGRYJXvaGIT6RL-9" value="Q learning 来替代 history sketch，奖励最有可能完成匹配run的选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="625" y="197" width="192" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wioiAYtGRYJXvaGIT6RL-11" value="这篇文章中指的是这些事件匹配代价高，在资源有限的情况下，先找到有可能完成匹配的窗口（找到一个匹配事件），再计算所有可能完成匹配的事件。&lt;div&gt;和我的问题有所不同，我的问题是在资源有限的情况下，事件识别本身的识别代价过高，所以要利用强化学习加快求解速度找到一个可能解。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="866" y="40" width="455" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
