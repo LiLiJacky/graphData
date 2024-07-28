@@ -369,18 +369,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="INi5DH3jXzOYhkhlOejO" name="diff">
-    <mxGraphModel dx="756" dy="438" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="429" dy="249" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MdmzjUPKvgyS5_Bxqfo7-1" value="&lt;b&gt;(a) 基于窗口的DIFF事件检测过程&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="126" y="402.1" width="306" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MdmzjUPKvgyS5_Bxqfo7-2" value="$${\scriptsize \begin{align}&amp;amp;PATTERN\ (A^+\ B) \\&amp;amp;DEFINE\ A\ {\color[RGB]{0,0,245} AS}\&amp;nbsp; tstamp\ -\ first(A.tstamp)\ &amp;lt; \ {\color[RGB]{0,0,245} INTERVAL}\ \&amp;nbsp; &#39;5&#39;\ DAY, \\&amp;amp;\ \ \ \&amp;nbsp; B\ {\color[RGB]{0,0,245} AS}\ tstamp\ -\ first(A.tstamp)\ \leq\ {\color[RGB]{0,0,245} INTERVAL}\ \ &#39;5&#39;\ DAY&amp;nbsp; \\&amp;amp;\ \ \ \ \ \ \ \ \ \ \ \&amp;nbsp; {\color[RGB]{0,0,245} AND}\ B\ -\ first(A.temp)\ &amp;lt;\ -20 \end{align}}&amp;nbsp;$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="107.5" y="427" width="322.5" height="57" as="geometry" />
+        <mxCell id="MdmzjUPKvgyS5_Bxqfo7-2" value="$${\scriptsize \begin{align}&amp;amp;PATTERN\ (A+\ B) \\&amp;amp;DEFINE\ A\ {\color[RGB]{0,0,245} AS}\&amp;nbsp; tstamp\ -\ first(A.tstamp)\ &amp;lt; \ {\color[RGB]{0,0,245} INTERVAL}\ \&amp;nbsp; &#39;5&#39;\ DAY, \\&amp;amp;\ \ \ \&amp;nbsp; B\ {\color[RGB]{0,0,245} AS}\ tstamp\ -\ first(A.tstamp)\ \leq\ {\color[RGB]{0,0,245} INTERVAL}\ \ &#39;5&#39;\ DAY&amp;nbsp; \\&amp;amp;\ \ \ \ \ \ \ \ \ \ \ \&amp;nbsp; {\color[RGB]{0,0,245} AND}\ B\ -\ first(A.temp)\ &amp;lt;\ -20 \end{align}}&amp;nbsp;$$" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="107.5" y="427" width="341.5" height="57" as="geometry" />
         </mxCell>
         <mxCell id="MdmzjUPKvgyS5_Bxqfo7-3" value="&lt;b&gt;(b) Pattern DIFF 的 SQL 格式表达&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="162" y="484" width="218" height="30" as="geometry" />
+          <mxGeometry x="170" y="484" width="218" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MdmzjUPKvgyS5_Bxqfo7-4" value="&lt;b&gt;(d) 基于自动机的DIFF事件检测过程&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="585.05" width="218" height="30" as="geometry" />
@@ -399,9 +399,9 @@
             <mxPoint x="261" y="555.0500000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jrP5NYGC1qevKMbRuAi--4" value="b" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jrP5NYGC1qevKMbRuAi--3" vertex="1" connectable="0">
+        <mxCell id="jrP5NYGC1qevKMbRuAi--4" value="`t_{pe}`" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jrP5NYGC1qevKMbRuAi--3" vertex="1" connectable="0">
           <mxGeometry x="-0.4306" y="1" relative="1" as="geometry">
-            <mxPoint x="4" y="-7" as="offset" />
+            <mxPoint x="3" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jrP5NYGC1qevKMbRuAi--5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -418,13 +418,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jrP5NYGC1qevKMbRuAi--8" value="a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jrP5NYGC1qevKMbRuAi--7" vertex="1" connectable="0">
+        <mxCell id="jrP5NYGC1qevKMbRuAi--8" value="`t_{pe}`" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jrP5NYGC1qevKMbRuAi--7" vertex="1" connectable="0">
           <mxGeometry x="0.0196" relative="1" as="geometry">
             <mxPoint y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jrP5NYGC1qevKMbRuAi--9" value="&lt;b&gt;(c) Pattern DIFF 的自动机形式表达&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="162" y="585.0500000000001" width="218" height="30" as="geometry" />
+          <mxGeometry x="169.25" y="585.0500000000001" width="218" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QO13Kw1hg1u_ICl1bqHM-10" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
           <mxGeometry x="109" y="226" width="340" height="176.0952380952371" as="geometry" />
