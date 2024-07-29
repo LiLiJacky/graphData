@@ -382,8 +382,8 @@
         <mxCell id="MdmzjUPKvgyS5_Bxqfo7-3" value="&lt;b&gt;(b) Pattern DIFF 的 SQL 格式表达&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="484" width="218" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MdmzjUPKvgyS5_Bxqfo7-4" value="&lt;b&gt;(d) 基于自动机的DIFF事件检测过程。简化表达`t_{pe}[i]`为`t_[i]`。&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="480" y="585.05" width="218" height="30" as="geometry" />
+        <mxCell id="MdmzjUPKvgyS5_Bxqfo7-4" value="&lt;b&gt;(d) 基于自动机的DIFF事件检测过程。简化表达`t_{pe}[i]`为`t_[i]`。NFA代表内存中所有状态机实例缓存的数据。&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="453.45" y="585.05" width="292" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jrP5NYGC1qevKMbRuAi--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="jrP5NYGC1qevKMbRuAi--2" edge="1" source="QO13Kw1hg1u_ICl1bqHM-143">
           <mxGeometry relative="1" as="geometry">
