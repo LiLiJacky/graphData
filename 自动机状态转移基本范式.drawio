@@ -53,27 +53,22 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nJh--e99j4ZvcFFyMldi" name="or">
-    <mxGraphModel dx="294" dy="170" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="460" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="o_tw6J-xxkqOj1RT8k4R-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="o_tw6J-xxkqOj1RT8k4R-3">
+        <mxCell id="o_tw6J-xxkqOj1RT8k4R-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;curved=1;" parent="1" source="o_tw6J-xxkqOj1RT8k4R-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="205" as="targetPoint" />
+            <mxPoint x="180" y="205" as="targetPoint" />
             <Array as="points">
               <mxPoint x="122" y="205" />
               <mxPoint x="170" y="205" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="o_tw6J-xxkqOj1RT8k4R-9" value="b" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o_tw6J-xxkqOj1RT8k4R-7">
-          <mxGeometry x="0.0193" y="3" relative="1" as="geometry">
-            <mxPoint x="5" y="-6" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="o_tw6J-xxkqOj1RT8k4R-8" value="a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="o_tw6J-xxkqOj1RT8k4R-3">
+        <mxCell id="o_tw6J-xxkqOj1RT8k4R-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;curved=1;" parent="1" source="o_tw6J-xxkqOj1RT8k4R-3" edge="1">
           <mxGeometry x="0.2757" y="10" relative="1" as="geometry">
-            <mxPoint x="170" y="153" as="targetPoint" />
+            <mxPoint x="180" y="153" as="targetPoint" />
             <Array as="points">
               <mxPoint x="122" y="153" />
               <mxPoint x="156" y="153" />
@@ -81,8 +76,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o_tw6J-xxkqOj1RT8k4R-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="o_tw6J-xxkqOj1RT8k4R-3" value="a|b" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="88" y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8-sumH69YQizzhcGHtBR-3" value="$$begin_b$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="121" y="181" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8-sumH69YQizzhcGHtBR-4" value="$$begin_a$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="121" y="130" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
