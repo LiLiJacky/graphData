@@ -70,7 +70,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o_tw6J-xxkqOj1RT8k4R-3" value="a|b" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="o_tw6J-xxkqOj1RT8k4R-3" value="$$a|b$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="88" y="160" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8-sumH69YQizzhcGHtBR-3" value="$$begin_b$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -83,21 +83,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sIlIL4hKgF5bbz6QYlAe" name="kleene">
-    <mxGraphModel dx="794" dy="460" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="512" dy="297" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0_uetY30Ue6XtvWou8HO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" parent="1" source="0_uetY30Ue6XtvWou8HO-6" edge="1">
+        <mxCell id="0_uetY30Ue6XtvWou8HO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;dashed=1;" parent="1" source="0_uetY30Ue6XtvWou8HO-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="270" as="targetPoint" />
+            <mxPoint x="380" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0_uetY30Ue6XtvWou8HO-5" value="&lt;span style=&quot;color: rgb(32, 33, 36); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: left; text-wrap: wrap;&quot;&gt;ε&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0_uetY30Ue6XtvWou8HO-4" vertex="1" connectable="0">
-          <mxGeometry x="0.1953" y="1" relative="1" as="geometry">
-            <mxPoint x="-7" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0_uetY30Ue6XtvWou8HO-6" value="a[i]" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="0_uetY30Ue6XtvWou8HO-6" value="$$a[i]$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="270" y="250" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0_uetY30Ue6XtvWou8HO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;endArrow=block;endFill=1;" parent="1" source="0_uetY30Ue6XtvWou8HO-6" target="0_uetY30Ue6XtvWou8HO-6" edge="1">
@@ -108,10 +103,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0_uetY30Ue6XtvWou8HO-13" value="take" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0_uetY30Ue6XtvWou8HO-12" vertex="1" connectable="0">
-          <mxGeometry x="0.0196" relative="1" as="geometry">
-            <mxPoint y="-8" as="offset" />
-          </mxGeometry>
+        <mxCell id="z0Diuky8NX67dX2sI5oH-1" value="$$take$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="211" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z0Diuky8NX67dX2sI5oH-3" value="$$proceed$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="246" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
