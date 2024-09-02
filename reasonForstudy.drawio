@@ -265,7 +265,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qahorx81k02YgJnvANZr" name="第 2 页">
-    <mxGraphModel dx="1140" dy="723" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="662" dy="420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -387,7 +387,12 @@
           <mxGeometry x="634" y="595" width="39" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-37" target="wAFI-9b7C1TyvrNjYu_3-51">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="701" y="643" />
+              <mxPoint x="701" y="611" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-55" value="l=0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wAFI-9b7C1TyvrNjYu_3-54">
           <mxGeometry x="-0.6567" y="-1" relative="1" as="geometry">
@@ -461,16 +466,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-69" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1143" y="281" width="51" height="51" as="geometry" />
+          <mxGeometry x="1145" y="156.5" width="51" height="51" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-70" target="wAFI-9b7C1TyvrNjYu_3-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-70" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1219" y="281" width="51" height="51" as="geometry" />
+          <mxGeometry x="1245" y="156.5" width="51" height="51" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-72" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1295" y="281" width="51" height="51" as="geometry" />
+          <mxGeometry x="1345" y="156.5" width="51" height="51" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-74" target="wAFI-9b7C1TyvrNjYu_3-76">
           <mxGeometry relative="1" as="geometry" />
@@ -507,6 +512,39 @@
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-86" value="潜在爆炸性问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="727" y="407" width="53.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-89" value="当前有`C`个中间匹配结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1119" y="118" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-90" value="`N_b` 个事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1243" y="116" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-91" value="下一个c事件到达" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1341" y="118" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-92" value="评估有多少种组合`C_b`，使得满足到转态C的转移" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1212" y="223" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-93" value="`C*C_b`个中间状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1333.25" y="223" width="75.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-94" value="计算代价=组合数量*子事件计算时间复杂度分析" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1216.25" y="278" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-96" target="wAFI-9b7C1TyvrNjYu_3-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-96" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Question&lt;/h1&gt;&lt;p&gt;在现有复杂事件识别时，从左往右顺序识别过程中会计算当前情况下所有可能完成匹配的中间终态，当模式中包含多个无上界Kleene事件和事件选择策略为允许跳过任何事件时，由于每个Kleene事件都是个指数时间求解问题，导致计算当前所有组合变成一个高计算代价问题。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="354" width="285" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-97" target="wAFI-9b7C1TyvrNjYu_3-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-97" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Key point&lt;/h1&gt;&lt;p&gt;利用事件序列要求事件在标量时间轴上的一致性，利用后续匹配事件约束无上界Kleene事件发生的时间范围和值范围，在从左往右的模式识别中，允许&lt;span style=&quot;background-color: initial;&quot;&gt;跳过无上界Kleene事件是否满足值约束的求解。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="354" width="285" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-101" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;带来的问题&lt;/h1&gt;&lt;p&gt;1. 同一起跑线上更慢，延迟处理意味着当事件c到来时，由于延迟处理需要判断之前跳过的Kleene事件值约束是否满足，所以如果和一般方法处于同一状态时更慢；&lt;/p&gt;&lt;p&gt;2. 一定不必要计算，有些Kleene事件没有满足到达下一状态的解；&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1875" y="354" width="285" height="154" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
