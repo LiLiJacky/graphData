@@ -265,7 +265,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qahorx81k02YgJnvANZr" name="第 2 页">
-    <mxGraphModel dx="855" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1140" dy="723" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -275,11 +275,14 @@
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-1" target="wAFI-9b7C1TyvrNjYu_3-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-1" target="wAFI-9b7C1TyvrNjYu_3-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-1" value="复杂事件模式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="245" y="283" width="122" height="30" as="geometry" />
+          <mxGeometry x="245.5" y="151" width="122" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-2" value="事件序列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="422" y="203" width="122" height="30" as="geometry" />
+          <mxGeometry x="422.5" y="71" width="122" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-4" target="wAFI-9b7C1TyvrNjYu_3-6">
           <mxGeometry relative="1" as="geometry" />
@@ -294,31 +297,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-4" value="事件约束关系" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="422" y="344" width="122" height="30" as="geometry" />
+          <mxGeometry x="422.5" y="212" width="122" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-6" target="wAFI-9b7C1TyvrNjYu_3-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-6" value="时间约束" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="584" y="283" width="122" height="30" as="geometry" />
+          <mxGeometry x="584.5" y="151" width="122" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-8" target="wAFI-9b7C1TyvrNjYu_3-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-8" value="数量约束" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="584" y="314" width="122" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wAFI-9b7C1TyvrNjYu_3-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-11" target="wAFI-9b7C1TyvrNjYu_3-17">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="584.5" y="182" width="122" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-11" value="值约束" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="584" y="405" width="122" height="30" as="geometry" />
+          <mxGeometry x="584.5" y="273" width="122" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-13" value="基础约束（不可以被忽略）" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="745" y="299" width="122" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wAFI-9b7C1TyvrNjYu_3-17" value="包含无上界Kleene事件的值约束" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="747" y="386" width="122" height="30" as="geometry" />
+          <mxGeometry x="745.5" y="167" width="122" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-19" target="wAFI-9b7C1TyvrNjYu_3-20">
           <mxGeometry relative="1" as="geometry" />
@@ -459,6 +456,24 @@
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-66" value="指数时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1007" y="621" width="62" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-69" target="wAFI-9b7C1TyvrNjYu_3-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-69" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1143" y="281" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-70" target="wAFI-9b7C1TyvrNjYu_3-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-70" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1219" y="281" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-72" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="281" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-74" value="事件选择策略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="362" width="122" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
