@@ -484,14 +484,29 @@
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-74" value="事件连续性策略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="422.5" y="362" width="122" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-76" target="wAFI-9b7C1TyvrNjYu_3-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-76" value="严格连续" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="584.5" y="320" width="59.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-78" target="wAFI-9b7C1TyvrNjYu_3-83">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-78" value="允许跳过不相关事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="583" y="362" width="86" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-81" target="wAFI-9b7C1TyvrNjYu_3-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-81" value="允许跳过任何事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="584.5" y="407" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-83" value="常数时间问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="724" y="320" width="59.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-86" value="潜在爆炸性问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="727" y="407" width="53.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
