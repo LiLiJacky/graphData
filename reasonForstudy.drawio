@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T11:09:34.408Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="WT8WwurjwoLlhFECUCMF" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.6" pages="2">
   <diagram name="第 1 页" id="2EnNEZ7U64cAqI-8AvmX">
     <mxGraphModel dx="1865" dy="1984" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -260,6 +260,128 @@
         </mxCell>
         <mxCell id="sG4xh_qIjKNsgw0rfBNS-123" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;当有多个相同复杂度算法时：&lt;/h1&gt;&lt;div&gt;识别低代价事件代价 * 低代价事件发生频率 * 解空间修剪 * 高代价事件代价 = 总代价&lt;/div&gt;&lt;div&gt;当延迟超过阈值，动态选择代价最小&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5573" y="-676" width="440" height="242" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qahorx81k02YgJnvANZr" name="第 2 页">
+    <mxGraphModel dx="604" dy="383" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-1" target="wAFI-9b7C1TyvrNjYu_3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-1" target="wAFI-9b7C1TyvrNjYu_3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-1" value="复杂事件模式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="283" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-2" value="事件序列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="422" y="203" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-4" target="wAFI-9b7C1TyvrNjYu_3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-4" target="wAFI-9b7C1TyvrNjYu_3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-4" target="wAFI-9b7C1TyvrNjYu_3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-4" target="wAFI-9b7C1TyvrNjYu_3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-4" value="事件约束关系" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="422" y="344" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-6" target="wAFI-9b7C1TyvrNjYu_3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-6" value="时间约束" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="584" y="283" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-8" target="wAFI-9b7C1TyvrNjYu_3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-8" value="数量约束" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="584" y="314" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-11" target="wAFI-9b7C1TyvrNjYu_3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-11" value="值约束" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="584" y="405" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-13" value="基础约束（不可以被忽略）" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="299" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-17" value="包含无上界Kleene事件的值约束" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="747" y="386" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-19" target="wAFI-9b7C1TyvrNjYu_3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-19" target="wAFI-9b7C1TyvrNjYu_3-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-19" target="wAFI-9b7C1TyvrNjYu_3-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-19" target="wAFI-9b7C1TyvrNjYu_3-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-19" target="wAFI-9b7C1TyvrNjYu_3-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-19" target="wAFI-9b7C1TyvrNjYu_3-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-19" value="事件种类&lt;div&gt;（从事件可能出现次数划分）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="258" y="576" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-20" value="1 or 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="506" y="496" width="51" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-22" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="506" y="529" width="51" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-23" target="wAFI-9b7C1TyvrNjYu_3-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-23" value="{有下界，无上界}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="506" y="562" width="101" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-24" target="wAFI-9b7C1TyvrNjYu_3-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-24" value="{有下界，有上界}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="506" y="595" width="101" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-25" target="wAFI-9b7C1TyvrNjYu_3-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-25" value="{无下界，有上界}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="506" y="628" width="101" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-26" target="wAFI-9b7C1TyvrNjYu_3-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-26" value="{无下界，无上界}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="506" y="661" width="101" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-32" value="{2，} \ +" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="634" y="562" width="49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-36" value="{2，4}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="634" y="595" width="39" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-37" value="{，4}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="634" y="628" width="39" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-38" value="*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="634" y="661" width="39" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
