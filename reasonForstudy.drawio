@@ -265,7 +265,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qahorx81k02YgJnvANZr" name="第 2 页">
-    <mxGraphModel dx="662" dy="420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="821" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -545,6 +545,9 @@
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-101" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;带来的问题&lt;/h1&gt;&lt;p&gt;1. 同一起跑线上更慢，延迟处理意味着当事件c到来时，由于延迟处理需要判断之前跳过的Kleene事件值约束是否满足，所以如果和一般方法处于同一状态时更慢；&lt;/p&gt;&lt;p&gt;2. 一定不必要计算，有些Kleene事件没有满足到达下一状态的解；&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1875" y="354" width="285" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-103" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;核心算法&lt;/h1&gt;&lt;p&gt;Input: Pattern, Constraint, event_stream&lt;/p&gt;&lt;p&gt;NFA &amp;lt;- Parsing(Pattern, Constriant)&lt;/p&gt;&lt;p&gt;while True:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;data_item = event_stream.get()&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NFA.process(data_item)&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;# 修剪超过事件窗口限制的部分匹配结果&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NFA.advance_time()&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;# 修剪部分匹配结果&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if len(NFA.partial_match &amp;gt; limit):&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;NFA.prune_partial_match()&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if NFA.matched:&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Output(NFA.matched)&lt;br&gt;&lt;/p&gt;&lt;p&gt;Output: match_event&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2226" y="151" width="401" height="396" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
