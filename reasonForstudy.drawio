@@ -265,7 +265,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qahorx81k02YgJnvANZr" name="第 2 页">
-    <mxGraphModel dx="604" dy="383" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="892" dy="566" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -341,8 +341,14 @@
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-19" value="事件种类&lt;div&gt;（从事件可能出现次数划分）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="258" y="576" width="187" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-20" target="wAFI-9b7C1TyvrNjYu_3-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-20" value="1 or 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="506" y="496" width="51" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-22" target="wAFI-9b7C1TyvrNjYu_3-46">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-22" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="506" y="529" width="51" height="30" as="geometry" />
@@ -371,17 +377,88 @@
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-26" value="{无下界，无上界}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="506" y="661" width="101" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-32" target="wAFI-9b7C1TyvrNjYu_3-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-32" value="{2，} \ +" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="634" y="562" width="49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-36" target="wAFI-9b7C1TyvrNjYu_3-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-36" value="{2，4}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="634" y="595" width="39" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-37" target="wAFI-9b7C1TyvrNjYu_3-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-55" value="l=0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wAFI-9b7C1TyvrNjYu_3-54">
+          <mxGeometry x="-0.6567" y="-1" relative="1" as="geometry">
+            <mxPoint x="-5" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-37" value="{，4}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="634" y="628" width="39" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-38" target="wAFI-9b7C1TyvrNjYu_3-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-38" value="*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="634" y="661" width="39" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-43" target="wAFI-9b7C1TyvrNjYu_3-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-43" value="`C_n^1 + 1`" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="498" width="98" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-45" value="`O(n)`" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="470" width="98" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-46" target="wAFI-9b7C1TyvrNjYu_3-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-46" value="`C_n^1`" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="529" width="98" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-48" target="wAFI-9b7C1TyvrNjYu_3-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="973" y="577" />
+              <mxPoint x="973" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-48" value="`2^n - C_n^l * 2^{l-2}`" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="563" width="98" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-51" target="wAFI-9b7C1TyvrNjYu_3-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="908.0000000000002" y="610.7500000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-51" value="`\sum_{i=l}^{r}C_n^i`" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="591" width="98" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-56" target="wAFI-9b7C1TyvrNjYu_3-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="973" y="675" />
+              <mxPoint x="973" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-56" value="`2^n`" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="661" width="98" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-59" value="线性时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="901" y="518" width="62" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-64" value="多项式时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="901" y="596.75" width="62" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-66" value="指数时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1007" y="621" width="62" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
