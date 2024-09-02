@@ -314,8 +314,8 @@
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-11" value="值约束" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="584.5" y="273" width="56.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wAFI-9b7C1TyvrNjYu_3-13" value="基础约束（不可以被忽略）" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="695.5" y="167" width="122" height="30" as="geometry" />
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-13" value="基础约束&lt;div&gt;（不可以被忽略）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695.5" y="167" width="103.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-19" target="wAFI-9b7C1TyvrNjYu_3-20">
           <mxGeometry relative="1" as="geometry" />
@@ -475,11 +475,23 @@
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-74" target="wAFI-9b7C1TyvrNjYu_3-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-74" target="wAFI-9b7C1TyvrNjYu_3-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-74" target="wAFI-9b7C1TyvrNjYu_3-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-74" value="事件连续性策略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="422.5" y="362" width="122" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wAFI-9b7C1TyvrNjYu_3-76" value="事件连续性策略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="584.5" y="320" width="93.5" height="30" as="geometry" />
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-76" value="严格连续" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="584.5" y="320" width="59.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-78" value="允许跳过不相关事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="583" y="362" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-81" value="允许跳过任何事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="584.5" y="407" width="86" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
