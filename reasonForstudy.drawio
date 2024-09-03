@@ -265,7 +265,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qahorx81k02YgJnvANZr" name="第 2 页">
-    <mxGraphModel dx="1383" dy="1564" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2183" dy="2006" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -294,6 +294,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-4" target="wAFI-9b7C1TyvrNjYu_3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-4" target="wAFI-9b7C1TyvrNjYu_3-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-4" value="事件约束关系" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -568,7 +571,7 @@
           <mxGeometry x="1042" y="-754" width="630.71" height="341.41" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-113" value="劣势：批处理，不是事件驱动" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1719" y="-661" width="234" height="30" as="geometry" />
+          <mxGeometry x="1690" y="-659" width="234" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-114" value="优势：拆解了模式中的Kleene计算，利用不同子事件算法复杂度优化了求解步骤，并实现了求解子事件的共享" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1724" y="-617" width="312" height="65" as="geometry" />
@@ -580,10 +583,16 @@
           <mxGeometry x="1883" y="-214.64" width="322" height="65" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-117" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;算法复杂度低不代表问题求解规模小&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="793" width="433" height="53" as="geometry" />
+          <mxGeometry x="1207" y="783" width="433" height="53" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-118" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;计算过程中求解规模在变化&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1518" y="873" width="383" height="51" as="geometry" />
+          <mxGeometry x="1205" y="863" width="383" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wAFI-9b7C1TyvrNjYu_3-119" target="wAFI-9b7C1TyvrNjYu_3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-119" value="类型约束" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="584.5" y="217" width="67.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
