@@ -265,7 +265,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qahorx81k02YgJnvANZr" name="第 2 页">
-    <mxGraphModel dx="1975" dy="1891" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1383" dy="1564" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -578,6 +578,12 @@
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-116" value="劣势：带来了延迟和一些本不该被处理的计算，没有考虑不同子事件的计算代价，充分利用事件之间的约束帮助求解" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1883" y="-214.64" width="322" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-117" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;算法复杂度低不代表问题求解规模小&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="793" width="433" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-118" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;计算过程中求解规模在变化&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1518" y="873" width="383" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
