@@ -574,10 +574,10 @@
           <mxGeometry x="1724" y="-617" width="312" height="65" as="geometry" />
         </mxCell>
         <mxCell id="wAFI-9b7C1TyvrNjYu_3-115" value="优势：后处理模式中的Kleene计算，当所有事件完全匹配时，再将Kleene展开计算" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1888" y="-338" width="312" height="65" as="geometry" />
+          <mxGeometry x="1888" y="-300" width="312" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="wAFI-9b7C1TyvrNjYu_3-116" value="劣势：带来了延迟和一些本不该被处理的计算，没有充分利用事件之间的约束帮助求解" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1884" y="-264" width="312" height="65" as="geometry" />
+        <mxCell id="wAFI-9b7C1TyvrNjYu_3-116" value="劣势：带来了延迟和一些本不该被处理的计算，没有考虑不同子事件的计算代价，充分利用事件之间的约束帮助求解" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1883" y="-214.64" width="322" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
