@@ -781,8 +781,8 @@
             <mxPoint y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QO13Kw1hg1u_ICl1bqHM-146" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;`E._{ct}`&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="240" y="539.58" width="58" height="26" as="geometry" />
+        <mxCell id="QO13Kw1hg1u_ICl1bqHM-146" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;`E_{c}`&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="244" y="539.58" width="52" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QO13Kw1hg1u_ICl1bqHM-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
