@@ -698,7 +698,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ky3Zr2wn0c6Usb8g40Cl" name="Kleene被跳过影响了什么">
-    <mxGraphModel dx="715" dy="795" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="883" dy="888" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -732,6 +732,9 @@
         </mxCell>
         <mxCell id="TpT4RF5L66xFpGvwuIpT-5" value="举个例子，如果由点火的热量传递导致明火发生，那么A是通过热传递率和生成的热量确定是否有着火风险，而B是直接通过观察发现着火，所以跳过A的计算并不会影响B的发生，但是会影响这次事故的根因分析的判断" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="423" y="-36.03" width="187" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="TpT4RF5L66xFpGvwuIpT-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;什么时候会出现Kleene闭包事件&lt;/h1&gt;&lt;div&gt;出现组合的事件。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;拓展，比如蒸发率求解，就可以是10s内的数据总和代表蒸发率。比如10s内，删去最高值和最低值，然后求平均，乘单位。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="131" y="289" width="355" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
