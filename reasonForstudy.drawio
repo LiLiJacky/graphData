@@ -698,7 +698,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ky3Zr2wn0c6Usb8g40Cl" name="Kleene被跳过影响了什么">
-    <mxGraphModel dx="1430" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="1190" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -731,7 +731,7 @@
           <mxGeometry x="87" y="108" width="339" height="133" as="geometry" />
         </mxCell>
         <mxCell id="TpT4RF5L66xFpGvwuIpT-5" value="举个例子，如果由点火的热量传递导致明火发生，那么A是通过热传递率和生成的热量确定是否有着火风险，而B是直接通过观察发现着火，所以跳过A的计算并不会影响B的发生，但是会影响这次事故的根因分析的判断" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="515" y="3.969999999999999" width="255" height="98" as="geometry" />
+          <mxGeometry x="523" y="-36.03" width="255" height="98" as="geometry" />
         </mxCell>
         <mxCell id="TpT4RF5L66xFpGvwuIpT-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TpT4RF5L66xFpGvwuIpT-7" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -748,44 +748,73 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F37Zg4pYWZilarlFRSHC-2" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1007" y="76.94" width="40" height="40" as="geometry" />
+          <mxGeometry x="1132" y="-192.99" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="F37Zg4pYWZilarlFRSHC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="F37Zg4pYWZilarlFRSHC-2" target="F37Zg4pYWZilarlFRSHC-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1013" y="61.940000000000026" />
-              <mxPoint x="1041" y="61.940000000000026" />
+              <mxPoint x="1138" y="-207.98999999999998" />
+              <mxPoint x="1166" y="-207.98999999999998" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-4" value="a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F37Zg4pYWZilarlFRSHC-3">
-          <mxGeometry x="0.0196" relative="1" as="geometry">
-            <mxPoint y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="F37Zg4pYWZilarlFRSHC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;dashed=1;" edge="1" parent="1" source="F37Zg4pYWZilarlFRSHC-5" target="F37Zg4pYWZilarlFRSHC-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F37Zg4pYWZilarlFRSHC-5" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1103" y="76.94" width="40" height="40" as="geometry" />
+          <mxGeometry x="1228" y="-192.99" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="F37Zg4pYWZilarlFRSHC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1108.98" y="61.980000000000025" />
-              <mxPoint x="1136.98" y="61.980000000000025" />
+              <mxPoint x="1233.98" y="-207.95" />
+              <mxPoint x="1261.98" y="-207.95" />
             </Array>
-            <mxPoint x="1108.98" y="83.03999999999999" as="sourcePoint" />
-            <mxPoint x="1136.98" y="83.03999999999999" as="targetPoint" />
+            <mxPoint x="1233.98" y="-186.89000000000001" as="sourcePoint" />
+            <mxPoint x="1261.98" y="-186.89000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-7" value="a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F37Zg4pYWZilarlFRSHC-6">
-          <mxGeometry x="0.0196" relative="1" as="geometry">
-            <mxPoint y="-8" as="offset" />
+        <mxCell id="F37Zg4pYWZilarlFRSHC-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F37Zg4pYWZilarlFRSHC-8" target="F37Zg4pYWZilarlFRSHC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1424" y="-172.98999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="F37Zg4pYWZilarlFRSHC-8" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1199" y="76.94" width="40" height="40" as="geometry" />
+          <mxGeometry x="1324" y="-192.99" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F37Zg4pYWZilarlFRSHC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1329.97" y="-207.98" />
+              <mxPoint x="1357.97" y="-207.98" />
+            </Array>
+            <mxPoint x="1329.97" y="-186.92000000000002" as="sourcePoint" />
+            <mxPoint x="1357.97" y="-186.92000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F37Zg4pYWZilarlFRSHC-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="-192.99" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F37Zg4pYWZilarlFRSHC-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="-187.99" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F37Zg4pYWZilarlFRSHC-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;QUESTION&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="523" y="61.97" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F37Zg4pYWZilarlFRSHC-17" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;OTHERS&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="698.25" y="61.97" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F37Zg4pYWZilarlFRSHC-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;INSIGHT&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="61.97" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F37Zg4pYWZilarlFRSHC-19" value="在Kleene闭包的状态中，由于数据的可选择性导致组合爆炸" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="496" y="94" width="125" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="F37Zg4pYWZilarlFRSHC-21" value="延迟处理，忽略无法增量计算分Kleene闭包状态的值约束计算，当其他事件都成功匹配时，重新计算是否有满足约束的组合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="649" y="101.97" width="158.5" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="F37Zg4pYWZilarlFRSHC-22" value="Haopeng Zhang+,&lt;div&gt;SIGMOD 2014,&lt;/div&gt;&lt;div&gt;On Complexity and Optimization of&lt;span style=&quot;background-color: initial;&quot;&gt;Expensive Queries&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;in Complex Event Processing&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="183" width="304" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
