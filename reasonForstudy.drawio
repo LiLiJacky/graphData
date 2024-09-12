@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13" pages="5">
   <diagram name="第 1 页" id="2EnNEZ7U64cAqI-8AvmX">
     <mxGraphModel dx="1865" dy="1984" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -698,13 +698,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ky3Zr2wn0c6Usb8g40Cl" name="Kleene被跳过影响了什么">
-    <mxGraphModel dx="1728" dy="1354" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="2593" dy="1831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="F37Zg4pYWZilarlFRSHC-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1910" y="646" width="268" height="77" as="geometry" />
-        </mxCell>
         <mxCell id="TpT4RF5L66xFpGvwuIpT-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=diamondThin;endFill=0;" parent="1" source="piKP97ct8wdPfyb-cEji-1" target="TpT4RF5L66xFpGvwuIpT-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -747,67 +744,78 @@
         <mxCell id="TpT4RF5L66xFpGvwuIpT-10" value="xx率在LNG Rollover中一般怎么求，发挥什么作用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="549" y="336" width="282" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;QUESTION&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wJW1BHYweq8eMtx9dlQ3" name="INSIGHT分析">
+    <mxGraphModel dx="2074" dy="745" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="646" width="268" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;QUESTION&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="301" y="586" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-17" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;OTHERS&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;OTHERS&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="476.25" y="586" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;QUESTION&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;QUESTION&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="677" y="586" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-19" value="在Kleene闭包的状态中，由于数据的可选择性导致组合爆炸" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-5" value="在Kleene闭包的状态中，由于数据的可选择性导致组合爆炸" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="274" y="618.03" width="125" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-21" value="延迟处理，忽略无法增量计算分Kleene闭包状态的值约束计算，当其他事件都成功匹配时，重新计算是否有满足约束的组合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-6" value="延迟处理，忽略无法增量计算分Kleene闭包状态的值约束计算，当其他事件都成功匹配时，重新计算是否有满足约束的组合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="427" y="626" width="158.5" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-22" value="Haopeng Zhang+,&lt;div&gt;SIGMOD 2014,&lt;/div&gt;&lt;div&gt;On Complexity and Optimization of&lt;span style=&quot;background-color: initial;&quot;&gt;Expensive Queries&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;in Complex Event Processing&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-7" value="Haopeng Zhang+,&lt;div&gt;SIGMOD 2014,&lt;/div&gt;&lt;div&gt;On Complexity and Optimization of&lt;span style=&quot;background-color: initial;&quot;&gt;Expensive Queries&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;in Complex Event Processing&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="305" y="715.03" width="464" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-23" value="将最后所有的值约束匹配都压在了最后一个事件被匹配，会带来明显的计算延迟" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-8" value="将最后所有的值约束匹配都压在了最后一个事件被匹配，会带来明显的计算延迟" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="631" y="622" width="158.5" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-24" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;THINKING&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;THINKING&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1029" y="583" width="108" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="859" y="666" as="sourcePoint" />
             <mxPoint x="937" y="666" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-26" value="跳过状态匹配会导致不满足当前状态的部分匹配进入后续模式匹配的计算。如果一个状态能够有效过滤掉不可能成功的模式匹配，那么跳过它会导致更多的额外本不该存在的计算。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-11" value="跳过状态匹配会导致不满足当前状态的部分匹配进入后续模式匹配的计算。如果一个状态能够有效过滤掉不可能成功的模式匹配，那么跳过它会导致更多的额外本不该存在的计算。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="981" y="618.03" width="210" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-27" value="在求解阶段，能否利用已匹配事件以及模式之间的约束，对跳过状态进行搜索空间的缩减" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-12" value="在求解阶段，能否利用已匹配事件以及模式之间的约束，对跳过状态进行搜索空间的缩减" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="981" y="862" width="210" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1241" y="644" as="sourcePoint" />
             <mxPoint x="1319" y="644" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;MOTIVATED BY&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;MOTIVATED BY&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1396" y="583" width="108" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-30" value="When the presumed cause does not occur, the effect will not occur either" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-15" value="When the presumed cause does not occur, the effect will not occur either" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1375" y="616" width="158.5" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-31" value="Lewis D,&lt;div&gt;Blackwell Publishers 1973,&lt;br&gt;&lt;div&gt;Counterfacutals&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-16" value="Lewis D,&lt;div&gt;Blackwell Publishers 1973,&lt;br&gt;&lt;div&gt;Counterfacutals&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1375" y="693" width="158.5" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-32" value="假设状态所关注的子事件之间存在因果关系，那么我们可以跳过因事件更关注果事件，所以在模式匹配中，不允许跳过每个因果树的根结点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-17" value="假设状态所关注的子事件之间存在因果关系，那么我们可以跳过因事件更关注果事件，所以在模式匹配中，不允许跳过每个因果树的根结点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1597" y="618.03" width="214" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="F37Zg4pYWZilarlFRSHC-34" target="F37Zg4pYWZilarlFRSHC-37">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="JmLLVeXzRgn0oObyLu1e-19" target="JmLLVeXzRgn0oObyLu1e-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-34" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-19" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1950" y="551.01" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="F37Zg4pYWZilarlFRSHC-34" target="F37Zg4pYWZilarlFRSHC-34">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="JmLLVeXzRgn0oObyLu1e-19" target="JmLLVeXzRgn0oObyLu1e-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1956" y="536.01" />
@@ -815,13 +823,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;dashed=1;" edge="1" parent="1" source="F37Zg4pYWZilarlFRSHC-37" target="F37Zg4pYWZilarlFRSHC-40">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;dashed=1;" edge="1" parent="1" source="JmLLVeXzRgn0oObyLu1e-22" target="JmLLVeXzRgn0oObyLu1e-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-37" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-22" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2046" y="551.01" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2051.98" y="536.05" />
@@ -831,15 +839,15 @@
             <mxPoint x="2079.98" y="557.11" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F37Zg4pYWZilarlFRSHC-40" target="F37Zg4pYWZilarlFRSHC-42">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JmLLVeXzRgn0oObyLu1e-25" target="JmLLVeXzRgn0oObyLu1e-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2242" y="571.01" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-40" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-25" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2142" y="551.01" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2147.9700000000003" y="536.02" />
@@ -849,116 +857,116 @@
             <mxPoint x="2175.9700000000003" y="557.0799999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-42" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2238" y="551.01" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-43" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-28" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2243" y="556.01" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F37Zg4pYWZilarlFRSHC-44" target="F37Zg4pYWZilarlFRSHC-45">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JmLLVeXzRgn0oObyLu1e-30" target="JmLLVeXzRgn0oObyLu1e-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-44" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-30" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1944" y="677" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-45" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-31" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2028" y="677" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-47" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-32" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2129" y="677" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-49" value="Causal Forest" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-33" value="Causal Forest" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1910" y="646" width="107" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-51" value="A 导致 C 发生， 所以可以跳过 A 的约束判断&#xa;先判断B，C是否发生，再展开判断A是否发生" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-34" value="A 导致 C 发生， 所以可以跳过 A 的约束判断&#xa;先判断B，C是否发生，再展开判断A是否发生" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2213" y="664" width="259" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-55" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1241" y="900" as="sourcePoint" />
             <mxPoint x="1319" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-56" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;MOTIVATED BY&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-36" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;MOTIVATED BY&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1396" y="839" width="108" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-57" value="利用选择性和廉价的子模式来精简其他子模式的搜索空间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-37" value="利用选择性和廉价的子模式来精简其他子模式的搜索空间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1375" y="872" width="158.5" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-58" value="&lt;div&gt;Silu Huang+,&lt;/div&gt;&lt;div&gt;SIGMOD 2023,&lt;/div&gt;T-REX Optimizing Pattern Search on Time Series" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-38" value="&lt;div&gt;Silu Huang+,&lt;/div&gt;&lt;div&gt;SIGMOD 2023,&lt;/div&gt;T-REX Optimizing Pattern Search on Time Series" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1373" y="943" width="158.5" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-59" value="假设我们有一组被跳过的约束待求解，&lt;div&gt;如何制定求解策略。（贪心）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-39" value="假设我们有一组被跳过的约束待求解，&lt;div&gt;如何制定求解策略。（贪心）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1604" y="872" width="214" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1895" y="862" width="151" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-61" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-41" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1913" y="893" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-62" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-42" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1984" y="893" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-63" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;.SF NS&amp;quot;; color: rgb(14, 14, 14); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;b&gt;Hierarchy&lt;/b&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-43" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;.SF NS&amp;quot;; color: rgb(14, 14, 14); text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;b&gt;Hierarchy&lt;/b&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1895" y="863" width="107" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-64" value="O(B) &amp;gt; O(C)，所以允许先跳过B事件判断，先计算C是否发生，在判断在此之前是否有B发生" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-44" value="O(B) &amp;gt; O(C)，所以允许先跳过B事件判断，先计算C是否发生，在判断在此之前是否有B发生" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2100" y="890.5" width="268" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F37Zg4pYWZilarlFRSHC-65" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;SUMMARIZE&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-45" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;SUMMARIZE&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2587" y="751" width="108" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZbLYJ9ub-ugjBIFaDI-2">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JmLLVeXzRgn0oObyLu1e-47">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3015" y="734" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2815" y="637" width="136" height="194" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4KZbLYJ9ub-ugjBIFaDI-4">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JmLLVeXzRgn0oObyLu1e-49">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2760.935483870968" y="910.0645161290322" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-49" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2784" y="724" width="158" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-8" value="普通事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-50" value="普通事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2819" y="652" width="114" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-9" value="克林闭包事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-51" value="克林闭包事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2819" y="689" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-10" value="以普通事件作为结果的因果链" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-52" value="以普通事件作为结果的因果链" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2819" y="732" width="112" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-11" value="以包含克林闭包事件作为结果的因果链" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-53" value="以包含克林闭包事件作为结果的因果链" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2819" y="785" width="121" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4KZbLYJ9ub-ugjBIFaDI-2" target="4KZbLYJ9ub-ugjBIFaDI-2">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JmLLVeXzRgn0oObyLu1e-47" target="JmLLVeXzRgn0oObyLu1e-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZbLYJ9ub-ugjBIFaDI-14" target="4KZbLYJ9ub-ugjBIFaDI-17">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JmLLVeXzRgn0oObyLu1e-56" target="JmLLVeXzRgn0oObyLu1e-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-14" value="充足证据确定事件发生" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-56" value="充足证据确定事件发生" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3011" y="719" width="88" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZbLYJ9ub-ugjBIFaDI-16" target="4KZbLYJ9ub-ugjBIFaDI-18">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JmLLVeXzRgn0oObyLu1e-58" target="JmLLVeXzRgn0oObyLu1e-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-16" value="求证是什么原因导致事件发生" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-58" value="求证是什么原因导致事件发生" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2731" y="909" width="92" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-17" value="特征：处理时不能被跳过" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-59" value="特征：处理时不能被跳过" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3140" y="719" width="81" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-18" value="处理时，除根节点可以被跳过" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-60" value="处理时，除根节点可以被跳过" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2882" y="909" width="92" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4KZbLYJ9ub-ugjBIFaDI-19" value="在每个层级中，利用算法复杂度优先作为展开顺序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JmLLVeXzRgn0oObyLu1e-61" value="在每个层级中，利用算法复杂度优先作为展开顺序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2801.5" y="599" width="163" height="30" as="geometry" />
         </mxCell>
       </root>
