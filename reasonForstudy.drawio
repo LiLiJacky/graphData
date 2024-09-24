@@ -1133,7 +1133,7 @@
         <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-54" value="当前事件参与的后续事件的约束评估" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3320" y="305.99" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-57" value="选择计算顺序的实质：&lt;div&gt;通过影响`M_P`和`T_{L}`来减少组合数的计算&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-57" value="选择计算顺序的实质：&lt;div&gt;通过影响`M_P`和`T_{L}`来减少整体计算代价&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3195" y="449" width="254" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-58" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
@@ -1144,6 +1144,18 @@
         </mxCell>
         <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-60" value="算的更有效" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3512" y="715.03" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3S2UZLcZ2iJiuD_Pxd_z-61" target="3S2UZLcZ2iJiuD_Pxd_z-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-61" value="结果出现了&amp;nbsp; 必定有原因导致" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3226" y="659" width="254" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-62" value="满足约束的结果出现了&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;必定有满足约束的原因导致&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3226" y="745.03" width="254" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-64" value="？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3364" y="703" width="30" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
