@@ -748,7 +748,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wJW1BHYweq8eMtx9dlQ3" name="INSIGHT分析">
-    <mxGraphModel dx="1037" dy="561" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1257" dy="679" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1114,6 +1114,24 @@
         </mxCell>
         <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-49" value="可以统计" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2323" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-50" value="组合数(以60s为单位作为统一对比标准)：" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2852" y="453" width="180" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3S2UZLcZ2iJiuD_Pxd_z-51" target="3S2UZLcZ2iJiuD_Pxd_z-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3S2UZLcZ2iJiuD_Pxd_z-51" target="3S2UZLcZ2iJiuD_Pxd_z-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-51" value="当前事件对后续事件影响" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3126" y="275.99" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-52" value="后续发生事件的时间（必然）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3325" y="252" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-54" value="当前事件参与的后续事件的约束评估" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3320" y="305.99" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
