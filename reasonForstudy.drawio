@@ -1056,14 +1056,17 @@
         <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-28" value="Composition Cost" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2570" y="316.99" width="128" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-29" value="当前子事件匹配成功率：`E_{MP}`" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-29" value="当前子事件匹配成功率：`M_P`" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2440" y="429" width="127" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-30" value="EVENT MATCHED POSSIBILITY" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-30" value="MATCHED POSSIBILITY" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2572" y="429" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-32" value="可以统计" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2305" y="225" width="89" height="30" as="geometry" />
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-31" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2273" y="227" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-32" value="人工设置，可控，已知" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2159" y="275" width="89" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="2405" y="279" width="20" height="60" as="geometry" />
@@ -1074,13 +1077,19 @@
         <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-36" value="当前子事件选择性：`E_S`" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2438" y="479" width="127" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-37" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2288" y="432" width="20" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-38" value="不可控" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2187" y="453" width="89" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-39" value="事件发展动态决定" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2316" y="429" width="117" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-40" value="静态客观规律" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2308" y="479" width="117" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-41" value="EVENT SELECTIVE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-41" value="SELECTIVE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2565" y="474" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1" source="3S2UZLcZ2iJiuD_Pxd_z-5" target="3S2UZLcZ2iJiuD_Pxd_z-5">
@@ -1102,6 +1111,9 @@
         </mxCell>
         <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-47" value="PATTERN: A{2,3}B{1,2}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2852" y="416" width="180" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="3S2UZLcZ2iJiuD_Pxd_z-49" value="可以统计" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2323" y="225" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
