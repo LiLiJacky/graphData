@@ -38,7 +38,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZsQfJGP2cDztVOhuFyYw" name="问题思考">
-    <mxGraphModel dx="1084" dy="833" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1292" dy="965" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,6 +83,49 @@
         </mxCell>
         <mxCell id="aigkM8CXyTRMuq5jLNZu-19" value="根据假设1，由于B发生A一定发生，所以可以B的解集一定可以投影在A的某个子集上，即B可解一定A可解。这样就减少了由于A可解B不可解的组合进行了剪枝，所以中间匹配结果的组合数一定小于原来的组合数。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="305" y="23.25" width="250" height="104.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aigkM8CXyTRMuq5jLNZu-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1028" y="38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="828" y="-59" width="136" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aigkM8CXyTRMuq5jLNZu-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="773.9354838709678" y="214.0645161290322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="797" y="28" width="158" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-25" value="普通事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="832" y="-44" width="114" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-26" value="克林闭包事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="832" y="-7" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-27" value="以普通事件作为结果的因果链" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="832" y="36" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-28" value="以包含克林闭包事件作为结果的因果链" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="832" y="89" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aigkM8CXyTRMuq5jLNZu-22" target="aigkM8CXyTRMuq5jLNZu-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-30" value="充足证据确定事件发生" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1024" y="23" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-31" value="求证是什么原因导致事件发生" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="744" y="213" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-32" value="在每个层级中，利用算法复杂度优先作为展开顺序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="814.5" y="-97" width="163" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-33" value="&lt;b&gt;目前进度：&lt;/b&gt;&lt;div&gt;在CEP领域找寻一个例子，通过现有因果发现算法计算出因果图，利用因果图制定多Kleene闭包模式的查询计划。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1168" y="-84" width="264" height="124" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
