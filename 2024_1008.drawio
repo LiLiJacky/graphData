@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="2">
   <diagram name="实验探究" id="2BcOkrmBicRuIQC1yzMt">
-    <mxGraphModel dx="1683" dy="813" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2110" dy="1083" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,14 +25,64 @@
         <mxCell id="5Z_fXDEKwbZJyF92QmT3-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;实验结论：&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;由于中间匹配的创建代价远高于读代价，所以尽可能保证少的中间匹配结果能够有效降低整体计算延迟。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1594" y="207" width="345" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="5Z_fXDEKwbZJyF92QmT3-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;实验结论分析：&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;举个例子，比如探究模式为$$P = A\{2,\}\&amp;nbsp; B\{2,\}$$对相同数据生成频率，和事件发生频率，且数据相互独立的`A`和`B`事件进行模式识别。显然`fa=0.5,fb=2`的中间匹配数远大于`fa=2,fb=0.5`。&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1594" y="318" width="345" height="259" as="geometry" />
+        <mxCell id="5Z_fXDEKwbZJyF92QmT3-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;实验结论分析：&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;举个例子，比如探究模式为$$P = A\{2,\}\&amp;nbsp; B\{2,\}$$对相同数据生成频率，和事件发生频率，且数据相互独立的`A`和`B`事件进行模式识别。显然`fa=0.5,fb=2`的中间匹配数远大于`fa=2,fb=0.5`。这里差距不大是因为已经由于组合数已经严重超过处理器计算能力，单个数据的处理延迟已经超过2h，从理论上分析中间匹配数的差距为`2^{2 - 0.5}`&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1594" y="290" width="345" height="259" as="geometry" />
         </mxCell>
         <mxCell id="5Z_fXDEKwbZJyF92QmT3-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#f70202;" vertex="1" parent="1">
           <mxGeometry x="1065" y="187" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5Z_fXDEKwbZJyF92QmT3-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#f70202;" vertex="1" parent="1">
           <mxGeometry x="1508" y="413" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZsQfJGP2cDztVOhuFyYw" name="问题思考">
+    <mxGraphModel dx="1084" dy="833" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-1" value="A" style="ellipse;html=1;aspect=fixed;whiteSpace=wrap;shadow=0;opacity=50;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-93" y="14" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-2" value="B" style="ellipse;html=1;aspect=fixed;whiteSpace=wrap;shadow=0;opacity=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-36" y="18" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-3" value="C" style="ellipse;html=1;aspect=fixed;whiteSpace=wrap;shadow=0;opacity=50;fillColor=#f8cecc;strokeColor=#b85450;direction=south;rotation=5;" vertex="1" parent="1">
+          <mxGeometry x="-63" y="61" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f70202;" vertex="1" parent="1">
+          <mxGeometry x="-33" y="64" width="13" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-9" value="$$P=A^*\ B^*\ C^*$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-11" y="-59" width="124.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-10" value="从选择性角度出发：" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-124" y="-59" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-11" value="假设事件`A\ B\ C`相互独立" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-103" y="-16" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-12" value="A" style="ellipse;html=1;aspect=fixed;whiteSpace=wrap;shadow=0;opacity=50;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="155" y="19" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-13" value="B" style="ellipse;html=1;aspect=fixed;whiteSpace=wrap;shadow=0;opacity=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="172" y="52.5" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-14" value="C" style="ellipse;html=1;aspect=fixed;whiteSpace=wrap;shadow=0;opacity=50;fillColor=#f8cecc;strokeColor=#b85450;direction=south;rotation=5;" vertex="1" parent="1">
+          <mxGeometry x="185" y="66" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f70202;" vertex="1" parent="1">
+          <mxGeometry x="198" y="80" width="13" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-16" value="假设事件`A\ C`和`A\ B`相互独立，&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;`A\rightarrow B`呈因果关系" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="146" y="-16" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-18" value="引入因果假设1：&lt;span style=&quot;text-align: left;&quot;&gt;结果发生原因一定出现，原因出现结果不一定出现&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="123" y="-54" width="224" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigkM8CXyTRMuq5jLNZu-19" value="根据假设1，由于B发生A一定发生，所以可以B的解集一定可以投影在A的某个子集上，即B可解一定A可解。这样就减少了由于A可解B不可解的组合进行了剪枝，所以中间匹配结果的组合数一定小于原来的组合数。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="23.25" width="250" height="104.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
