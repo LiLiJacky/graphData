@@ -182,7 +182,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CTAxBI3Hx9l0w5qY-GSb" name="现有研究调研">
-    <mxGraphModel dx="1683" dy="1613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1084" dy="1233" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -221,6 +221,9 @@
         </mxCell>
         <mxCell id="xe3SkXuuVHz9zEpHh7yw-15" value="核心观点：通过调整计算顺序和子模式之间的共享，来优化全局计算代价" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="167" y="705" width="152" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="xe3SkXuuVHz9zEpHh7yw-16" value="想法：搜索利用因果关系优化Join Query Plan Generation,引用这篇文章证明两个问题等价，然后利用那边的方法优化复杂事件模式识别" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="328" width="212" height="89" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
