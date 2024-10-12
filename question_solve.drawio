@@ -628,6 +628,12 @@
         <mxCell id="yxMzsUbInx-t9ANGKYJj-325" value="Question: 查询所有可能的duration太耗费时间" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="967" y="836" width="260" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="yxMzsUbInx-t9ANGKYJj-326" value="优化的事情以后再想，&lt;div&gt;在这里直接存&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1319" y="534" width="138" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="yxMzsUbInx-t9ANGKYJj-327" value="这里的解决思路就是，和sql的思路一致，&lt;div&gt;先投影，过滤掉可能的事件，根据两个子模式成功匹配的子集&lt;/div&gt;&lt;div&gt;再进行全连接找寻满足时间约束的解&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="639" width="342" height="55" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
