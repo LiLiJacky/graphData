@@ -858,11 +858,11 @@
         <mxCell id="c6MMpByIHRd-GdsYx1Nc-22" value="Solution 1 vs Solution 3:&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1958" y="1044" width="147" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="c6MMpByIHRd-GdsYx1Nc-23" value="S1 延迟低，有些不必要计算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2016" y="1096" width="168" height="26" as="geometry" />
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-23" value="S1 延迟低，有些不必要计算，当理论最大中间匹配数不超过处理能力时选择" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1995" y="1073.49" width="420" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c6MMpByIHRd-GdsYx1Nc-24" value="S2 需要额外时间求解，减少不必要求解" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2016" y="1128.99" width="228" height="26" as="geometry" />
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-24" value="S2 需要额外时间求解，减少不必要求解，当理论最大中间匹配数不超过处理能力时选择" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1995" y="1100" width="480" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
