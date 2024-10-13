@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="solution" id="qw6IBQWtgg2uzaBCxlZd">
-    <mxGraphModel dx="2336" dy="848" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2395" dy="881" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -725,6 +725,63 @@
         </mxCell>
         <mxCell id="ZNG3TC51sU9WlU0XuUPH-127" value="暴露延迟处理的弊端，对于Kleene事件，&lt;div&gt;要尽可能先过滤，再组合，&lt;/div&gt;&lt;div&gt;否则很容易组合爆炸&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-284" y="1073.49" width="256" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-128" value="窗口大小： W" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="921" y="1300" width="93" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-129" value="输入速率： `ER_A` , `ER_B`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="1300" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-130" value="探究组合问题和算法复杂度问题对计算数量的影响：&lt;div&gt;即求解 `2^n` 与 `O(n)`的大小关系&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1316" y="1317" width="294" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-157" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1607" y="1222" width="298" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-131" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="5" y="10" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-132" value="`n`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="36" y="57" width="33" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-133" value="`n^2`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="30" y="121" width="45" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-134" value="`n^3`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="31" y="147" width="45" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-136" value="`nlog(n)`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="21" y="89" width="63" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-139" value="`1`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="36" width="33" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-140" value="`any`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="84" width="45" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-141" value="`log(n)`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="24" y="26" width="57" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-142" value="`n\ge1`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="76" y="27" width="56" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-148" value="`n\ge1`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="81" y="58" width="56" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-149" value="`n\ge1`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="84" y="89" width="56" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-150" value="`n\ge6`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="84" y="121" width="56" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-151" value="`n\ge10`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="78" y="151" width="63" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-152" value="`n^k`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry x="32" y="177" width="44" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-154" value="`n \approx \frac{k}{\ln(2)} \ln\left(\frac{k}{\ln(2)}\right)&amp;nbsp;`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZNG3TC51sU9WlU0XuUPH-157">
+          <mxGeometry y="181" width="298" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
