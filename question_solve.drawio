@@ -723,6 +723,9 @@
         <mxCell id="ZNG3TC51sU9WlU0XuUPH-126" value="如果延迟处理A会导致B到下一状态的转移永远为真，&lt;div&gt;当B是个Kleene闭包时，等于和B数量的幂集作全链接，显然不能接受，&lt;/div&gt;&lt;div&gt;所以只能按顺序处理&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="165" y="1213" width="395" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-127" value="暴露延迟处理的弊端，对于Kleene事件，&lt;div&gt;要尽可能先过滤，再组合，&lt;/div&gt;&lt;div&gt;否则很容易组合爆炸&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-284" y="1073.49" width="256" height="205" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
