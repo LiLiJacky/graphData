@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="solution" id="qw6IBQWtgg2uzaBCxlZd">
-    <mxGraphModel dx="1864" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2685" dy="1041" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -848,6 +848,21 @@
         </mxCell>
         <mxCell id="c6MMpByIHRd-GdsYx1Nc-19" value="所以可以利用&lt;div&gt;算法复杂度优化识别&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1642" y="1679" width="126" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-20" value="`SSD(A) \ge 5`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="797" y="1150" width="97" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-21" value="`AVG(A) = ?`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="803.68" y="1179" width="87" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-22" value="Solution 1 vs Solution 3:&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1958" y="1044" width="147" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-23" value="S1 延迟低，有些不必要计算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2016" y="1096" width="168" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-24" value="S2 需要额外时间求解，减少不必要求解" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2016" y="1128.99" width="228" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
