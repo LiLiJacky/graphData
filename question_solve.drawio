@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="solution" id="qw6IBQWtgg2uzaBCxlZd">
-    <mxGraphModel dx="2230" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2336" dy="848" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -720,8 +720,8 @@
         <mxCell id="ZNG3TC51sU9WlU0XuUPH-125" value="B上的约束完全依赖于A结果的计算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="171" y="1185" width="202" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZNG3TC51sU9WlU0XuUPH-126" value="如果延迟处理A会导致B到下一状态的转移永远为真，&lt;div&gt;当B是个Kleene闭包时，等于和B数量的幂集作全链接，显然不能接受&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="171" y="1220" width="383" height="41" as="geometry" />
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-126" value="如果延迟处理A会导致B到下一状态的转移永远为真，&lt;div&gt;当B是个Kleene闭包时，等于和B数量的幂集作全链接，显然不能接受，&lt;/div&gt;&lt;div&gt;所以只能按顺序处理&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1213" width="395" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
