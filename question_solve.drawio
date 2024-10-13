@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="solution" id="qw6IBQWtgg2uzaBCxlZd">
-    <mxGraphModel dx="3240" dy="1347" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2230" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,7 +148,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yxMzsUbInx-t9ANGKYJj-126" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Situation 1:&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="51" y="204" width="166" height="138" as="geometry" />
+          <mxGeometry x="5" y="206" width="166" height="138" as="geometry" />
         </mxCell>
         <mxCell id="yxMzsUbInx-t9ANGKYJj-128" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="432" y="419.99" width="42" height="42" as="geometry" />
@@ -635,7 +635,93 @@
           <mxGeometry x="1495" y="639" width="342" height="55" as="geometry" />
         </mxCell>
         <mxCell id="ZNG3TC51sU9WlU0XuUPH-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Situation 2:&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="22" y="890" width="166" height="138" as="geometry" />
+          <mxGeometry x="32" y="864" width="166" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZNG3TC51sU9WlU0XuUPH-3" target="ZNG3TC51sU9WlU0XuUPH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-3" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="996" y="1041.01" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZNG3TC51sU9WlU0XuUPH-3" target="ZNG3TC51sU9WlU0XuUPH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1002" y="1030.01" />
+              <mxPoint x="1032" y="1030.01" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-5" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="1041.01" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZNG3TC51sU9WlU0XuUPH-5" target="ZNG3TC51sU9WlU0XuUPH-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1068" y="1031.01" />
+              <mxPoint x="1098" y="1031.01" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-8" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="958" y="1154.99" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZNG3TC51sU9WlU0XuUPH-8" target="ZNG3TC51sU9WlU0XuUPH-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="964" y="1143.99" />
+              <mxPoint x="994" y="1143.99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-10" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1097" y="1154.99" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZNG3TC51sU9WlU0XuUPH-10" target="ZNG3TC51sU9WlU0XuUPH-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1103" y="1144.99" />
+              <mxPoint x="1133" y="1144.99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="1092" as="sourcePoint" />
+            <mxPoint x="1050" y="1141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-13" value="依据Kleene拆分为多个子模式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1072" y="1096" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-14" value="$$B.endtime - A.starttime \leq time\_limit\ and\ MAX(B) + AVG(A) \ge&amp;nbsp; 20$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1421" y="1164.02" width="192" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-15" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.summing_function;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="1164.02" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-16" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.summing_function;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1164.02" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-29" value="$$\begin{align}&amp;amp; P = A\{2,\} B\{2,\} \\&amp;amp; C_V = \{SSD(A) &amp;gt;= 5, AVG(B) &amp;gt;=10, MAX(B) + AVG(A) &amp;gt;= 20\} \\&amp;amp; C_T = \{B.endtime - A.starttime \leq 4\ second\} \end{align}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="97" y="959" width="898" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-121" value="Solution 1:&amp;nbsp; 和 上面方法一样，对于相互独立的约束，独立识别，将有依赖的约束交给where语句之后判断" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="923" y="952" width="248" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-122" value="Solution 2:&amp;nbsp; 根据数据的采集频率，选择低组合数的线计算，再计算缓存数据或者未来数据是否有满足所有约束的结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="923" y="1243" width="248" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-123" value="$$\begin{align}&amp;amp; P = A\{2,\} B\{2,\} \\&amp;amp; C_V = \{SSD(A) &amp;gt;= 5, AVG(B) + AVG(A) &amp;gt;= 20\} \\&amp;amp; C_T = \{B.endtime - A.starttime \leq 4\ second\} \end{align}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="1126" width="818" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-124" value="难以优化的情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="104" y="1085" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-125" value="B上的约束完全依赖于A结果的计算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="171" y="1185" width="202" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNG3TC51sU9WlU0XuUPH-126" value="如果延迟处理A会导致B到下一状态的转移永远为真，&lt;div&gt;当B是个Kleene闭包时，等于和B数量的幂集作全链接，显然不能接受&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="171" y="1220" width="383" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
