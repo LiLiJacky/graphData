@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="solution" id="qw6IBQWtgg2uzaBCxlZd">
-    <mxGraphModel dx="1722" dy="509" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1952" dy="636" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -953,6 +953,12 @@
         </mxCell>
         <mxCell id="c6MMpByIHRd-GdsYx1Nc-55" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="3511.5" y="2146" width="39" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-56" value="两片面包夹芝士！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3811" y="2132" width="114" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-57" value="利用相邻事件约束高组合数事件区间的求解范围" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3754" y="2161" width="270" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
