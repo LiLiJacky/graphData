@@ -876,6 +876,9 @@
         <mxCell id="c6MMpByIHRd-GdsYx1Nc-28" value="对于拆分成多个Kleene子事件的查询，如果组合Kleene组合数处理不来，&lt;div&gt;拆分后处理的来，所以拆分就能有效降低处理延迟&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1995" y="2054" width="405" height="41" as="geometry" />
         </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-29" value="对于单个Kleene就处理不来的，需要尽可能减少问题求解空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3035" y="1083.01" width="343" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
