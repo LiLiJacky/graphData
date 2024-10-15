@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="solution" id="qw6IBQWtgg2uzaBCxlZd">
-    <mxGraphModel dx="1952" dy="636" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2874" dy="1145" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -959,6 +959,30 @@
         </mxCell>
         <mxCell id="c6MMpByIHRd-GdsYx1Nc-57" value="利用相邻事件约束高组合数事件区间的求解范围" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="3754" y="2161" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-58" value="也不对！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3782" y="2195" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c6MMpByIHRd-GdsYx1Nc-59" target="c6MMpByIHRd-GdsYx1Nc-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c6MMpByIHRd-GdsYx1Nc-59" target="c6MMpByIHRd-GdsYx1Nc-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-59" value="实际上问题的本质就是如果能够通过相邻事件，&lt;div&gt;将组合问题限制到一个可以接受的解时间的可解问题&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3674" y="2254" width="294" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-60" value="组合数的上限" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4033" y="2246" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-62" value="Proceed 边的计算条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4033" y="2295" width="138" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-64" value="只有当这两者的乘积在可接受计算范围可解时，&lt;div&gt;复杂事件的处理才不会导致系统崩溃&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4180" y="2259" width="270" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="c6MMpByIHRd-GdsYx1Nc-65" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
+          <mxGeometry x="274" y="946.5" width="51" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
