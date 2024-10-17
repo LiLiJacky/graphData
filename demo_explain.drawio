@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="oGx5aqVjhwPbbsenspfN">
-    <mxGraphModel dx="912" dy="291" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="919" dy="295" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -346,6 +346,9 @@
         </mxCell>
         <mxCell id="AZcYiFU8isNGm3yY8wKM-141" value="$${\tiny procced} $$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="391" y="551" width="124" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AZcYiFU8isNGm3yY8wKM-142" value="(b) 模式查询的`NFA_b`表达" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="212" y="625" width="165" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
