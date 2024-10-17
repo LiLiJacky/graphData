@@ -332,8 +332,8 @@
         <mxCell id="AZcYiFU8isNGm3yY8wKM-79" value="e" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="863" y="431" width="25" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="AZcYiFU8isNGm3yY8wKM-81" value="连续多Kleene" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="716.5" y="629.5" width="91" height="26" as="geometry" />
+        <mxCell id="AZcYiFU8isNGm3yY8wKM-81" value="连续多Kleene事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="704.5" y="629.5" width="115" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AZcYiFU8isNGm3yY8wKM-88" value="$$A^*$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="543.5" y="394" width="63" height="26" as="geometry" />
