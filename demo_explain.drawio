@@ -427,8 +427,13 @@
             <mxPoint x="112" y="664" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VbtsdeK1aLKBnI72WhHH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VbtsdeK1aLKBnI72WhHH-21" target="VbtsdeK1aLKBnI72WhHH-25">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="VbtsdeK1aLKBnI72WhHH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VbtsdeK1aLKBnI72WhHH-24" target="VbtsdeK1aLKBnI72WhHH-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="656" />
+              <mxPoint x="57" y="656" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="VbtsdeK1aLKBnI72WhHH-21" value="`NFA_b`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="19.5" y="615" width="74.5" height="34" as="geometry" />
