@@ -359,7 +359,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VbtsdeK1aLKBnI72WhHH-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-19" y="585" width="275" height="122" as="geometry" />
+          <mxGeometry x="-19" y="585" width="220" height="122" as="geometry" />
         </mxCell>
         <mxCell id="VbtsdeK1aLKBnI72WhHH-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-19" y="402" width="275" height="165" as="geometry" />
@@ -391,7 +391,7 @@
             <Array as="points">
               <mxPoint x="229" y="446" />
               <mxPoint x="229" y="575" />
-              <mxPoint x="45" y="575" />
+              <mxPoint x="65" y="575" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -431,19 +431,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VbtsdeK1aLKBnI72WhHH-21" value="`NFA_b`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="19.5" y="615" width="90" height="34" as="geometry" />
+          <mxGeometry x="19.5" y="615" width="74.5" height="34" as="geometry" />
         </mxCell>
         <mxCell id="VbtsdeK1aLKBnI72WhHH-24" value="BASIC RESULT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="133.5" y="615" width="71" height="34" as="geometry" />
+          <mxGeometry x="116" y="615" width="71" height="34" as="geometry" />
         </mxCell>
         <mxCell id="VbtsdeK1aLKBnI72WhHH-25" value="EXPANDE CACULATOR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="19.5" y="666" width="90" height="34" as="geometry" />
+          <mxGeometry x="19.5" y="666" width="75.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="VbtsdeK1aLKBnI72WhHH-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VbtsdeK1aLKBnI72WhHH-29" target="VbtsdeK1aLKBnI72WhHH-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VbtsdeK1aLKBnI72WhHH-29" value="FINAL RESULT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="133.5" y="666" width="71" height="34" as="geometry" />
+          <mxGeometry x="116" y="666" width="71" height="34" as="geometry" />
         </mxCell>
         <mxCell id="VbtsdeK1aLKBnI72WhHH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VbtsdeK1aLKBnI72WhHH-25" target="VbtsdeK1aLKBnI72WhHH-29">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VbtsdeK1aLKBnI72WhHH-31" value="CE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="221" y="670" width="33" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
