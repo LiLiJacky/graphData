@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="3">
   <diagram name="demo" id="oGx5aqVjhwPbbsenspfN">
-    <mxGraphModel dx="1620" dy="674" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1995" dy="881" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -912,6 +912,12 @@
         </mxCell>
         <mxCell id="8N5znQKD_Wn4NyD0eclj-210" value="并不是所有组合都需要算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1972" y="1545" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-211" value="问题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1421" y="1650" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-212" value="连续Kleene闭包事件的查询，3 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1443" y="1684" width="192" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
