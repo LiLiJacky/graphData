@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="3">
   <diagram name="demo" id="oGx5aqVjhwPbbsenspfN">
-    <mxGraphModel dx="1936" dy="848" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2128" dy="954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -837,6 +837,51 @@
         </mxCell>
         <mxCell id="8N5znQKD_Wn4NyD0eclj-171" value="通过计数概率存储器，存储每个时刻事件的总数，通过左右窗口的概率存储器数字相减，获得具体的数据数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1421" y="1002" width="594" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-185" value="背景" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1406" y="1267" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-186" value="现有方案会选择计算代价低的开始计算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1434" y="1293" width="222" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-187" value="问题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1411" y="1341" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-188" value="执行方案 3 6 计算出满足对应约束的子集后，再进行7判断" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1434" y="1315" width="324" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-189" value="约束3在`N_c`规模下求解代价超过系统限制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1434" y="1365" width="246" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-190" value="优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1411" y="1393" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-191" value="执行方案 6 7 然后生成 7 衍生约束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1426.5" y="1415" width="199" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-197" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="1452" y="1450" width="279" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-198" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8N5znQKD_Wn4NyD0eclj-197">
+          <mxGeometry width="279" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-199" value="10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="8N5znQKD_Wn4NyD0eclj-198">
+          <mxGeometry width="53" height="40" as="geometry">
+            <mxRectangle width="53" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-200" value="C" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="8N5znQKD_Wn4NyD0eclj-198">
+          <mxGeometry x="53" width="56" height="40" as="geometry">
+            <mxRectangle width="56" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-201" value="$$AVG(C) \ge 20 - V_f$$" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="8N5znQKD_Wn4NyD0eclj-198">
+          <mxGeometry x="109" width="170" height="40" as="geometry">
+            <mxRectangle width="170" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-202" value="利用10修剪7求解空间，约束7变成在满足10的组合中查询满足7的组合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1434" y="1505" width="389" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
