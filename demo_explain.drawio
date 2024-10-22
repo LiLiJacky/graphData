@@ -701,7 +701,7 @@
           <mxGeometry x="973.5" y="825" width="195" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8N5znQKD_Wn4NyD0eclj-142" value="因为d 和f并不是连续Kleene，发生时间区间并不相互依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="972" y="1156" width="114" height="26" as="geometry" />
+          <mxGeometry x="1469" y="1198" width="114" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8N5znQKD_Wn4NyD0eclj-143" value="利用计算代价优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="973.5" y="851" width="114" height="26" as="geometry" />
@@ -815,7 +815,7 @@
             <mxRectangle width="135" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8N5znQKD_Wn4NyD0eclj-183" value="$$2^{N_d - 1} \cdot N_d$$" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="8N5znQKD_Wn4NyD0eclj-163">
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-183" value="$$2^{N_f - 1} \cdot N_f \cdot 2^{N_c - 1} \cdot N_c$$" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="8N5znQKD_Wn4NyD0eclj-163">
           <mxGeometry x="195" width="188" height="60" as="geometry">
             <mxRectangle width="188" height="60" as="alternateBounds" />
           </mxGeometry>
