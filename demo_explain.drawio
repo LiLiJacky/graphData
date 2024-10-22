@@ -883,6 +883,33 @@
         <mxCell id="8N5znQKD_Wn4NyD0eclj-202" value="利用10修剪7求解空间，约束7变成在满足10的组合中查询满足7的组合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1434" y="1505" width="389" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-203" value="衍生一致性约束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1972" y="1464" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-204" value="优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1948" y="1436" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-205" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="1979" y="1493" width="279" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-206" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8N5znQKD_Wn4NyD0eclj-205">
+          <mxGeometry width="279" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-207" value="11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="8N5znQKD_Wn4NyD0eclj-206">
+          <mxGeometry width="53" height="40" as="geometry">
+            <mxRectangle width="53" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-208" value="C" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="8N5znQKD_Wn4NyD0eclj-206">
+          <mxGeometry x="53" width="56" height="40" as="geometry">
+            <mxRectangle width="56" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8N5znQKD_Wn4NyD0eclj-209" value="$$MAX(C) \ge 20 - V_f$$" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="8N5znQKD_Wn4NyD0eclj-206">
+          <mxGeometry x="109" width="170" height="40" as="geometry">
+            <mxRectangle width="170" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
