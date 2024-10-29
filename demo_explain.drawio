@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0" pages="4">
   <diagram name="demo" id="oGx5aqVjhwPbbsenspfN">
     <mxGraphModel dx="1995" dy="881" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -1218,6 +1218,44 @@
           <mxGeometry x="270" width="161" height="40" as="geometry">
             <mxRectangle width="161" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WHw3eODmtyGHliw6EGib" name="第 4 页">
+    <mxGraphModel dx="496" dy="314" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IT1uNmQ4eINh2_062sYf-1" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="356" y="259" width="86" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="IT1uNmQ4eINh2_062sYf-2" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="196" y="177" width="195" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="IT1uNmQ4eINh2_062sYf-3" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;shadow=0;opacity=30;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="331" y="157" width="123" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="IT1uNmQ4eINh2_062sYf-4" value="A &amp;gt; C &amp;gt; B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="526" y="240" width="69" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IT1uNmQ4eINh2_062sYf-6" value="C A B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="256" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IT1uNmQ4eINh2_062sYf-7" value="D=3 + avg(C) &amp;gt;10" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="503.5" y="270" width="114" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IT1uNmQ4eINh2_062sYf-8" value="avg(B) + avg(C) &amp;gt; 10" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="513" y="300" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IT1uNmQ4eINh2_062sYf-9" value="两表filter 后 join" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="240" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IT1uNmQ4eINh2_062sYf-10" value="选择表A然后查B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="897" y="244" width="106" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IT1uNmQ4eINh2_062sYf-11" value="Q：重复计算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="889" y="280" width="87" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
