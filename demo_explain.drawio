@@ -1255,7 +1255,16 @@
           <mxGeometry x="897" y="244" width="106" height="26" as="geometry" />
         </mxCell>
         <mxCell id="IT1uNmQ4eINh2_062sYf-11" value="Q：重复计算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="889" y="280" width="87" height="26" as="geometry" />
+          <mxGeometry x="926" y="274" width="87" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IT1uNmQ4eINh2_062sYf-12" value="Q：都得算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="744" y="280" width="75" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IT1uNmQ4eINh2_062sYf-13" value="密集" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="763" y="309" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IT1uNmQ4eINh2_062sYf-14" value="稀疏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="935" y="306" width="42" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
