@@ -1044,10 +1044,8 @@
         <mxCell id="VbtsdeK1aLKBnI72WhHH-10" value="LATENCY CONSTRAIN" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="128" y="480" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VbtsdeK1aLKBnI72WhHH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbtsdeK1aLKBnI72WhHH-13" target="VbtsdeK1aLKBnI72WhHH-21" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint y="612" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="slwAEimuzE9BzIlc5ft0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VbtsdeK1aLKBnI72WhHH-13" target="VbtsdeK1aLKBnI72WhHH-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VbtsdeK1aLKBnI72WhHH-13" value="DATA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="323.5" y="381" width="43.5" height="34" as="geometry" />
