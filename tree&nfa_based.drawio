@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="第 1 页" id="cRwYCJwhifcDmd1cRgD6">
-    <mxGraphModel dx="789" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1283" dy="1213" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -365,6 +365,12 @@
         </mxCell>
         <mxCell id="eghHgmdTf2BA97F43Or8-113" value="Kleene事件与非Kleene事件有约束满足关系，$$-100 \leq B-min(A)\leq 0$$,&lt;div&gt;所以利用非Kleene的值能优化模式识别整体代价&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1765" y="853" width="417" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="eghHgmdTf2BA97F43Or8-114" value="类似于T-Rex的探针，只不过多加一种值类型&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1848" y="940" width="257" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eghHgmdTf2BA97F43Or8-115" value="目的：最小化单个Kleene事件识别代价；&lt;div&gt;通过提前过滤，制定以及最小化JOIN识别代价&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1625" y="594.5" width="261" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
