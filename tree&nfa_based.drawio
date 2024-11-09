@@ -899,8 +899,8 @@
         <mxCell id="PEdTsCEtekuMTc-EeiPs-63" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-60">
           <mxGeometry x="0.5" y="80" width="148.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PEdTsCEtekuMTc-EeiPs-64" value="(c) buffer for match R1&amp;nbsp;&lt;div&gt;under lazy handle&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-60">
-          <mxGeometry x="5" y="78" width="141" height="41" as="geometry" />
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-64" value="(c) Prohibit A from&amp;nbsp;&lt;div&gt;skipping A-type events&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-60">
+          <mxGeometry x="7" y="78" width="138" height="41" as="geometry" />
         </mxCell>
         <mxCell id="PEdTsCEtekuMTc-EeiPs-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PEdTsCEtekuMTc-EeiPs-60">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -980,8 +980,8 @@
         <mxCell id="PEdTsCEtekuMTc-EeiPs-84" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-81">
           <mxGeometry x="0.5" y="80" width="148.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PEdTsCEtekuMTc-EeiPs-85" value="(c) buffer for match R1&amp;nbsp;&lt;div&gt;under lazy handle&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-81">
-          <mxGeometry x="5" y="78" width="141" height="41" as="geometry" />
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-85" value="(d) Missing matches&amp;nbsp;&lt;div&gt;for continue Kleene&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-81">
+          <mxGeometry x="11" y="78" width="129" height="41" as="geometry" />
         </mxCell>
         <mxCell id="PEdTsCEtekuMTc-EeiPs-86" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PEdTsCEtekuMTc-EeiPs-81">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
