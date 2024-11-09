@@ -640,7 +640,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lNIHH_o-9nMG-DLgWGxs" name="第 2 页">
-    <mxGraphModel dx="-802" dy="840" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="-448" dy="1036" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1504,7 +1504,7 @@
             <mxRectangle width="191" height="38" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-159" value="(e) Runs postponig" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-159" value="(g) Runs postponig" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2420" y="170.97" width="119" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-161" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
@@ -1626,6 +1626,9 @@
         </mxCell>
         <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-186" value="(e) An example event sequence" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1775" y="180" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-197" value="(h) Pattern `Q_2` execution Plan under skip till any match and PACEP, for event sequence (e), output CET&amp;nbsp;&lt;span style=&quot;text-align: left; text-wrap: wrap;&quot;&gt;`(a_1,b_1,b_2,b_3,c_1)(a_1,a_2,b_3,c_1)`&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1668" y="445.19" width="811" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
