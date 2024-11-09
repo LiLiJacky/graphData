@@ -640,7 +640,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lNIHH_o-9nMG-DLgWGxs" name="第 2 页">
-    <mxGraphModel dx="-1007" dy="727" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="-718" dy="666" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -728,10 +728,19 @@
             <mxPoint x="31" y="22" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-93" value="`a_2`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-15">
+          <mxGeometry x="0.5" y="54.5" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-97" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PEdTsCEtekuMTc-EeiPs-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="66.5" y="69.95" as="sourcePoint" />
+            <mxPoint x="32" y="69.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PEdTsCEtekuMTc-EeiPs-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PEdTsCEtekuMTc-EeiPs-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="64.63000000000011" y="73" as="sourcePoint" />
-            <mxPoint x="25" y="23" as="targetPoint" />
+            <mxPoint x="66" y="68" as="sourcePoint" />
+            <mxPoint x="29" y="29" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PEdTsCEtekuMTc-EeiPs-24" value="`A`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-2">
@@ -812,10 +821,19 @@
             <mxPoint x="31" y="22" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PEdTsCEtekuMTc-EeiPs-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PEdTsCEtekuMTc-EeiPs-38">
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-100" value="`a_2`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-38">
+          <mxGeometry x="0.5" y="54.5" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-101" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PEdTsCEtekuMTc-EeiPs-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="64.63000000000011" y="73" as="sourcePoint" />
-            <mxPoint x="25" y="23" as="targetPoint" />
+            <mxPoint x="66.5" y="69.95" as="sourcePoint" />
+            <mxPoint x="32" y="69.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-102" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PEdTsCEtekuMTc-EeiPs-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="66" y="68" as="sourcePoint" />
+            <mxPoint x="29" y="29" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PEdTsCEtekuMTc-EeiPs-46" value="`A`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -881,13 +899,22 @@
         <mxCell id="PEdTsCEtekuMTc-EeiPs-63" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-60">
           <mxGeometry x="0.5" y="80" width="148.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PEdTsCEtekuMTc-EeiPs-64" value="(c) Prohibit A from&amp;nbsp;&lt;div&gt;skipping B-type events&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-60">
-          <mxGeometry x="6" y="78" width="139" height="41" as="geometry" />
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-64" value="(c) buffer for match R1&amp;nbsp;&lt;div&gt;under lazy handle&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-60">
+          <mxGeometry x="5" y="78" width="141" height="41" as="geometry" />
         </mxCell>
         <mxCell id="PEdTsCEtekuMTc-EeiPs-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PEdTsCEtekuMTc-EeiPs-60">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="122" y="26" as="sourcePoint" />
             <mxPoint x="83" y="69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-108" value="`a_2`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-60">
+          <mxGeometry x="0.5" y="54" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-109" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PEdTsCEtekuMTc-EeiPs-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="66.5" y="69.44999999999999" as="sourcePoint" />
+            <mxPoint x="32" y="69.44999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PEdTsCEtekuMTc-EeiPs-66" value="`A`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -953,8 +980,8 @@
         <mxCell id="PEdTsCEtekuMTc-EeiPs-84" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-81">
           <mxGeometry x="0.5" y="80" width="148.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PEdTsCEtekuMTc-EeiPs-85" value="(d) Missing matches" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-81">
-          <mxGeometry x="13" y="86" width="125" height="26" as="geometry" />
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-85" value="(c) buffer for match R1&amp;nbsp;&lt;div&gt;under lazy handle&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-81">
+          <mxGeometry x="5" y="78" width="141" height="41" as="geometry" />
         </mxCell>
         <mxCell id="PEdTsCEtekuMTc-EeiPs-86" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PEdTsCEtekuMTc-EeiPs-81">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -962,17 +989,20 @@
             <mxPoint x="83" y="69" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PEdTsCEtekuMTc-EeiPs-90" value="`a_1`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-81">
-          <mxGeometry x="0.5" y="26" width="46" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="PEdTsCEtekuMTc-EeiPs-87" value="`A[i]`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1849" y="117" width="43" height="26" as="geometry" />
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-87" value="`A`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1853" y="117" width="34" height="26" as="geometry" />
         </mxCell>
         <mxCell id="PEdTsCEtekuMTc-EeiPs-88" value="`B[i]`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1904.25" y="117" width="43" height="26" as="geometry" />
         </mxCell>
         <mxCell id="PEdTsCEtekuMTc-EeiPs-89" value="`C`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1955.75" y="117" width="35" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-91" value="$$PATTERN = A B^* C$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1445" y="337" width="153" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-92" value="$$Event Sequence: a_1 b_1 b_2 a_2 b_3 c_1$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="337" width="276" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
