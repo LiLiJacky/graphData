@@ -640,7 +640,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lNIHH_o-9nMG-DLgWGxs" name="第 2 页">
-    <mxGraphModel dx="-64" dy="1248" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="-832" dy="824" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -812,8 +812,8 @@
         <mxCell id="PEdTsCEtekuMTc-EeiPs-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-38">
           <mxGeometry x="-17.5" y="80" width="148.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PEdTsCEtekuMTc-EeiPs-42" value="(b) Prohibit B[i] from&amp;nbsp;&lt;div&gt;skipping B-type events&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-38">
-          <mxGeometry x="-13" y="76" width="139" height="41" as="geometry" />
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-42" value="(b) Prohibit B[i] and C from&amp;nbsp;&lt;div&gt;ignore B-type events&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-38">
+          <mxGeometry x="-25" y="76" width="163" height="41" as="geometry" />
         </mxCell>
         <mxCell id="PEdTsCEtekuMTc-EeiPs-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PEdTsCEtekuMTc-EeiPs-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -905,8 +905,8 @@
         <mxCell id="PEdTsCEtekuMTc-EeiPs-63" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-60">
           <mxGeometry x="-23.5" y="80" width="148.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PEdTsCEtekuMTc-EeiPs-64" value="(c) Prohibit A from&amp;nbsp;&lt;div&gt;skipping B-type events&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-60">
-          <mxGeometry x="-20" y="77" width="139" height="41" as="geometry" />
+        <mxCell id="PEdTsCEtekuMTc-EeiPs-64" value="(c) Prohibit A from&amp;nbsp;&lt;div&gt;ignore B-type events&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PEdTsCEtekuMTc-EeiPs-60">
+          <mxGeometry x="-14" y="77" width="128" height="41" as="geometry" />
         </mxCell>
         <mxCell id="PEdTsCEtekuMTc-EeiPs-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PEdTsCEtekuMTc-EeiPs-60">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
