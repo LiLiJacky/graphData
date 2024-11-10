@@ -1416,8 +1416,8 @@
         <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oaZSTdc3G5KQ0Z6rRHQC-19" target="oaZSTdc3G5KQ0Z6rRHQC-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-159" value="(g) Runs postponig, wrong CET recognization vs ours" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2297.24" y="168.37" width="303" height="26" as="geometry" />
+        <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-159" value="(g) Runs postponig, missing some&lt;div&gt;&amp;nbsp;combinations of a-type events&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2349.24" y="164" width="199" height="41" as="geometry" />
         </mxCell>
         <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-161" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
           <mxGeometry x="1682" y="120" width="420" height="60" as="geometry" />
