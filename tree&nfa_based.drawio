@@ -1354,7 +1354,7 @@
           <mxGeometry x="2673" y="304.93" width="71" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-122" value="$$\dots$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2682" y="402.27000000000004" width="71" height="26" as="geometry" />
+          <mxGeometry x="2594" y="405.81000000000006" width="71" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-129" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
           <mxGeometry x="2249.0000000000005" y="323.2999999999999" width="109.47173864893989" height="86.59826135105234" as="geometry" />
@@ -1502,7 +1502,7 @@
           <mxGeometry x="1775" y="180" width="187" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-197" value="(h) Pattern `Q_2` execution Plan under skip till any match and dynamic procceed condition, for event sequence (e),&amp;nbsp;&lt;div&gt;output CET&amp;nbsp;&lt;span style=&quot;text-align: left; text-wrap: wrap;&quot;&gt;`(a_1,b_1,b_2,b_3,c_1)(a_1,a_2,b_3,c_1)`&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="432" width="632" height="41" as="geometry" />
+          <mxGeometry x="1751.42" y="428.27" width="632" height="41" as="geometry" />
         </mxCell>
         <mxCell id="oaZSTdc3G5KQ0Z6rRHQC-136" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
           <mxGeometry x="2286.7" y="-22" width="324.0756235827653" height="190.3727583936793" as="geometry" />
