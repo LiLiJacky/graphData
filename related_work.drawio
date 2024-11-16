@@ -556,9 +556,6 @@
         <mxCell id="k6qPerHKp9n95LSf9EOA-420" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="801" y="693" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="k6qPerHKp9n95LSf9EOA-423" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="801" y="815" width="20" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="k6qPerHKp9n95LSf9EOA-424" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
           <mxGeometry x="801" y="855" width="20" height="20" as="geometry" />
         </mxCell>
@@ -573,6 +570,9 @@
         </mxCell>
         <mxCell id="k6qPerHKp9n95LSf9EOA-428" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
           <mxGeometry x="801" y="535" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-429" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
+          <mxGeometry x="801" y="814" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
