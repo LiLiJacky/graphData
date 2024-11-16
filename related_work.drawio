@@ -214,8 +214,8 @@
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k6qPerHKp9n95LSf9EOA-199" value="NFA" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="k6qPerHKp9n95LSf9EOA-197">
-          <mxGeometry x="60" width="40" height="40" as="geometry">
+        <mxCell id="k6qPerHKp9n95LSf9EOA-199" value="NFA" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=4;colspan=1;" vertex="1" parent="k6qPerHKp9n95LSf9EOA-197">
+          <mxGeometry x="60" width="40" height="160" as="geometry">
             <mxRectangle width="40" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -252,7 +252,7 @@
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k6qPerHKp9n95LSf9EOA-207" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="k6qPerHKp9n95LSf9EOA-205">
+        <mxCell id="k6qPerHKp9n95LSf9EOA-207" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="k6qPerHKp9n95LSf9EOA-205">
           <mxGeometry x="60" width="40" height="40" as="geometry">
             <mxRectangle width="40" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -290,7 +290,7 @@
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k6qPerHKp9n95LSf9EOA-215" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="k6qPerHKp9n95LSf9EOA-213">
+        <mxCell id="k6qPerHKp9n95LSf9EOA-215" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="k6qPerHKp9n95LSf9EOA-213">
           <mxGeometry x="60" width="40" height="40" as="geometry">
             <mxRectangle width="40" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -328,7 +328,7 @@
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k6qPerHKp9n95LSf9EOA-223" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="k6qPerHKp9n95LSf9EOA-221">
+        <mxCell id="k6qPerHKp9n95LSf9EOA-223" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="k6qPerHKp9n95LSf9EOA-221">
           <mxGeometry x="60" width="40" height="40" as="geometry">
             <mxRectangle width="40" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -540,6 +540,39 @@
         </mxCell>
         <mxCell id="k6qPerHKp9n95LSf9EOA-413" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
           <mxGeometry x="761" y="773" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-414" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="801" y="455" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-415" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="801" y="495" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-417" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="801" y="575" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-418" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="801" y="617" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-420" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="801" y="693" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-423" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="801" y="815" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-424" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
+          <mxGeometry x="801" y="855" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-425" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
+          <mxGeometry x="801" y="653" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-426" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
+          <mxGeometry x="803" y="733" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-427" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
+          <mxGeometry x="801" y="773" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-428" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
+          <mxGeometry x="801" y="535" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
