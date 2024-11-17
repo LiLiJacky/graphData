@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="JBEbYl3QpWLAMV33LVzA">
-    <mxGraphModel dx="588" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1136" dy="448" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,9 +158,6 @@
           <mxGeometry x="260" width="40" height="40" as="geometry">
             <mxRectangle width="40" height="40" as="alternateBounds" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="k6qPerHKp9n95LSf9EOA-176" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="540" y="312" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="k6qPerHKp9n95LSf9EOA-187" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
           <mxGeometry x="531" y="405" width="300" height="40" as="geometry" />
@@ -562,9 +559,6 @@
         <mxCell id="k6qPerHKp9n95LSf9EOA-425" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
           <mxGeometry x="801" y="653" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="k6qPerHKp9n95LSf9EOA-426" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
-          <mxGeometry x="803" y="733" width="20" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="k6qPerHKp9n95LSf9EOA-427" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
           <mxGeometry x="801" y="773" width="20" height="20" as="geometry" />
         </mxCell>
@@ -573,6 +567,9 @@
         </mxCell>
         <mxCell id="k6qPerHKp9n95LSf9EOA-429" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-128.png" vertex="1" parent="1">
           <mxGeometry x="801" y="814" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6qPerHKp9n95LSf9EOA-430" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="801" y="733" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
