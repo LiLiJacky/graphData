@@ -214,14 +214,6 @@
         <mxCell id="aG_MxBD_VVNhu0HVh_8Q-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aG_MxBD_VVNhu0HVh_8Q-132" target="aG_MxBD_VVNhu0HVh_8Q-136">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aG_MxBD_VVNhu0HVh_8Q-363" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aG_MxBD_VVNhu0HVh_8Q-132" target="aG_MxBD_VVNhu0HVh_8Q-130">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="496" y="484" />
-              <mxPoint x="496" y="423" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="aG_MxBD_VVNhu0HVh_8Q-132" value="`a_5a_6`" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="438" y="469" width="47" height="30" as="geometry" />
         </mxCell>
@@ -293,14 +285,6 @@
         </mxCell>
         <mxCell id="aG_MxBD_VVNhu0HVh_8Q-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aG_MxBD_VVNhu0HVh_8Q-161" target="aG_MxBD_VVNhu0HVh_8Q-164">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aG_MxBD_VVNhu0HVh_8Q-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aG_MxBD_VVNhu0HVh_8Q-161" target="aG_MxBD_VVNhu0HVh_8Q-158">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="993" y="386" />
-              <mxPoint x="993" y="325" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="aG_MxBD_VVNhu0HVh_8Q-161" value="2.`a_5a_6`" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="932" y="371" width="47" height="30" as="geometry" />
@@ -586,12 +570,12 @@
         <mxCell id="aG_MxBD_VVNhu0HVh_8Q-349" value="`c_9`" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2048" y="328.5" width="45" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aG_MxBD_VVNhu0HVh_8Q-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aG_MxBD_VVNhu0HVh_8Q-351" target="aG_MxBD_VVNhu0HVh_8Q-353">
+        <mxCell id="aG_MxBD_VVNhu0HVh_8Q-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="aG_MxBD_VVNhu0HVh_8Q-351" target="aG_MxBD_VVNhu0HVh_8Q-353">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aG_MxBD_VVNhu0HVh_8Q-360" value="`P_0`" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aG_MxBD_VVNhu0HVh_8Q-350">
           <mxGeometry x="-0.6695" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="18" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aG_MxBD_VVNhu0HVh_8Q-351" value="2.`a_5a_6`" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -615,8 +599,11 @@
         <mxCell id="aG_MxBD_VVNhu0HVh_8Q-358" value="3. `a_1a_2a_5a_6`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1720" y="260.5" width="119" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aG_MxBD_VVNhu0HVh_8Q-359" value="当5评估失败时，所有关于5的组合都不再需要被评估&lt;div&gt;意味着2及其子集&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1785" y="183" width="295" height="41" as="geometry" />
+        <mxCell id="aG_MxBD_VVNhu0HVh_8Q-359" value="当5评估失败时，所有关于5的组合都不再需要被评估&lt;div&gt;意味着直接与其相连的上一状态事件路径不需要再被评估&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1786" y="183" width="318" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="aG_MxBD_VVNhu0HVh_8Q-366" value="在求解过程中可以查hash表，看子序列是否已经被计算过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1768" y="447" width="320" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
