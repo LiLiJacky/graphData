@@ -331,7 +331,7 @@
             <mxRectangle width="91" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aG_MxBD_VVNhu0HVh_8Q-202" value="Time Cost&lt;div&gt;(total = 128)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aG_MxBD_VVNhu0HVh_8Q-174">
+        <mxCell id="aG_MxBD_VVNhu0HVh_8Q-202" value="Time Cost&lt;div&gt;(total = 130)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aG_MxBD_VVNhu0HVh_8Q-174">
           <mxGeometry x="237" width="135" height="40" as="geometry">
             <mxRectangle width="135" height="40" as="alternateBounds" />
           </mxGeometry>
