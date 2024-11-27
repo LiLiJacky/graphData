@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="第 1 页" id="leZeg3MAa5XpbNi-wINt">
-    <mxGraphModel dx="2138" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2459" dy="916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -599,8 +599,8 @@
         <mxCell id="aG_MxBD_VVNhu0HVh_8Q-358" value="3. `a_1a_2a_5a_6`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1720" y="260.5" width="119" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aG_MxBD_VVNhu0HVh_8Q-359" value="当5评估失败时，所有关于5的组合都不再需要被评估&lt;div&gt;意味着直接与其相连的上一状态事件路径不需要再被评估&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1786" y="183" width="318" height="41" as="geometry" />
+        <mxCell id="aG_MxBD_VVNhu0HVh_8Q-359" value="当5评估失败时，所有关于5的组合都不再需要被评估&lt;div&gt;意味着直接与其相连的上一状态事件路径不需要再被评估&lt;/div&gt;&lt;div&gt;即2 3 都不需要被评估&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1786" y="176" width="318" height="55" as="geometry" />
         </mxCell>
         <mxCell id="aG_MxBD_VVNhu0HVh_8Q-366" value="在求解过程中可以查hash表，看子序列是否已经被计算过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1768" y="447" width="320" height="26" as="geometry" />
