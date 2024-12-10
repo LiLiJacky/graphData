@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1" pages="2">
   <diagram name="第 1 页" id="leZeg3MAa5XpbNi-wINt">
-    <mxGraphModel dx="3004" dy="1090" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1374,11 +1374,64 @@
         <mxCell id="hq1kspzTjz5KOaGtJqbo-10" value="{&#39;a1a2a5a6b7c9&#39;: 1, &#39;a1a2b3b4b7c9&#39;: 1, &#39;a2a5a6b7c9&#39;: 1, &#39;a2b3b4b7c9&#39;: 1, &#39;a5a6b7c9&#39;: 1, &#39;a6b7c9&#39;: 1}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-661" y="663" width="550" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hq1kspzTjz5KOaGtJqbo-11" value="{&#39;a1a2a5a6b7b8c9&#39;: 1, &#39;a1a2b3b4b7b8c9&#39;: 1, &#39;a2a5a6b7b8c9&#39;: 1, &#39;a2b3b4b7b8c9&#39;: 1, &#39;a5a6b7b8c9&#39;: 1, &#39;a6b7b8c9&#39;: 1}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-679" y="764" width="630" height="26" as="geometry" />
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-13" value="右边界是确定的，一定是往左扩展" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1027" y="4" width="198" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hq1kspzTjz5KOaGtJqbo-12" value="尽管proceed边先于take边处理，但是实际过程中，proceed边会将转移状态压入栈中，&lt;div&gt;导致其生成新版本take晚于上一状态的take&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-503" y="865" width="475" height="41" as="geometry" />
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-15" value="实际上231" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1248" y="951" width="74" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-16" value="假设搜索最大的&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1506.14" y="726" width="102" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-17" value="`a_1a_2a_5a_6`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1502" y="806" width="106" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-18" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="806" width="40" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-19" value="`b_3b_4b_7b_8`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1745" y="806" width="106" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-20" value="16" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1524" y="839" width="31" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-21" value="16" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1782.5" y="839" width="31" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-22" value="256个组合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1592" y="876" width="74" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-23" value="计算代价 80&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1501" y="925" width="86" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-24" value="计算代价32" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1754" y="925" width="79" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-26" value="组合代价" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1546" y="981" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-27" value="256" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1623" y="983" width="38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-28" value="总代价368" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1689" y="983" width="74" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hq1kspzTjz5KOaGtJqbo-29" value="还有图构建代价" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1327" y="951" width="102" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Z83d8b-948qNKNPVjKKV" name="第 2 页">
+    <mxGraphModel dx="1026" dy="250" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w1-jKXVK8WfVePFHMiQ6-1" value="{&#39;a1a2a5a6b7b8c9&#39;: 1, &#39;a1a2b3b4b7b8c9&#39;: 1, &#39;a2a5a6b7b8c9&#39;: 1, &#39;a2b3b4b7b8c9&#39;: 1, &#39;a5a6b7b8c9&#39;: 1, &#39;a6b7b8c9&#39;: 1}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="171" y="720" width="630" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="w1-jKXVK8WfVePFHMiQ6-2" value="尽管proceed边先于take边处理，但是实际过程中，proceed边会将转移状态压入栈中，&lt;div&gt;导致其生成新版本take晚于上一状态的take&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="206" y="782" width="475" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
