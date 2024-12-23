@@ -241,10 +241,10 @@
           <mxGeometry x="522" y="227" width="53" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Zgb6_lK5QYEBWif7ZU31-20" value="(a) Density and boil-off rate trends evolving during the stages of a rollover event.&amp;nbsp;&lt;div&gt;\(A^*\) represents the rapid change in the boil-off rate,&lt;/div&gt;&lt;div&gt;&amp;nbsp;and \(B^*\)&amp;nbsp;represents the decrease in the density difference.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-342" y="322" width="447" height="55" as="geometry" />
+          <mxGeometry x="-341" y="335" width="447" height="55" as="geometry" />
         </mxCell>
         <mxCell id="on1-GP9mOOBHt15tOaEN-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="-358" y="380" width="480" height="117.25" as="geometry" />
+          <mxGeometry x="-352" y="412" width="480" height="117.25" as="geometry" />
         </mxCell>
         <mxCell id="on1-GP9mOOBHt15tOaEN-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="on1-GP9mOOBHt15tOaEN-1">
           <mxGeometry width="480" height="40" as="geometry" />
@@ -437,6 +437,9 @@
         </mxCell>
         <mxCell id="on1-GP9mOOBHt15tOaEN-35" value="(b) Pressure trends for real four sequential rollovers spread across the four MARVS-700mbarg-FSRU&amp;nbsp;&lt;div&gt;tanks over a seven-day period. `C` represents the pressure limit for the overhead tank’s security.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="223" y="536" width="559" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="on1-GP9mOOBHt15tOaEN-64" value="(c)&amp;nbsp;Simple data for simulating explanatory examples" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-251" y="543.5" width="293" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
