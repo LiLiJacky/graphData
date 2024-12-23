@@ -212,7 +212,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P3V6StR4U7ePxGz_u0RL" name="第 2 页">
-    <mxGraphModel dx="2281" dy="818" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1881" dy="818" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -438,8 +438,8 @@
         <mxCell id="on1-GP9mOOBHt15tOaEN-35" value="(b) Pressure trends for real four sequential rollovers spread across the four MARVS-700mbarg-FSRU&amp;nbsp;&lt;div&gt;tanks over a seven-day period. `C` represents the pressure limit for the overhead tank’s security.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="223" y="536" width="559" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="on1-GP9mOOBHt15tOaEN-64" value="(c)&amp;nbsp;Simple data for simulating explanatory examples" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-251" y="543.5" width="293" height="26" as="geometry" />
+        <mxCell id="on1-GP9mOOBHt15tOaEN-64" value="(c) Simple data for simulating explanatory examples:&amp;nbsp;&lt;div&gt;`a` for boil-off rate, `b` for density difference, and `c` for tank pressure.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-319.5" y="536" width="390" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
