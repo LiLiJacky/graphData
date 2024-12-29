@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4-MrbjAaQ699RsdmxL0Z" name="研究框架">
-    <mxGraphModel dx="1533" dy="864" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1733" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -200,7 +200,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZFAhumgFLEnGLtVaevDZ-58" value="约束计算代价函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-391" y="-180" width="80" height="40" as="geometry" />
+          <mxGeometry x="-254" y="-180" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZFAhumgFLEnGLtVaevDZ-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-140" y="-211" width="150" height="400" as="geometry" />
