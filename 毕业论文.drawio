@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.1" pages="3">
   <diagram name="系统架构" id="ftUjD33QRdSBt27RrCPe">
     <mxGraphModel dx="1464" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -80,56 +80,56 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4-MrbjAaQ699RsdmxL0Z" name="研究框架">
-    <mxGraphModel dx="1733" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2395" dy="1281" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-290" y="-211" width="150" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-1" target="ZFAhumgFLEnGLtVaevDZ-14">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-1" target="ZFAhumgFLEnGLtVaevDZ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-1" value="数&lt;div&gt;据&lt;/div&gt;&lt;div&gt;流&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-1" value="数&lt;div&gt;据&lt;/div&gt;&lt;div&gt;流&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="-606" y="-48" width="30" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-3" target="ZFAhumgFLEnGLtVaevDZ-6">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-3" target="ZFAhumgFLEnGLtVaevDZ-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-3" value="模式" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-3" value="模式" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="-603" y="-210" width="30" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-566" y="-211" width="276" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-5" value="基于自动机的&lt;div&gt;模式基础解集识别&lt;/div&gt;&lt;div&gt;（第三章）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-5" value="基于自动机的&lt;div&gt;模式基础解集识别&lt;/div&gt;&lt;div&gt;（第三章）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="-566" y="-271" width="276" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-6" target="ZFAhumgFLEnGLtVaevDZ-10">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-6" target="ZFAhumgFLEnGLtVaevDZ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-6" target="ZFAhumgFLEnGLtVaevDZ-11">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-6" target="ZFAhumgFLEnGLtVaevDZ-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-6" target="ZFAhumgFLEnGLtVaevDZ-58">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-6" target="ZFAhumgFLEnGLtVaevDZ-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-6" value="模式解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-6" value="模式解析" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-512.5" y="-180" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-10" target="ZFAhumgFLEnGLtVaevDZ-14">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-10" target="ZFAhumgFLEnGLtVaevDZ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-10" value="基础约束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-10" value="基础约束" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-560" y="-105" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-11" target="ZFAhumgFLEnGLtVaevDZ-14">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-11" target="ZFAhumgFLEnGLtVaevDZ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-11" value="延迟计算约束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-11" value="延迟计算约束" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-469" y="-105" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-14" target="ZFAhumgFLEnGLtVaevDZ-18">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-14" target="ZFAhumgFLEnGLtVaevDZ-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-473" y="42" />
@@ -137,16 +137,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-14" target="ZFAhumgFLEnGLtVaevDZ-19">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-14" target="ZFAhumgFLEnGLtVaevDZ-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-14" value="`NFA_b`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-14" value="`NFA_b`" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-512.5" y="-18" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-18" target="ZFAhumgFLEnGLtVaevDZ-30">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-18" target="ZFAhumgFLEnGLtVaevDZ-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-18" target="ZFAhumgFLEnGLtVaevDZ-73">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-18" target="ZFAhumgFLEnGLtVaevDZ-73" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-520" y="173" />
@@ -155,10 +155,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-18" value="模式基础解&lt;div&gt;解集&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-18" value="模式基础解&lt;div&gt;解集&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-560" y="116" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-19" target="ZFAhumgFLEnGLtVaevDZ-26">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-19" target="ZFAhumgFLEnGLtVaevDZ-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-282" y="81" />
@@ -166,62 +166,175 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-19" value="延迟计算&lt;div&gt;约束集&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-19" value="延迟计算&lt;div&gt;约束集&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-471" y="61" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-23" value="基于树的&lt;span style=&quot;background-color: initial;&quot;&gt;模式基础解&lt;/span&gt;&lt;div&gt;&lt;div&gt;展开及延迟约束计算&lt;/div&gt;&lt;div&gt;（第四章）&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-23" value="基于树的&lt;span style=&quot;background-color: initial;&quot;&gt;模式基础解&lt;/span&gt;&lt;div&gt;&lt;div&gt;展开及延迟约束计算&lt;/div&gt;&lt;div&gt;（第四章）&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="-290" y="-271" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-26" target="ZFAhumgFLEnGLtVaevDZ-33">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-26" target="ZFAhumgFLEnGLtVaevDZ-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-26" value="约束求解&lt;div&gt;计划&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-26" value="约束求解&lt;div&gt;计划&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-254" y="-101" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-30" target="ZFAhumgFLEnGLtVaevDZ-26">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-30" target="ZFAhumgFLEnGLtVaevDZ-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-30" value="模式基础解" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-30" value="模式基础解" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-389" y="116" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-33" target="ZFAhumgFLEnGLtVaevDZ-37">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-33" target="ZFAhumgFLEnGLtVaevDZ-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-33" value="约束求解器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-33" value="约束求解器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-254" y="-14" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-37" value="复杂事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-37" value="复杂事件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-254" y="73" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-58" target="ZFAhumgFLEnGLtVaevDZ-26">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-58" target="ZFAhumgFLEnGLtVaevDZ-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-58" target="ZFAhumgFLEnGLtVaevDZ-73">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-58" target="ZFAhumgFLEnGLtVaevDZ-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-58" value="约束计算代价函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-58" value="约束计算代价函数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-254" y="-180" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-140" y="-211" width="150" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-71" value="基于模式基础解解集的&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;展开计算优化&lt;/span&gt;&lt;div&gt;（第五章）&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-71" value="基于模式基础解解集的&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;展开计算优化&lt;/span&gt;&lt;div&gt;（第五章）&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="-140" y="-271" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-73" target="ZFAhumgFLEnGLtVaevDZ-75">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-73" target="ZFAhumgFLEnGLtVaevDZ-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-73" value="约束求解&lt;div&gt;计划&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-73" value="约束求解&lt;div&gt;计划&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-104" y="-101" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFAhumgFLEnGLtVaevDZ-75" target="ZFAhumgFLEnGLtVaevDZ-76">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZFAhumgFLEnGLtVaevDZ-75" target="ZFAhumgFLEnGLtVaevDZ-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-75" value="约束求解器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-75" value="约束求解器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-104" y="-14" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZFAhumgFLEnGLtVaevDZ-76" value="复杂事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFAhumgFLEnGLtVaevDZ-76" value="复杂事件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-104" y="73" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5o16jpwQmChBG9ujE9fu" name="NFA结构">
+    <mxGraphModel dx="680" dy="-25" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e63lQH-hVXBlDnza6mMO-17" value="$$begin$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="269" y="582" width="74" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-21" value="$$proceed$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="582" width="88" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-12" value="$$proceed$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="171" y="582" width="88" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEXR2095yHYUCN3oyIRB-1" target="e63lQH-hVXBlDnza6mMO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEXR2095yHYUCN3oyIRB-1" value="a[1]" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="62" y="584" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="e63lQH-hVXBlDnza6mMO-1" target="e63lQH-hVXBlDnza6mMO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-1" value="a[i]" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="147" y="584" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e63lQH-hVXBlDnza6mMO-2" target="e63lQH-hVXBlDnza6mMO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-2" value="b[1]" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="247" y="584" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="e63lQH-hVXBlDnza6mMO-3" target="e63lQH-hVXBlDnza6mMO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-3" value="b[i]" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="584" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e63lQH-hVXBlDnza6mMO-4" target="e63lQH-hVXBlDnza6mMO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-4" value="c" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="584" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-10" value="$$begin$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="84" y="582" width="74" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="61" y="603.87" as="sourcePoint" />
+            <mxPoint x="62" y="603.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="493" y="584" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="e63lQH-hVXBlDnza6mMO-18">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-6" value="F" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="e63lQH-hVXBlDnza6mMO-18">
+          <mxGeometry x="5" y="5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1" source="e63lQH-hVXBlDnza6mMO-1" target="e63lQH-hVXBlDnza6mMO-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="181" y="571" />
+              <mxPoint x="153" y="571" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="e63lQH-hVXBlDnza6mMO-1" target="e63lQH-hVXBlDnza6mMO-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="153" y="637" />
+              <mxPoint x="181" y="637" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-24" value="$$ignore$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="128" y="550" width="78" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-25" value="$$take$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="133.5" y="632" width="67" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="590" as="sourcePoint" />
+            <mxPoint x="336" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="364" y="571" />
+              <mxPoint x="336" y="571" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-28" value="$$ignore$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="311" y="550" width="78" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="336" y="618" as="sourcePoint" />
+            <mxPoint x="364" y="618" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="336" y="637" />
+              <mxPoint x="364" y="637" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e63lQH-hVXBlDnza6mMO-30" value="$$take$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="316.5" y="632" width="67" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
