@@ -685,6 +685,15 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="f-UlcNOTTG-QxhOEeBMk-125" value="A事件缓冲区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435.68" y="320.79" width="86" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="f-UlcNOTTG-QxhOEeBMk-126" value="B事件缓冲区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635.6800000000001" y="320" width="86" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="f-UlcNOTTG-QxhOEeBMk-127" value="C事件缓冲区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835.6800000000001" y="230" width="87" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
