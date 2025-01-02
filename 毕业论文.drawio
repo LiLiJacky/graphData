@@ -510,7 +510,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wmLUWEjw94g2xEIUt1FI" name="rollover查询计划">
-    <mxGraphModel dx="641" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="977" dy="1019" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -712,7 +712,7 @@
         <mxCell id="1rpHblN-Ws0-sYF23vnC-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="E_02fUfrQ4SId_VaX_4O-2" target="1rpHblN-Ws0-sYF23vnC-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E_02fUfrQ4SId_VaX_4O-2" value="\(A^*B^*\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E_02fUfrQ4SId_VaX_4O-2" value="\(B^*C\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="648.6800000000001" y="9" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1rpHblN-Ws0-sYF23vnC-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="E_02fUfrQ4SId_VaX_4O-3" target="E_02fUfrQ4SId_VaX_4O-2">
@@ -825,6 +825,21 @@
           <mxGeometry x="110" width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1rpHblN-Ws0-sYF23vnC-25" value="\(b[i] &amp;lt; b[i-1]\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="702" y="162" width="89" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1rpHblN-Ws0-sYF23vnC-26" value="\(standard\_deviation(A)&amp;gt;=60\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="484" y="162" width="181" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RRs2gKnbXrYPr8Sq0rnn-1" value="\(c&amp;gt;=250\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="854.35" y="162" width="73" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RRs2gKnbXrYPr8Sq0rnn-2" value="\(b.end\_time \ge c.start\_time\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="743.3499999999999" y="57" width="184" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RRs2gKnbXrYPr8Sq0rnn-3" value="\(a.end\_time \ge b.start\_time\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="629.9999999999999" y="-60" width="185" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
