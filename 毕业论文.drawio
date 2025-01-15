@@ -227,7 +227,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5o16jpwQmChBG9ujE9fu" name="NFA结构">
-    <mxGraphModel dx="619" dy="-58" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="658" dy="-37" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -443,6 +443,32 @@
         </mxCell>
         <mxCell id="ns913S-Dk1e2olF_SlhS-18" value="$$ignore$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="411" y="549" width="78" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ns913S-Dk1e2olF_SlhS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="181" y="529" as="sourcePoint" />
+            <mxPoint x="153" y="529" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="181" y="510" />
+              <mxPoint x="153" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ns913S-Dk1e2olF_SlhS-20" value="$$ignore$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="128" y="488" width="78" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ns913S-Dk1e2olF_SlhS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="529" as="sourcePoint" />
+            <mxPoint x="337" y="529" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="365" y="510" />
+              <mxPoint x="337" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ns913S-Dk1e2olF_SlhS-22" value="$$ignore$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="312" y="488" width="78" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
