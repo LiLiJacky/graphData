@@ -227,7 +227,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5o16jpwQmChBG9ujE9fu" name="NFA结构">
-    <mxGraphModel dx="500" dy="-83" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="260" dy="-235" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -270,12 +270,13 @@
         <mxCell id="e63lQH-hVXBlDnza6mMO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="e63lQH-hVXBlDnza6mMO-4" target="e63lQH-hVXBlDnza6mMO-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eJK74D14GgSAj56wCk-M-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="e63lQH-hVXBlDnza6mMO-4" target="eJK74D14GgSAj56wCk-M-5" edge="1">
+        <mxCell id="eJK74D14GgSAj56wCk-M-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e63lQH-hVXBlDnza6mMO-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="450" y="674" />
               <mxPoint x="504" y="674" />
             </Array>
+            <mxPoint x="504" y="674" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e63lQH-hVXBlDnza6mMO-4" value="c" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
