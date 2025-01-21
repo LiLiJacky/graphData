@@ -49,8 +49,8 @@
         <mxCell id="fXs3boSctw2sz8lxsiaO-15" value="`log_{10}处理延迟` (ms)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="-461.5" y="328.66" width="145" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fXs3boSctw2sz8lxsiaO-16" value="`log_{10}吞吐量`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="-46.5" y="321" width="106" height="26" as="geometry" />
+        <mxCell id="fXs3boSctw2sz8lxsiaO-16" value="`log_{10}吞吐量`(个\ms)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-65.5" y="321" width="145" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fXs3boSctw2sz8lxsiaO-17" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-287" y="206" width="198" height="26" as="geometry" />
@@ -129,8 +129,8 @@
         <mxCell id="GIlVcKLjbdPtvW_rwbg1-15" value="`log_{10}处理延迟` (ms)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="-461.5" y="328.66" width="145" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GIlVcKLjbdPtvW_rwbg1-16" value="`log_{10}吞吐量`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="-46.5" y="321" width="106" height="26" as="geometry" />
+        <mxCell id="GIlVcKLjbdPtvW_rwbg1-16" value="`log_{10}吞吐量`(个\ms)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-65.5" y="321" width="145" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GIlVcKLjbdPtvW_rwbg1-17" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-287" y="206" width="198" height="26" as="geometry" />
