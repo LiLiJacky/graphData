@@ -19,9 +19,6 @@
         <mxCell id="fXs3boSctw2sz8lxsiaO-8" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-425" y="552" width="46" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="fXs3boSctw2sz8lxsiaO-9" value="平均内存占用(`log_10`）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textDirection=vertical-lr;" vertex="1" parent="1">
-          <mxGeometry x="-464" y="608" width="150" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="fXs3boSctw2sz8lxsiaO-20" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="115" y="485" width="191" height="14" as="geometry" />
         </mxCell>
@@ -69,6 +66,15 @@
         </mxCell>
         <mxCell id="fXs3boSctw2sz8lxsiaO-26" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;窗口大小&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="142" y="716" width="129" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fXs3boSctw2sz8lxsiaO-27" value="`log_{10}内存占用` (MB)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-462.5" y="595" width="147" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fXs3boSctw2sz8lxsiaO-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-8" y="545" width="20" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="fXs3boSctw2sz8lxsiaO-28" value="`log_{10}成功匹配数量`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-64.5" y="598.33" width="142" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
