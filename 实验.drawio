@@ -366,11 +366,11 @@
         <mxCell id="P2qMuhKbXmLzeT76PDbJ-14" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1" y="285.66" width="15" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="P2qMuhKbXmLzeT76PDbJ-15" value="`log_{10}处理延迟` (ms)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="-461.5" y="328.66" width="145" height="26" as="geometry" />
+        <mxCell id="P2qMuhKbXmLzeT76PDbJ-15" value="`log_{10}处理延迟` (s)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-456.5" y="328.66" width="135" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2qMuhKbXmLzeT76PDbJ-16" value="`log_{10}吞吐量`(个\ms)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="-65.5" y="321" width="145" height="26" as="geometry" />
+        <mxCell id="P2qMuhKbXmLzeT76PDbJ-16" value="`log_{10}吞吐量`(个\s)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-60.5" y="321" width="135" height="26" as="geometry" />
         </mxCell>
         <mxCell id="P2qMuhKbXmLzeT76PDbJ-17" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-287" y="206" width="198" height="26" as="geometry" />
