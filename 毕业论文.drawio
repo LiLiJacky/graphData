@@ -1809,7 +1809,7 @@
           <mxGeometry x="757" y="261" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a3X80cB4ERv6h6Pos9Cg-4" value="State `C`&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（Final State）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="694" y="226" width="186" height="30" as="geometry" />
+          <mxGeometry x="694" y="231" width="186" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
