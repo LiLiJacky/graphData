@@ -1808,8 +1808,8 @@
         <mxCell id="a3X80cB4ERv6h6Pos9Cg-2" value="`c_9`" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="729" y="261" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="a3X80cB4ERv6h6Pos9Cg-4" value="State `C`" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="712" y="231" width="60" height="30" as="geometry" />
+        <mxCell id="a3X80cB4ERv6h6Pos9Cg-4" value="State `C`&lt;div&gt;（Final State）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="692" y="225" width="118" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
