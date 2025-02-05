@@ -1775,19 +1775,19 @@
         <mxCell id="t_Q0FVeNvWxDHyCtzDWt-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="256" as="sourcePoint" />
-            <mxPoint x="780" y="256" as="targetPoint" />
+            <mxPoint x="840" y="256" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t_Q0FVeNvWxDHyCtzDWt-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="308" as="sourcePoint" />
-            <mxPoint x="780" y="308" as="targetPoint" />
+            <mxPoint x="840" y="308" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t_Q0FVeNvWxDHyCtzDWt-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="361" as="sourcePoint" />
-            <mxPoint x="780" y="361" as="targetPoint" />
+            <mxPoint x="840" y="361" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t_Q0FVeNvWxDHyCtzDWt-24" value="`Overlap`" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
@@ -1808,8 +1808,8 @@
         <mxCell id="a3X80cB4ERv6h6Pos9Cg-2" value="`c_9`" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="729" y="261" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="a3X80cB4ERv6h6Pos9Cg-4" value="State `C`&lt;div&gt;（Final State）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="692" y="225" width="118" height="30" as="geometry" />
+        <mxCell id="a3X80cB4ERv6h6Pos9Cg-4" value="State `C`&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（Final State）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="692" y="225" width="186" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
