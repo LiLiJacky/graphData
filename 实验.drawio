@@ -544,6 +544,15 @@
         <mxCell id="et7DSWL87fFMSoTTgMo3-16" value="吞吐量（event per second）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="128" y="850" width="170" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="et7DSWL87fFMSoTTgMo3-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-321" y="341" width="195" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="et7DSWL87fFMSoTTgMo3-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-321" y="718" width="195" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="et7DSWL87fFMSoTTgMo3-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="714" width="195" height="32" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
