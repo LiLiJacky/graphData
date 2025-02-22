@@ -2083,14 +2083,32 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-22" target="bGsDxjQBEX9B6jMyKJj1-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535.216216216216" y="572.3513513513512" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="496" y="903" />
+              <mxPoint x="496" y="725" />
+              <mxPoint x="412" y="725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-3" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u31paxCOn7WameSHhfaq-1">
+          <mxGeometry x="-0.7507" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-22" value="是否满足约束？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="873.5" width="80" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-26" target="bGsDxjQBEX9B6jMyKJj1-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-26" value="将延迟计算约束添加在状态转移边上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="332" y="794.5" width="100" height="43" as="geometry" />
+          <mxGeometry x="362" y="794.5" width="100" height="43" as="geometry" />
         </mxCell>
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-31" value="将状态转移后结果添加到新中间匹配结果集中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="465.5" width="100" height="43" as="geometry" />
+          <mxGeometry x="362" y="468" width="100" height="43" as="geometry" />
         </mxCell>
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-32" value="当前中间匹配结果到新中间匹配结果集中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="545" y="878" width="100" height="43" as="geometry" />
