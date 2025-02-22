@@ -1989,7 +1989,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7Go8Pjk2rpipfM3Q15IK" name="自动机流程图">
-    <mxGraphModel dx="441" dy="244" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1659" dy="916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2213,9 +2213,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u31paxCOn7WameSHhfaq-12" value="\[S_2 \lor S_3\]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u31paxCOn7WameSHhfaq-11">
+        <mxCell id="u31paxCOn7WameSHhfaq-12" value="\[S_2 \lor S_3\]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="u31paxCOn7WameSHhfaq-11">
           <mxGeometry x="-0.7177" relative="1" as="geometry">
-            <mxPoint x="-24" y="13" as="offset" />
+            <mxPoint x="-24" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KmAkpEDYU_iBm8Bk5vCR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="u31paxCOn7WameSHhfaq-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="267" y="440" as="targetPoint" />
+            <mxPoint x="318" y="1021" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="412" y="1032" />
+              <mxPoint x="172" y="1032" />
+              <mxPoint x="172" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KmAkpEDYU_iBm8Bk5vCR-5" value="`S_1`" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KmAkpEDYU_iBm8Bk5vCR-4">
+          <mxGeometry x="-0.7839" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u31paxCOn7WameSHhfaq-8" value="事件选择策略" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2230,11 +2246,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="KmAkpEDYU_iBm8Bk5vCR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u31paxCOn7WameSHhfaq-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="267" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="172" y="1079" />
+              <mxPoint x="172" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="u31paxCOn7WameSHhfaq-13" value="事件选择策略" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="1049" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u31paxCOn7WameSHhfaq-18" value="`S_3`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="353" y="1058" width="47" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KmAkpEDYU_iBm8Bk5vCR-7" value="\[S_2 \lor S_3\]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="197.99999999999977" y="1071.9950000000001" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
