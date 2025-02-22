@@ -2007,7 +2007,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zZ2xb-HLPFOAO6WduUYQ-9" value="状态转移边集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="215" y="550.5" width="101" height="43" as="geometry" />
+          <mxGeometry x="215" y="549.5" width="101" height="43" as="geometry" />
         </mxCell>
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-3" target="bGsDxjQBEX9B6jMyKJj1-4">
           <mxGeometry relative="1" as="geometry" />
