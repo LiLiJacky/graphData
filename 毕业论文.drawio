@@ -1989,7 +1989,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7Go8Pjk2rpipfM3Q15IK" name="自动机流程图">
-    <mxGraphModel dx="830" dy="458" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="441" dy="244" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2111,9 +2111,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="266" y="600.4000000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="412" y="602" />
-              <mxPoint x="267" y="602" />
-              <mxPoint x="267" y="600" />
+              <mxPoint x="412" y="601" />
+              <mxPoint x="267" y="601" />
             </Array>
           </mxGeometry>
         </mxCell>
