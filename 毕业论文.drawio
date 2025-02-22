@@ -1989,7 +1989,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7Go8Pjk2rpipfM3Q15IK" name="自动机流程图">
-    <mxGraphModel dx="1121" dy="619" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1152" dy="636" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2008,15 +2008,6 @@
         </mxCell>
         <mxCell id="zZ2xb-HLPFOAO6WduUYQ-9" value="状态转移边集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="215" y="551.5" width="101" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="zZ2xb-HLPFOAO6WduUYQ-14" value="`Take`" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="788.86" y="719" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bGsDxjQBEX9B6jMyKJj1-1" value="`Proceed`" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="922.86" y="719" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bGsDxjQBEX9B6jMyKJj1-2" value="\[Ignore\]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="706" y="782.5" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-3" target="bGsDxjQBEX9B6jMyKJj1-4">
           <mxGeometry relative="1" as="geometry" />
@@ -2048,8 +2039,24 @@
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-4" value="约束计算代价超过阈值？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="786" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bGsDxjQBEX9B6jMyKJj1-5" value="事件选择策略" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="873" y="801.5" width="80" height="60" as="geometry" />
+        <mxCell id="u31paxCOn7WameSHhfaq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-5" target="u31paxCOn7WameSHhfaq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-10" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u31paxCOn7WameSHhfaq-9">
+          <mxGeometry x="0.003" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-5" target="u31paxCOn7WameSHhfaq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-15" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u31paxCOn7WameSHhfaq-14">
+          <mxGeometry x="0.3154" y="-2" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bGsDxjQBEX9B6jMyKJj1-5" value="类型约束?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="961" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-18" target="bGsDxjQBEX9B6jMyKJj1-19">
           <mxGeometry relative="1" as="geometry" />
@@ -2068,27 +2075,12 @@
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-19" value="中间匹配结果" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="457" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bGsDxjQBEX9B6jMyKJj1-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-22">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="265" y="602" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="265" y="944" />
-              <mxPoint x="188" y="944" />
-              <mxPoint x="188" y="602" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bGsDxjQBEX9B6jMyKJj1-70" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bGsDxjQBEX9B6jMyKJj1-63">
-          <mxGeometry x="-0.7609" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="u31paxCOn7WameSHhfaq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-22" target="bGsDxjQBEX9B6jMyKJj1-31">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="535.216216216216" y="572.3513513513512" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="496" y="903" />
-              <mxPoint x="496" y="725" />
+              <mxPoint x="476" y="904" />
+              <mxPoint x="476" y="725" />
               <mxPoint x="412" y="725" />
             </Array>
           </mxGeometry>
@@ -2096,6 +2088,14 @@
         <mxCell id="u31paxCOn7WameSHhfaq-3" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u31paxCOn7WameSHhfaq-1">
           <mxGeometry x="-0.7507" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-22" target="bGsDxjQBEX9B6jMyKJj1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u31paxCOn7WameSHhfaq-6">
+          <mxGeometry x="0.0787" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-22" value="是否满足约束？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2107,11 +2107,11 @@
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-26" value="将延迟计算约束添加在状态转移边上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="362" y="794.5" width="100" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="bGsDxjQBEX9B6jMyKJj1-31" value="将状态转移后结果添加到新中间匹配结果集中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="362" y="468" width="100" height="43" as="geometry" />
+        <mxCell id="bGsDxjQBEX9B6jMyKJj1-31" value="将状态转移后结果添加到新结果集中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="621.5" width="100" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="bGsDxjQBEX9B6jMyKJj1-32" value="当前中间匹配结果到新中间匹配结果集中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="545" y="878" width="100" height="43" as="geometry" />
+        <mxCell id="bGsDxjQBEX9B6jMyKJj1-32" value="将当前中间匹配结果添加到新结果集中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="508.5" width="100" height="43" as="geometry" />
         </mxCell>
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.544;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-3" target="bGsDxjQBEX9B6jMyKJj1-22">
           <mxGeometry relative="1" as="geometry">
@@ -2160,13 +2160,14 @@
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-68" value="事件" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="291" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bGsDxjQBEX9B6jMyKJj1-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-19">
+        <mxCell id="bGsDxjQBEX9B6jMyKJj1-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bGsDxjQBEX9B6jMyKJj1-19" target="u31paxCOn7WameSHhfaq-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="265" y="614" as="sourcePoint" />
             <mxPoint x="265" y="282" as="targetPoint" />
             <Array as="points">
               <mxPoint x="188" y="487" />
-              <mxPoint x="188" y="282" />
+              <mxPoint x="188" y="230" />
+              <mxPoint x="412" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2174,6 +2175,49 @@
           <mxGeometry x="-0.1724" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u31paxCOn7WameSHhfaq-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="266" y="281" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="333" y="406" />
+              <mxPoint x="333" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); float: none; display: inline !important;&quot;&gt;基于新结果集更新中间匹配结果集&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="387" width="100" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u31paxCOn7WameSHhfaq-8" target="bGsDxjQBEX9B6jMyKJj1-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="494" y="991" />
+              <mxPoint x="494" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-12" value="\[S_2 \lor S_3\]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u31paxCOn7WameSHhfaq-11">
+          <mxGeometry x="-0.7177" relative="1" as="geometry">
+            <mxPoint x="-24" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-8" value="事件选择策略" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372" y="961" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u31paxCOn7WameSHhfaq-13" target="bGsDxjQBEX9B6jMyKJj1-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="754" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="494" y="1079" />
+              <mxPoint x="494" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-13" value="事件选择策略" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1049" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u31paxCOn7WameSHhfaq-18" value="`S_3`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="353" y="1058" width="47" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
