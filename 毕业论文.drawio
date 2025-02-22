@@ -1989,7 +1989,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7Go8Pjk2rpipfM3Q15IK" name="自动机流程图">
-    <mxGraphModel dx="1338" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2278,7 +2278,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qKMmq2JEG4RXuv7arSMD" name="Kleene闭包展开">
-    <mxGraphModel dx="1092" dy="603" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="988" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2429,6 +2429,29 @@
         <mxCell id="acEkAlRgOaxtdACdDeAt-18" value="函数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="223.75" y="917.5" width="80" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acEkAlRgOaxtdACdDeAt-19" target="w5rbw4D07lMWaRrr8b4L-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-5" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w5rbw4D07lMWaRrr8b4L-4">
+          <mxGeometry x="-0.6369" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acEkAlRgOaxtdACdDeAt-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="368" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="86" y="703" />
+              <mxPoint x="86" y="368" />
+              <mxPoint x="265" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-11" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w5rbw4D07lMWaRrr8b4L-10">
+          <mxGeometry x="-0.9641" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="acEkAlRgOaxtdACdDeAt-19" value="约束是否满足" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="102" y="673" width="80" height="60" as="geometry" />
         </mxCell>
@@ -2457,6 +2480,34 @@
           <mxGeometry x="-0.1536" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w5rbw4D07lMWaRrr8b4L-1" target="w5rbw4D07lMWaRrr8b4L-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w5rbw4D07lMWaRrr8b4L-6">
+          <mxGeometry x="-0.5616" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w5rbw4D07lMWaRrr8b4L-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="369" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="86" y="793" />
+              <mxPoint x="86" y="369" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-9" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w5rbw4D07lMWaRrr8b4L-8">
+          <mxGeometry x="-0.9699" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-1" value="当前组合已输出?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="763" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-3" value="成功匹配模式事件序列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="854.5" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
