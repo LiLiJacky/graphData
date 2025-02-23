@@ -2278,7 +2278,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qKMmq2JEG4RXuv7arSMD" name="Kleene闭包展开">
-    <mxGraphModel dx="1430" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1659" dy="916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2456,10 +2456,10 @@
         </mxCell>
         <mxCell id="w5rbw4D07lMWaRrr8b4L-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acEkAlRgOaxtdACdDeAt-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="265" y="275" as="targetPoint" />
+            <mxPoint x="265" y="442" as="targetPoint" />
             <Array as="points">
               <mxPoint x="86" y="703" />
-              <mxPoint x="86" y="275" />
+              <mxPoint x="86" y="442" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2499,12 +2499,11 @@
         </mxCell>
         <mxCell id="w5rbw4D07lMWaRrr8b4L-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="265" y="275" as="targetPoint" />
+            <mxPoint x="265" y="441" as="targetPoint" />
             <mxPoint x="102.04597701149464" y="793.0344827586207" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="86" y="793" />
-              <mxPoint x="86" y="275" />
-              <mxPoint x="265" y="275" />
+              <mxPoint x="86" y="441" />
             </Array>
           </mxGeometry>
         </mxCell>
