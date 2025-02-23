@@ -2312,9 +2312,10 @@
         <mxCell id="CjNlLxhVIRofXwiTvDKl-40" value="中间匹配结果集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="233" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GyG4z324gy1yaUvyL2si-2" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="GyG4z324gy1yaUvyL2si-1">
-          <mxGeometry x="-0.2723" relative="1" as="geometry">
+        <mxCell id="GyG4z324gy1yaUvyL2si-2" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="M2gHhD7u7XxJZwQifvjD-28">
+          <mxGeometry x="-0.6895" y="7" relative="1" as="geometry">
             <mxPoint x="305" y="318" as="sourcePoint" />
+            <mxPoint x="353.0344827586207" y="348" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -2388,18 +2389,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JDRFxpL4bFeq9sYvARki-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acEkAlRgOaxtdACdDeAt-11">
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="acEkAlRgOaxtdACdDeAt-11" target="M2gHhD7u7XxJZwQifvjD-23">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="267" y="275" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="410" y="555" />
-              <mxPoint x="410" y="275" />
+              <mxPoint x="335" y="555" />
+              <mxPoint x="335" y="367" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JDRFxpL4bFeq9sYvARki-2" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JDRFxpL4bFeq9sYvARki-1">
-          <mxGeometry x="-0.6952" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="acEkAlRgOaxtdACdDeAt-11" value="计算代价最小约束" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2528,9 +2523,6 @@
         <mxCell id="w5rbw4D07lMWaRrr8b4L-1" value="当前组合已输出?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="102" y="763" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GyG4z324gy1yaUvyL2si-1" value="二阶段展开处理完成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="313" y="348" width="80" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="SfiAudLfBCoBT_cAeWcC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SfiAudLfBCoBT_cAeWcC-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="263" y="275" as="targetPoint" />
@@ -2542,6 +2534,71 @@
         </mxCell>
         <mxCell id="SfiAudLfBCoBT_cAeWcC-1" value="输出成功匹配&lt;div&gt;模式的&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;事件序列&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="92" y="857" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-16" value="不存在&lt;div&gt;（所有延迟约束计算完成）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;rotation=90;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="334.9999999999998" y="431" as="geometry" />
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M2gHhD7u7XxJZwQifvjD-21" target="M2gHhD7u7XxJZwQifvjD-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="432" y="586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-18" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M2gHhD7u7XxJZwQifvjD-17">
+          <mxGeometry x="-0.5616" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M2gHhD7u7XxJZwQifvjD-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="434" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="364" y="527" />
+              <mxPoint x="364" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-20" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M2gHhD7u7XxJZwQifvjD-19">
+          <mxGeometry x="-0.7509" relative="1" as="geometry">
+            <mxPoint x="16" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-21" value="当前组合已输出?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392" y="496.5" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M2gHhD7u7XxJZwQifvjD-23" target="M2gHhD7u7XxJZwQifvjD-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-23" value="满足约束组合集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392" y="352" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-24" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="432" y="479.30769230769215" as="geometry" />
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M2gHhD7u7XxJZwQifvjD-27" target="M2gHhD7u7XxJZwQifvjD-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-26" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M2gHhD7u7XxJZwQifvjD-25">
+          <mxGeometry x="0.2018" y="1" relative="1" as="geometry">
+            <mxPoint x="-9" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-27" value="事件组合" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392" y="410" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-28" value="二阶段展开处理完成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="623" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M2gHhD7u7XxJZwQifvjD-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="432" y="401" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="364" y="610" />
+              <mxPoint x="364" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2gHhD7u7XxJZwQifvjD-30" value="输出成功匹配&lt;div&gt;模式的&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;事件序列&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="382" y="590" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
