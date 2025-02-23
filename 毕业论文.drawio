@@ -2444,12 +2444,14 @@
         <mxCell id="acEkAlRgOaxtdACdDeAt-18" value="函数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="223.75" y="917.5" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w5rbw4D07lMWaRrr8b4L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acEkAlRgOaxtdACdDeAt-19" target="w5rbw4D07lMWaRrr8b4L-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acEkAlRgOaxtdACdDeAt-19" target="SallWZb6Vzes_aJXtLAA-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="142" y="763" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="w5rbw4D07lMWaRrr8b4L-5" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w5rbw4D07lMWaRrr8b4L-4">
           <mxGeometry x="-0.6369" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w5rbw4D07lMWaRrr8b4L-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acEkAlRgOaxtdACdDeAt-19">
@@ -2495,45 +2497,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w5rbw4D07lMWaRrr8b4L-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w5rbw4D07lMWaRrr8b4L-1" target="SfiAudLfBCoBT_cAeWcC-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="142" y="854.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="w5rbw4D07lMWaRrr8b4L-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w5rbw4D07lMWaRrr8b4L-6">
-          <mxGeometry x="-0.5616" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="w5rbw4D07lMWaRrr8b4L-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w5rbw4D07lMWaRrr8b4L-1">
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="265" y="275" as="targetPoint" />
+            <mxPoint x="102.04597701149464" y="793.0344827586207" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="86" y="793" />
               <mxPoint x="86" y="275" />
               <mxPoint x="265" y="275" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="w5rbw4D07lMWaRrr8b4L-9" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w5rbw4D07lMWaRrr8b4L-8">
-          <mxGeometry x="-0.9699" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="w5rbw4D07lMWaRrr8b4L-1" value="当前组合已输出?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="102" y="763" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SfiAudLfBCoBT_cAeWcC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SfiAudLfBCoBT_cAeWcC-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="263" y="275" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="86" y="877" />
-              <mxPoint x="86" y="275" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SfiAudLfBCoBT_cAeWcC-1" value="输出成功匹配&lt;div&gt;模式的&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;事件序列&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="92" y="857" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M2gHhD7u7XxJZwQifvjD-16" value="不存在&lt;div&gt;（所有延迟约束计算完成）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;rotation=90;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="334.9999999999998" y="431" as="geometry" />
@@ -2599,6 +2572,9 @@
         </mxCell>
         <mxCell id="M2gHhD7u7XxJZwQifvjD-30" value="输出成功匹配&lt;div&gt;模式的&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;事件序列&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="382" y="590" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SallWZb6Vzes_aJXtLAA-1" value="将事件组合添加到满足约束组合集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="780" width="80" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
