@@ -1989,7 +1989,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7Go8Pjk2rpipfM3Q15IK" name="自动机流程图">
-    <mxGraphModel dx="1659" dy="916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1481" dy="818" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2155,14 +2155,14 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="267" y="440" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="325" y="643" />
-              <mxPoint x="325" y="440" />
+              <mxPoint x="335" y="643" />
+              <mxPoint x="335" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bGsDxjQBEX9B6jMyKJj1-71" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bGsDxjQBEX9B6jMyKJj1-65">
+        <mxCell id="bGsDxjQBEX9B6jMyKJj1-71" value="不存在&lt;div&gt;（所有可能状态转移边&lt;/div&gt;&lt;div&gt;评估完成）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;labelBackgroundColor=none;" vertex="1" connectable="0" parent="bGsDxjQBEX9B6jMyKJj1-65">
           <mxGeometry x="-0.473" relative="1" as="geometry">
-            <mxPoint y="-62" as="offset" />
+            <mxPoint x="-6" y="-97" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bGsDxjQBEX9B6jMyKJj1-59" value="状态转移边" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2196,9 +2196,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bGsDxjQBEX9B6jMyKJj1-77" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bGsDxjQBEX9B6jMyKJj1-75">
+        <mxCell id="bGsDxjQBEX9B6jMyKJj1-77" value="不存在&lt;div&gt;（所有中间匹配结果&lt;/div&gt;&lt;div&gt;完成对当前事件的处理更新）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;labelBackgroundColor=none;" vertex="1" connectable="0" parent="bGsDxjQBEX9B6jMyKJj1-75">
           <mxGeometry x="-0.1724" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-6" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u31paxCOn7WameSHhfaq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u31paxCOn7WameSHhfaq-4">
@@ -2547,7 +2547,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cEpiOycwv5apRGLl2AjN" name="基于模式基础解集展开">
-    <mxGraphModel dx="2183" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1595" dy="881" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2633,8 +2633,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="265" y="904" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="180" y="1121" />
-              <mxPoint x="180" y="904" />
+              <mxPoint x="209" y="1121" />
+              <mxPoint x="209" y="904" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2673,14 +2673,14 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="266" y="653" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="194" y="948" />
-              <mxPoint x="194" y="653" />
+              <mxPoint x="168" y="948" />
+              <mxPoint x="168" y="653" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pVJ0341RId8D86SLAhrg-11" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pVJ0341RId8D86SLAhrg-9">
+        <mxCell id="pVJ0341RId8D86SLAhrg-11" value="不存在&lt;div&gt;（所有函数已计算）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;labelBackgroundColor=none;" vertex="1" connectable="0" parent="pVJ0341RId8D86SLAhrg-9">
           <mxGeometry x="-0.9518" y="-1" relative="1" as="geometry">
-            <mxPoint x="-6" y="-10" as="offset" />
+            <mxPoint x="-46" y="-49" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-PqqUDAlm-5fc-zEt1WD-37" value="函数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2795,8 +2795,8 @@
         <mxCell id="pVJ0341RId8D86SLAhrg-12" value="中间匹配结果集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="484" y="688" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pVJ0341RId8D86SLAhrg-14" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="382" y="679" width="54" height="26" as="geometry" />
+        <mxCell id="pVJ0341RId8D86SLAhrg-14" value="不存在&lt;div&gt;（所有Kleene状态已展开）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="298" y="680" width="163" height="41" as="geometry" />
         </mxCell>
         <mxCell id="9MpmUydlqitDyEj5LIiU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9MpmUydlqitDyEj5LIiU-1" target="9MpmUydlqitDyEj5LIiU-2">
           <mxGeometry relative="1" as="geometry" />
