@@ -2278,7 +2278,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qKMmq2JEG4RXuv7arSMD" name="Kleene闭包展开">
-    <mxGraphModel dx="1338" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1536" dy="848" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2529,7 +2529,7 @@
         <mxCell id="w5rbw4D07lMWaRrr8b4L-3" value="成功匹配模式事件序列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="102" y="854.5" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GyG4z324gy1yaUvyL2si-1" value="二阶段展开完成处理完成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GyG4z324gy1yaUvyL2si-1" value="二阶段展开处理完成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="313" y="348" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
