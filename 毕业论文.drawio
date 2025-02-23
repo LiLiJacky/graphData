@@ -2416,7 +2416,7 @@
         <mxCell id="B2ntOezGNOSs4DD4AsAW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="acEkAlRgOaxtdACdDeAt-16" target="acEkAlRgOaxtdACdDeAt-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B2ntOezGNOSs4DD4AsAW-2" value="不存在&lt;div&gt;（所有&lt;/div&gt;&lt;div&gt;Kleene&lt;/div&gt;&lt;div&gt;状态&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;已展开）&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="B2ntOezGNOSs4DD4AsAW-1">
+        <mxCell id="B2ntOezGNOSs4DD4AsAW-2" value="不存在&lt;div&gt;（&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;约束涉及&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;函数计算结果&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;已知）&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="B2ntOezGNOSs4DD4AsAW-1">
           <mxGeometry x="-0.4058" y="1" relative="1" as="geometry">
             <mxPoint x="-9" y="13" as="offset" />
           </mxGeometry>
@@ -2441,9 +2441,9 @@
         <mxCell id="acEkAlRgOaxtdACdDeAt-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acEkAlRgOaxtdACdDeAt-18" target="acEkAlRgOaxtdACdDeAt-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CvtoSbKU-FKEChuD6xa8-12" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="acEkAlRgOaxtdACdDeAt-26">
+        <mxCell id="CvtoSbKU-FKEChuD6xa8-12" value="不存在&lt;div&gt;（所有函数&lt;/div&gt;&lt;div&gt;已计算）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="acEkAlRgOaxtdACdDeAt-26">
           <mxGeometry x="-0.1546" relative="1" as="geometry">
-            <mxPoint y="-9" as="offset" />
+            <mxPoint x="-4" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="acEkAlRgOaxtdACdDeAt-18" value="函数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2795,8 +2795,8 @@
         <mxCell id="pVJ0341RId8D86SLAhrg-12" value="中间匹配结果集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="484" y="688" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pVJ0341RId8D86SLAhrg-14" value="不存在&lt;div&gt;（所有Kleene状态已展开）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="298" y="680" width="163" height="41" as="geometry" />
+        <mxCell id="pVJ0341RId8D86SLAhrg-14" value="不存在&lt;div&gt;（约束涉及函数计算结果已知）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="291" y="682.5" width="186" height="41" as="geometry" />
         </mxCell>
         <mxCell id="9MpmUydlqitDyEj5LIiU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9MpmUydlqitDyEj5LIiU-1" target="9MpmUydlqitDyEj5LIiU-2">
           <mxGeometry relative="1" as="geometry" />
