@@ -2547,7 +2547,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cEpiOycwv5apRGLl2AjN" name="基于模式基础解集展开">
-    <mxGraphModel dx="1659" dy="916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2183" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2929,6 +2929,11 @@
               <mxPoint x="729" y="688" />
               <mxPoint x="729" y="218" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NBOVrl3NdxjMkX4-LU0Y-3" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9MpmUydlqitDyEj5LIiU-35">
+          <mxGeometry x="-0.9107" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9MpmUydlqitDyEj5LIiU-32" value="新解集为空？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
