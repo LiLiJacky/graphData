@@ -2586,9 +2586,9 @@
         <mxCell id="-PqqUDAlm-5fc-zEt1WD-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-PqqUDAlm-5fc-zEt1WD-9" target="-PqqUDAlm-5fc-zEt1WD-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="16xrZpL6QdfJLUvznfi_-1" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-PqqUDAlm-5fc-zEt1WD-67">
+        <mxCell id="16xrZpL6QdfJLUvznfi_-1" value="不存在&lt;div&gt;（所有延迟约束计算完成）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="-PqqUDAlm-5fc-zEt1WD-67">
           <mxGeometry x="0.0024" relative="1" as="geometry">
-            <mxPoint x="-3" y="-10" as="offset" />
+            <mxPoint x="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-PqqUDAlm-5fc-zEt1WD-9" value="未计算延迟计算约束集" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
