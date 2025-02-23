@@ -2411,9 +2411,9 @@
         <mxCell id="B2ntOezGNOSs4DD4AsAW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="acEkAlRgOaxtdACdDeAt-16" target="acEkAlRgOaxtdACdDeAt-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B2ntOezGNOSs4DD4AsAW-2" value="不存在&lt;div&gt;（&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;约束涉及&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;函数计算结果&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;已知）&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="B2ntOezGNOSs4DD4AsAW-1">
+        <mxCell id="B2ntOezGNOSs4DD4AsAW-2" value="不存在&lt;div&gt;（组合和&lt;/div&gt;&lt;div&gt;函数计算&lt;/div&gt;&lt;div&gt;结果已知&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="B2ntOezGNOSs4DD4AsAW-1">
           <mxGeometry x="-0.4058" y="1" relative="1" as="geometry">
-            <mxPoint x="-9" y="13" as="offset" />
+            <mxPoint x="-8" y="13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="acEkAlRgOaxtdACdDeAt-16" value="Kleene状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2452,7 +2452,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w5rbw4D07lMWaRrr8b4L-5" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w5rbw4D07lMWaRrr8b4L-4">
+        <mxCell id="w5rbw4D07lMWaRrr8b4L-5" value="Y&lt;div&gt;（评估下一个约束）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w5rbw4D07lMWaRrr8b4L-4">
           <mxGeometry x="-0.6369" y="1" relative="1" as="geometry">
             <mxPoint x="1" y="6" as="offset" />
           </mxGeometry>
@@ -2468,10 +2468,10 @@
         </mxCell>
         <mxCell id="w5rbw4D07lMWaRrr8b4L-11" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w5rbw4D07lMWaRrr8b4L-10">
           <mxGeometry x="-0.9641" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="3" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="acEkAlRgOaxtdACdDeAt-19" value="约束是否&lt;div&gt;满足？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="acEkAlRgOaxtdACdDeAt-19" value="存在满足约束的事件组合？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="102" y="673" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="acEkAlRgOaxtdACdDeAt-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="acEkAlRgOaxtdACdDeAt-27" target="acEkAlRgOaxtdACdDeAt-9">
@@ -2546,6 +2546,9 @@
           <mxGeometry x="0.2018" y="1" relative="1" as="geometry">
             <mxPoint x="-9" y="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="S9PNfDQyp9AbL0V_cZjK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M2gHhD7u7XxJZwQifvjD-27" target="M2gHhD7u7XxJZwQifvjD-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M2gHhD7u7XxJZwQifvjD-27" value="事件组合" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="392" y="410" width="80" height="60" as="geometry" />
