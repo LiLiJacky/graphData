@@ -2724,8 +2724,8 @@
         <mxCell id="SMRt-Sm7WPOjnlkBxd8--17" value="（a）中间匹配结果中存在到达Final状态的解" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="943" y="434" width="255" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="XC7HWu18kqEOnbgsALma-17" value="（b）从Final状态反向求解关键" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="979" y="620" width="183" height="26" as="geometry" />
+        <mxCell id="XC7HWu18kqEOnbgsALma-17" value="（b）从Final状态反向展开" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="991" y="620" width="159" height="26" as="geometry" />
         </mxCell>
         <mxCell id="A5ygwtnpwBPBTCV80X2A-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="923" y="466" width="75" height="143.5" as="geometry" />
