@@ -1084,12 +1084,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sSvsYTDf47dIdGhOnWbQ" name="第 3 页">
-    <mxGraphModel dx="1837" dy="973" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="2138" dy="1139" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vobVloYKmbspAqAep7Y9-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-449.5" y="553" width="165.5" height="44" as="geometry" />
+          <mxGeometry x="-439.5" y="549" width="165.5" height="44" as="geometry" />
         </mxCell>
         <mxCell id="VgUQDEV3zeRTrEOmgU3r-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=diamondThin;endFill=0;" parent="1" source="VgUQDEV3zeRTrEOmgU3r-1" target="VgUQDEV3zeRTrEOmgU3r-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1243,28 +1243,49 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XktD-VIAYpglNz_NS6Bg-14" value="灵活性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-349" y="563" width="54" height="26" as="geometry" />
+          <mxGeometry x="-339" y="559" width="54" height="26" as="geometry" />
         </mxCell>
         <mxCell id="XktD-VIAYpglNz_NS6Bg-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-295.5" y="586" as="sourcePoint" />
-            <mxPoint x="-295.5" y="561" as="targetPoint" />
+            <mxPoint x="-285.5" y="582" as="sourcePoint" />
+            <mxPoint x="-285.5" y="557" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vobVloYKmbspAqAep7Y9-2" value="计算代价" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-447" y="562" width="66" height="26" as="geometry" />
+          <mxGeometry x="-437" y="558" width="66" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vobVloYKmbspAqAep7Y9-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-382.5" y="587" as="sourcePoint" />
-            <mxPoint x="-382.5" y="562" as="targetPoint" />
+            <mxPoint x="-372.5" y="583" as="sourcePoint" />
+            <mxPoint x="-372.5" y="558" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vobVloYKmbspAqAep7Y9-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-371" y="575.75" as="sourcePoint" />
-            <mxPoint x="-347" y="575.75" as="targetPoint" />
+            <mxPoint x="-361" y="571.75" as="sourcePoint" />
+            <mxPoint x="-337" y="571.75" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vobVloYKmbspAqAep7Y9-5" value="瞬时事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6" y="435" width="84" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="vobVloYKmbspAqAep7Y9-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vobVloYKmbspAqAep7Y9-6" target="vobVloYKmbspAqAep7Y9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vobVloYKmbspAqAep7Y9-6" value="区间事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6" y="489" width="84" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="vobVloYKmbspAqAep7Y9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vobVloYKmbspAqAep7Y9-8" target="vobVloYKmbspAqAep7Y9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vobVloYKmbspAqAep7Y9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vobVloYKmbspAqAep7Y9-8" target="vobVloYKmbspAqAep7Y9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vobVloYKmbspAqAep7Y9-8" value="事件持续时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="468" width="84" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="vobVloYKmbspAqAep7Y9-11" value="Kleene闭包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="108" y="489" width="84" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
