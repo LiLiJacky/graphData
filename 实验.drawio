@@ -754,6 +754,9 @@
         <mxCell id="q_E7HMlphrO_48cKiLjd-1" value="处理时间(s)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="147" y="481" width="107" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="T0-yNZ_H5Ayt2800v-3G-1" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;窗口大小&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="391" y="668.35" width="129" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
