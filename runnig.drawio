@@ -1145,8 +1145,8 @@
         <mxCell id="zAw1YIXAzYtoIuKSiImp-83" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" vertex="1" parent="1">
           <mxGeometry x="927.35" y="103" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zAw1YIXAzYtoIuKSiImp-87" value="模式基础解&lt;div&gt;已判断&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="838.63" y="78" width="78" height="41" as="geometry" />
+        <mxCell id="zAw1YIXAzYtoIuKSiImp-87" value="模式基础解识&lt;div&gt;别时&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;已判断&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="832.63" y="78" width="90" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
