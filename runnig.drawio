@@ -613,17 +613,20 @@
         <mxCell id="_-59CjiJKhr0rX71Br2p-25" value="处理时间(s)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="-30" y="485" width="107" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_-59CjiJKhr0rX71Br2p-26" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;窗口大小&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="218" y="657.35" width="129" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="_-59CjiJKhr0rX71Br2p-27" value="（a）不同事件频率在不同事件窗口下的平均处理延迟" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-362.25" y="678.3299999999999" width="301" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_-59CjiJKhr0rX71Br2p-28" value="（c）不同复杂事件识别引擎在不同窗口下的平均内存占用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-379.5" y="1012.3299999999999" width="324" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_-59CjiJKhr0rX71Br2p-29" value="（b）不同复杂事件识别引擎在不同事件窗口下的平均吞吐量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="109" y="679" width="337" height="26" as="geometry" />
+        <mxCell id="_-59CjiJKhr0rX71Br2p-30" value="（b）不同复杂事件识别引擎在不同事件窗口下的平均吞吐量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="122" y="1012.3299999999999" width="337" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_-59CjiJKhr0rX71Br2p-26" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;窗口大小&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="657.35" width="129" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_-59CjiJKhr0rX71Br2p-29" value="（b）不同复杂事件识别引擎在不同事件发生频率下的处理延迟" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="103" y="679" width="349" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
