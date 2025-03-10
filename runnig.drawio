@@ -1133,20 +1133,20 @@
         <mxCell id="zAw1YIXAzYtoIuKSiImp-71" value="\(A^*B^*C\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="552.3700000000001" y="-65" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zAw1YIXAzYtoIuKSiImp-77" value="2. \(b[i] &amp;lt; b[i-1]\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zAw1YIXAzYtoIuKSiImp-77" value="1. \(b[i] &amp;lt; b[i-1]\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="696" y="110" width="102" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zAw1YIXAzYtoIuKSiImp-78" value="4. \(standard\_deviation(A)/avg(A)&amp;gt;=1.1\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zAw1YIXAzYtoIuKSiImp-78" value="2. \(standard\_deviation(A)/avg(A)&amp;gt;=1.1\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="412.68" y="113" width="236" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zAw1YIXAzYtoIuKSiImp-79" value="&amp;nbsp; \(c&amp;gt;=250\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="852.35" y="110" width="79" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zAw1YIXAzYtoIuKSiImp-83" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" vertex="1" parent="1">
-          <mxGeometry x="927.35" y="103" width="30" height="30" as="geometry" />
+        <mxCell id="zAw1YIXAzYtoIuKSiImp-87" value="&lt;font style=&quot;&quot;&gt;模式基础解&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;已判断&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="856" y="73" width="78" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="zAw1YIXAzYtoIuKSiImp-87" value="模式基础解识&lt;div&gt;别时&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;已判断&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="832.63" y="78" width="90" height="41" as="geometry" />
+        <mxCell id="uil75THde1Fn_JqmM6LB-4" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;dashed=1;shadow=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="858" y="109" width="76" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
