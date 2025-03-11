@@ -2048,7 +2048,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0EBedYoO8iy_UKzDoZPK" name="v2">
-    <mxGraphModel dx="1026" dy="650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1368" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2115,6 +2115,9 @@
         </mxCell>
         <mxCell id="bgxk1O0DOS-D_VITDO8j-16" value="&lt;font style=&quot;font-size: 24px; color: light-dark(rgb(128, 0, 32), rgb(237, 237, 237));&quot;&gt;3. 压力超过安全阈值&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="659" y="595" width="133" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="5pGxlxBHcMyx1XfL_Mta-1" value="&lt;font style=&quot;color: light-dark(rgb(128, 0, 32), rgb(237, 237, 237)); font-size: 25px;&quot;&gt;&lt;b style=&quot;&quot;&gt;按照时序计算，延迟更低？&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="321" width="125" height="141" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
