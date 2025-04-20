@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram name="第 1 页" id="AAA-i-U1p1oaGIEykhEj">
+    <mxGraphModel dx="1259" dy="655" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-NIWGY94qYfdviT3cTTC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-NIWGY94qYfdviT3cTTC-1" target="-NIWGY94qYfdviT3cTTC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NIWGY94qYfdviT3cTTC-1" value="FunASR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-NIWGY94qYfdviT3cTTC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-NIWGY94qYfdviT3cTTC-2" target="-NIWGY94qYfdviT3cTTC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NIWGY94qYfdviT3cTTC-2" value="语音" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="54" y="264" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-NIWGY94qYfdviT3cTTC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-NIWGY94qYfdviT3cTTC-4" target="-NIWGY94qYfdviT3cTTC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NIWGY94qYfdviT3cTTC-4" value="文字" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="359" y="264" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-NIWGY94qYfdviT3cTTC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-NIWGY94qYfdviT3cTTC-6" target="-NIWGY94qYfdviT3cTTC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NIWGY94qYfdviT3cTTC-6" value="意图分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="483" y="249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-NIWGY94qYfdviT3cTTC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-NIWGY94qYfdviT3cTTC-8" target="-NIWGY94qYfdviT3cTTC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NIWGY94qYfdviT3cTTC-8" value="点餐" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="667" y="264" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-NIWGY94qYfdviT3cTTC-10" value="菜品" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="777" y="249" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
