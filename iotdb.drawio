@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hsSelDWqYKHkz0JEF9Aa-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
-          <mxGeometry x="259" y="123" width="623.535714285714" height="1009.9280538302285" as="geometry" />
+          <mxGeometry x="259" y="123" width="623.535714285714" height="1011.2613871635617" as="geometry" />
         </mxCell>
         <mxCell id="hsSelDWqYKHkz0JEF9Aa-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hsSelDWqYKHkz0JEF9Aa-1" vertex="1">
           <mxGeometry width="623.535714285714" height="41" as="geometry" />
@@ -146,7 +146,7 @@
             <mxRectangle width="272" height="108" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hsSelDWqYKHkz0JEF9Aa-29" value="在模式展开阶段，利用运行时值约束计算函数根据模式基础解中 Kleene 状态捕获的数据制定模式展开计划，利用模式之间的时序关系修剪未展开 Kleene 子事件的搜索域，利用低计算代价事件完成提前剪枝。减少模式匹配过程中，Kleene 子事件的不必要解和冗余解。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontColor=light-dark(#5a965a, #ededed);" parent="hsSelDWqYKHkz0JEF9Aa-26" vertex="1">
+        <mxCell id="hsSelDWqYKHkz0JEF9Aa-29" value="在模式展开阶段，利用运行时值约束计算函数根据模式基础解中 Kleene 状态捕获的数据制定模式展开计划&lt;sup&gt;4&lt;/sup&gt;，利用模式之间的时序关系修剪未展开 Kleene 子事件的搜索域，利用低计算代价事件完成提前剪枝。减少模式匹配过程中，Kleene 子事件的不必要解和冗余解。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontColor=light-dark(#5a965a, #ededed);" parent="hsSelDWqYKHkz0JEF9Aa-26" vertex="1">
           <mxGeometry x="354" width="270" height="108" as="geometry">
             <mxRectangle width="270" height="108" as="alternateBounds" />
           </mxGeometry>
@@ -263,7 +263,7 @@
           <mxGeometry y="815" width="623.535714285714" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hsSelDWqYKHkz0JEF9Aa-55" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;论文引用&lt;/font&gt;&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=5;colspan=1;" parent="hsSelDWqYKHkz0JEF9Aa-54" vertex="1">
-          <mxGeometry width="82" height="195" as="geometry">
+          <mxGeometry width="82" height="196" as="geometry">
             <mxRectangle width="82" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -296,25 +296,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="05NpUKJ8_yryZ148G-jp-9" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsSelDWqYKHkz0JEF9Aa-1">
-          <mxGeometry y="890" width="623.535714285714" height="40" as="geometry" />
+          <mxGeometry y="890" width="623.535714285714" height="41" as="geometry" />
         </mxCell>
         <mxCell id="05NpUKJ8_yryZ148G-jp-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="05NpUKJ8_yryZ148G-jp-9">
-          <mxGeometry width="82" height="40" as="geometry">
-            <mxRectangle width="82" height="40" as="alternateBounds" />
+          <mxGeometry width="82" height="41" as="geometry">
+            <mxRectangle width="82" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="05NpUKJ8_yryZ148G-jp-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontColor=light-dark(#005aa7, #ededed);" vertex="1" parent="05NpUKJ8_yryZ148G-jp-9">
-          <mxGeometry x="82" width="272" height="40" as="geometry">
-            <mxRectangle width="272" height="40" as="alternateBounds" />
+          <mxGeometry x="82" width="272" height="41" as="geometry">
+            <mxRectangle width="272" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="05NpUKJ8_yryZ148G-jp-12" value="3: 论文 3.3.3 多 Kleene 闭包最小覆盖集的数量&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontColor=light-dark(#5a965a, #ededed);" vertex="1" parent="05NpUKJ8_yryZ148G-jp-9">
-          <mxGeometry x="354" width="270" height="40" as="geometry">
-            <mxRectangle width="270" height="40" as="alternateBounds" />
+          <mxGeometry x="354" width="270" height="41" as="geometry">
+            <mxRectangle width="270" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="05NpUKJ8_yryZ148G-jp-5" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsSelDWqYKHkz0JEF9Aa-1">
-          <mxGeometry y="930" width="623.535714285714" height="40" as="geometry" />
+          <mxGeometry y="931" width="623.535714285714" height="40" as="geometry" />
         </mxCell>
         <mxCell id="05NpUKJ8_yryZ148G-jp-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="05NpUKJ8_yryZ148G-jp-5">
           <mxGeometry width="82" height="40" as="geometry">
@@ -326,13 +326,13 @@
             <mxRectangle width="272" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="05NpUKJ8_yryZ148G-jp-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontColor=light-dark(#5a965a, #ededed);" vertex="1" parent="05NpUKJ8_yryZ148G-jp-5">
+        <mxCell id="05NpUKJ8_yryZ148G-jp-8" value="4: 论文 3.4 模式基础解展开方案制定" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontColor=light-dark(#5a965a, #ededed);" vertex="1" parent="05NpUKJ8_yryZ148G-jp-5">
           <mxGeometry x="354" width="270" height="40" as="geometry">
             <mxRectangle width="270" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="05NpUKJ8_yryZ148G-jp-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsSelDWqYKHkz0JEF9Aa-1">
-          <mxGeometry y="970" width="623.535714285714" height="40" as="geometry" />
+          <mxGeometry y="971" width="623.535714285714" height="40" as="geometry" />
         </mxCell>
         <mxCell id="05NpUKJ8_yryZ148G-jp-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="05NpUKJ8_yryZ148G-jp-1">
           <mxGeometry width="82" height="40" as="geometry">
