@@ -146,7 +146,7 @@
             <mxRectangle width="272" height="108" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hsSelDWqYKHkz0JEF9Aa-29" value="在模式展开阶段，利用运行时值约束计算函数根据模式基础解中 Kleene 状态捕获的数据制定模式展开计划，利用模式之间的时序关系修剪未展开 Kleene 子事件的搜索域，利用低计算代价事件完成提前剪枝。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontColor=light-dark(#5a965a, #ededed);" parent="hsSelDWqYKHkz0JEF9Aa-26" vertex="1">
+        <mxCell id="hsSelDWqYKHkz0JEF9Aa-29" value="在模式展开阶段，利用运行时值约束计算函数根据模式基础解中 Kleene 状态捕获的数据制定模式展开计划，利用模式之间的时序关系修剪未展开 Kleene 子事件的搜索域，利用低计算代价事件完成提前剪枝。减少模式匹配过程中，Kleene 子事件的不必要解和冗余解。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontColor=light-dark(#5a965a, #ededed);" parent="hsSelDWqYKHkz0JEF9Aa-26" vertex="1">
           <mxGeometry x="354" width="270" height="108" as="geometry">
             <mxRectangle width="270" height="108" as="alternateBounds" />
           </mxGeometry>
