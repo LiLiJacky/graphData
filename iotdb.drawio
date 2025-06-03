@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1" pages="2">
   <diagram name="第 1 页" id="5ViGjcnCxsOTfviWB3dY">
-    <mxGraphModel dx="1476" dy="821" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="970" dy="624" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -438,6 +438,126 @@
           <mxGeometry x="354" width="270" height="37" as="geometry">
             <mxRectangle width="270" height="37" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p2a-OAn9wWJ2q9rVwuE_" name="第 2 页">
+    <mxGraphModel dx="783" dy="504" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NJRLxjnPdD5GMs0xZFmM-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="562" y="369" width="335" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="NqIAbuPc3Oa-jrjLB3Ry-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#787878;" vertex="1" parent="1">
+          <mxGeometry x="562" y="248" width="335" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LzFDNRiMpcLE82vgyAKd-2" target="LzFDNRiMpcLE82vgyAKd-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="332" y="409" />
+              <mxPoint x="332" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="306" y="409.9999999999999" as="sourcePoint" />
+            <mxPoint x="422" y="491" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="332" y="410" />
+              <mxPoint x="332" y="491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-2" value="事件模式近似匹配方法研究" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="201" y="394" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#005AA7;strokeColor=#005AA7;" edge="1" parent="1" source="LzFDNRiMpcLE82vgyAKd-3" target="LzFDNRiMpcLE82vgyAKd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LzFDNRiMpcLE82vgyAKd-3" target="LzFDNRiMpcLE82vgyAKd-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="572" y="353" />
+              <mxPoint x="572" y="413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-3" value="基于匹配距离的近似匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422" y="338" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LzFDNRiMpcLE82vgyAKd-5" target="LzFDNRiMpcLE82vgyAKd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-5" value="基于向量相似度的近似匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422" y="475" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-7" value="事件模式中的时间约束条件不准确，&lt;div&gt;或数据中事件的时间戳不准确&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="210" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-8" value="事件模式中的事件描述不准确，&lt;div&gt;或数据中事件的描述存在多样性和异质性&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="436" width="234" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="NqIAbuPc3Oa-jrjLB3Ry-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#005AA7;" edge="1" parent="1" source="LzFDNRiMpcLE82vgyAKd-11" target="NqIAbuPc3Oa-jrjLB3Ry-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-11" value="&lt;font style=&quot;color: rgb(0, 90, 167);&quot;&gt;简单事件模式的近似匹配&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#005AA7;" vertex="1" parent="1">
+          <mxGeometry x="617" y="271" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJRLxjnPdD5GMs0xZFmM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;startFill=0;" edge="1" parent="1" source="LzFDNRiMpcLE82vgyAKd-12" target="NJRLxjnPdD5GMs0xZFmM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-12" value="复杂事件模式的近似匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="617" y="398" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-15" value="异质事件模式的近似匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="617" y="475" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-17" value="&lt;font style=&quot;color: rgb(0, 90, 167);&quot;&gt;事件模式中不包含AND模式&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="574" y="301" width="163" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LzFDNRiMpcLE82vgyAKd-18" value="事件模式中包含AND模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="576" y="372" width="151" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NqIAbuPc3Oa-jrjLB3Ry-2" value="&lt;font style=&quot;color: rgb(0, 90, 167);&quot;&gt;Song+2021&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="562" y="245" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NqIAbuPc3Oa-jrjLB3Ry-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5A965A;" edge="1" parent="1" source="NqIAbuPc3Oa-jrjLB3Ry-3" target="LzFDNRiMpcLE82vgyAKd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NqIAbuPc3Oa-jrjLB3Ry-3" value="&lt;font style=&quot;color: rgb(90, 150, 90);&quot;&gt;PACEP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#5A965A;" vertex="1" parent="1">
+          <mxGeometry x="788" y="271" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqIAbuPc3Oa-jrjLB3Ry-6" value="&lt;font style=&quot;color: rgb(120, 120, 120);&quot;&gt;可比较&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="264" width="54" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJRLxjnPdD5GMs0xZFmM-2" value="&lt;font style=&quot;color: rgb(90, 150, 90);&quot;&gt;PACEP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#5A965A;" vertex="1" parent="1">
+          <mxGeometry x="788" y="398" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJRLxjnPdD5GMs0xZFmM-4" value="&lt;font style=&quot;color: rgb(120, 120, 120);&quot;&gt;不可比较&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="714" y="392" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJRLxjnPdD5GMs0xZFmM-5" value="PACEP未考虑 与/或/非 等&lt;div&gt;一阶逻辑运算&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="748" y="363.5" width="155" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="NJRLxjnPdD5GMs0xZFmM-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="562" y="445.5" width="335" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NJRLxjnPdD5GMs0xZFmM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;startFill=0;" edge="1" parent="1" target="NJRLxjnPdD5GMs0xZFmM-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="705" y="489.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJRLxjnPdD5GMs0xZFmM-8" value="&lt;font style=&quot;color: rgb(90, 150, 90);&quot;&gt;PACEP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#5A965A;" vertex="1" parent="1">
+          <mxGeometry x="788" y="474.5" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJRLxjnPdD5GMs0xZFmM-9" value="&lt;font style=&quot;color: rgb(120, 120, 120);&quot;&gt;不可比较&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="714" y="468.5" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJRLxjnPdD5GMs0xZFmM-10" value="PACEP未考虑&amp;nbsp;&lt;div&gt;事件描述不准确&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="439" width="102" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
