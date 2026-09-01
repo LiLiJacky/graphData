@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="Via1R06m4nMCEkxW0_lg">
-    <mxGraphModel dx="4054" dy="1550" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="3654" dy="1550" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,15 +142,6 @@
         </mxCell>
         <mxCell id="glNplJbaqyf44x8nQDQq-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;固定窗口分配&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="102" x="-1042" y="-130" as="geometry" />
-        </mxCell>
-        <mxCell id="glNplJbaqyf44x8nQDQq-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="220" width="530" x="-1914" y="35" as="geometry" />
-        </mxCell>
-        <mxCell id="glNplJbaqyf44x8nQDQq-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="基础能力" vertex="1">
-          <mxGeometry height="30" width="60" x="-1904" y="45" as="geometry" />
-        </mxCell>
-        <mxCell id="glNplJbaqyf44x8nQDQq-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;opencode 01&lt;/font&gt;： 在实际调用 NPU 时，通过hook机制检查空闲NPU，有则按照分配使用，没有则等待，会话不允许被中断" vertex="1">
-          <mxGeometry height="60" width="207" x="-1839" y="84" as="geometry" />
         </mxCell>
         <mxCell id="glNplJbaqyf44x8nQDQq-42" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;" value="" vertex="1">
           <mxGeometry height="160" width="240" x="-368" y="-152" as="geometry" />
@@ -625,8 +616,8 @@
         <mxCell id="glNplJbaqyf44x8nQDQq-156" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="host&amp;nbsp; 做个统计表，统计每个 NPU 被分配任务的数量，需要感知任务申请和任务结束" vertex="1">
           <mxGeometry height="30" width="212" x="-876" y="228" as="geometry" />
         </mxCell>
-        <mxCell id="glNplJbaqyf44x8nQDQq-158" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="多个opencode 任务共享 若干npu" vertex="1">
-          <mxGeometry height="30" width="154" x="-1257" y="-33" as="geometry" />
+        <mxCell id="glNplJbaqyf44x8nQDQq-158" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;多个opencode 任务共享 若干npu：&lt;/b&gt;&lt;div&gt;&lt;b&gt;1. 本质上还是依赖于轮询和复用机制提升NPU利用率，但是并不能保证 当有opencode任务需要NPU时不存在限制NPU；&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2. 不能保障任务按顺序进行， 可以通过指数退避，避免对单个任务影响太大；&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="102" width="317" x="-1353" y="-24" as="geometry" />
         </mxCell>
         <mxCell id="glNplJbaqyf44x8nQDQq-159" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="基础能力需求：&amp;nbsp;&lt;div&gt;1. op01&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="147" x="-847" y="339" as="geometry" />
@@ -728,6 +719,118 @@
         </mxCell>
         <mxCell id="glNplJbaqyf44x8nQDQq-181" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="需要提前确认参数： 每个opencode分配多少npu进去轮询" vertex="1">
           <mxGeometry height="30" width="212" x="-883" y="289" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-182" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;需要试验验证：&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;极端情况，如果每个opencode任务分配所有npu会有什么影响？？？？&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="317" x="-1353" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-183" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="220" width="530" x="-7" y="742" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-36" parent="glNplJbaqyf44x8nQDQq-183" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="220" width="530" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-37" parent="glNplJbaqyf44x8nQDQq-183" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="基础能力" vertex="1">
+          <mxGeometry height="30" width="60" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-40" parent="glNplJbaqyf44x8nQDQq-183" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;opencode 01&lt;/font&gt;： 在实际调用 NPU 时，通过hook机制检查空闲NPU，有则按照分配使用，没有则等待，会话不允许被中断" vertex="1">
+          <mxGeometry height="60" width="207" x="75" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-189" edge="1" parent="1" source="glNplJbaqyf44x8nQDQq-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="glNplJbaqyf44x8nQDQq-188" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-185" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="执行命令" vertex="1">
+          <mxGeometry height="80" width="120" x="866" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-191" edge="1" parent="1" source="glNplJbaqyf44x8nQDQq-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="glNplJbaqyf44x8nQDQq-190" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-192" connectable="0" parent="glNplJbaqyf44x8nQDQq-191" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.6" y="2" as="geometry">
+            <mxPoint x="8" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-194" edge="1" parent="1" source="glNplJbaqyf44x8nQDQq-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="926" y="789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-202" connectable="0" parent="glNplJbaqyf44x8nQDQq-194" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.3443" y="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-188" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否使用NPU" vertex="1">
+          <mxGeometry height="80" width="80" x="886" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-190" parent="1" style="whiteSpace=wrap;html=1;" value="直接执行" vertex="1">
+          <mxGeometry height="60" width="120" x="1026" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-207" edge="1" parent="1" source="glNplJbaqyf44x8nQDQq-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="glNplJbaqyf44x8nQDQq-206" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-193" parent="1" style="whiteSpace=wrap;html=1;" value="等待外部分配NPU&lt;div&gt;（会话不被中断）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="866" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-195" parent="1" style="whiteSpace=wrap;html=1;" value="继续执行" vertex="1">
+          <mxGeometry height="60" width="120" x="866" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-199" edge="1" parent="1" source="glNplJbaqyf44x8nQDQq-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="glNplJbaqyf44x8nQDQq-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-197" parent="1" style="whiteSpace=wrap;html=1;" value="沙箱内部轮询查询空闲NPU" vertex="1">
+          <mxGeometry height="60" width="120" x="628" y="989" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-201" edge="1" parent="1" source="glNplJbaqyf44x8nQDQq-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.088;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;" target="glNplJbaqyf44x8nQDQq-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-200" parent="1" style="whiteSpace=wrap;html=1;" value="沙箱外部分配空闲NPU" vertex="1">
+          <mxGeometry height="60" width="120" x="628" y="1098" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-208" edge="1" parent="1" source="glNplJbaqyf44x8nQDQq-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="glNplJbaqyf44x8nQDQq-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-209" connectable="0" parent="glNplJbaqyf44x8nQDQq-208" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.4154" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-211" edge="1" parent="1" source="glNplJbaqyf44x8nQDQq-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="glNplJbaqyf44x8nQDQq-193">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1005" y="1095" />
+              <mxPoint x="1005" y="955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-212" connectable="0" parent="glNplJbaqyf44x8nQDQq-211" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.1414" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-206" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="收到空闲NPU号" vertex="1">
+          <mxGeometry height="80" width="80" x="886" y="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-215" edge="1" parent="1" source="glNplJbaqyf44x8nQDQq-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="glNplJbaqyf44x8nQDQq-214" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-216" connectable="0" parent="glNplJbaqyf44x8nQDQq-215" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="0.1667" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-217" edge="1" parent="1" source="glNplJbaqyf44x8nQDQq-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="glNplJbaqyf44x8nQDQq-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-218" connectable="0" parent="glNplJbaqyf44x8nQDQq-217" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.0381" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-213" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否有已分配NPU" vertex="1">
+          <mxGeometry height="80" width="80" x="886" y="791" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-214" parent="1" style="whiteSpace=wrap;html=1;" value="继续执行" vertex="1">
+          <mxGeometry height="60" width="120" x="1026" y="801" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
