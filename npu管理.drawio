@@ -832,6 +832,12 @@
         <mxCell id="glNplJbaqyf44x8nQDQq-214" parent="1" style="whiteSpace=wrap;html=1;" value="继续执行" vertex="1">
           <mxGeometry height="60" width="120" x="1026" y="801" as="geometry" />
         </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-219" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="等多久？？？" vertex="1">
+          <mxGeometry height="30" width="106" x="1036" y="998" as="geometry" />
+        </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-220" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是否轮询？？？" vertex="1">
+          <mxGeometry height="30" width="106" x="1038" y="1033" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
