@@ -838,6 +838,9 @@
         <mxCell id="glNplJbaqyf44x8nQDQq-220" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="轮询（非 LLM 侧，Opencode 插件完成）" vertex="1">
           <mxGeometry height="30" width="150" x="1038" y="1033" as="geometry" />
         </mxCell>
+        <mxCell id="glNplJbaqyf44x8nQDQq-221" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="禁止执行查询当前所有NPU设备的命令" vertex="1">
+          <mxGeometry height="30" width="123" x="1181" y="742" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
